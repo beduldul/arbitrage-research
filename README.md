@@ -1,3 +1,8 @@
+[![CI](https://github.com/beduldul/arbitrage-research/actions/workflows/ci.yml/badge.svg)](https://github.com/beduldul/arbitrage-research/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![Research: negative results](https://img.shields.io/badge/research-negative%20results-orange?style=flat-square)](METHODOLOGY.md)
+
 # Arbitrage research — measured, and mostly negative
 
 **The question.** Does a $100 retail account have any tradeable arbitrage edge in crypto?

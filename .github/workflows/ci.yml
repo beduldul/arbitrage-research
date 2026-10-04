@@ -1,0 +1,42 @@
+name: CI
+
+# This is a research repo: there is no test suite to run. CI instead guards the
+# things that can actually rot — scanner syntax, lint on the scanner sources, and
+# the evidence JSON the reports cite. It does not pretend to run tests.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "evidence/**"
+      - "reports/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "evidence/**"
+      - "reports/**"
+      - ".github/workflows/ci.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --upgrade pip
+      - run: pip install ruff
+      # Scope: E4 (imports), E7 (statement), E9 (runtime/syntax), F (pyflakes),
+      # minus F401. The scanners are copied verbatim from the source project and
+      # carry pre-existing unused imports (F401) plus a large unaddressed E/W
+      # backlog (723 findings, mostly E501 line length). Neither is a defect
+      # introduced here, so the check is pinned to the rules that pass.
+      - run: ruff check scripts/ --select E4,E7,E9,F --ignore F401
+      - name: Byte-compile every scanner
+        run: python -m compileall -q scripts/
+      - name: Validate evidence JSON parses
+        run: |
+          python -c "import json,glob,sys; [json.load(open(f)) for f in glob.glob('evidence/**/*.json', recursive=True)]; print('evidence JSON OK')"
