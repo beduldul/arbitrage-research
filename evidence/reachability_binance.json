@@ -1,0 +1,60 @@
+[
+ {
+  "name": "fapi_fundingRate",
+  "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=1",
+  "status": 0,
+  "latency_ms": 60.5,
+  "bytes": 0,
+  "ok": false,
+  "error": "URLError: <urlopen error [Errno 61] Connection refused>"
+ },
+ {
+  "name": "fapi_premiumIndex",
+  "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",
+  "status": 0,
+  "latency_ms": 1050.9,
+  "bytes": 0,
+  "ok": false,
+  "error": "URLError: <urlopen error [Errno 61] Connection refused>"
+ },
+ {
+  "name": "vision_monthly_funding_zip",
+  "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-09.zip",
+  "status": 200,
+  "latency_ms": 148.9,
+  "bytes": 924,
+  "ok": true
+ },
+ {
+  "name": "vision_daily_funding_zip",
+  "url": "https://data.binance.vision/data/futures/um/daily/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-10-01.zip",
+  "status": 404,
+  "latency_ms": 135.2,
+  "bytes": 0,
+  "ok": false
+ },
+ {
+  "name": "vision_s3_funding_index",
+  "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?delimiter=/&prefix=data/futures/um/monthly/fundingRate/",
+  "status": 200,
+  "latency_ms": 1036.6,
+  "bytes": 94167,
+  "ok": true
+ },
+ {
+  "name": "data_api_spot_price",
+  "url": "https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT",
+  "status": 200,
+  "latency_ms": 430.7,
+  "bytes": 45,
+  "ok": true
+ },
+ {
+  "name": "coingecko_derivatives",
+  "url": "https://api.coingecko.com/api/v3/derivatives",
+  "status": 200,
+  "latency_ms": 6196.7,
+  "bytes": 9245267,
+  "ok": true
+ }
+]

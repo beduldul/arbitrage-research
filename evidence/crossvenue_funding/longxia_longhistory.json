@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-03T07:45:53.459092+00:00",
+  "symbol": "\u9f99\u867e_USDT",
+  "venue": "gate",
+  "notional_usd": 100.0,
+  "leg_usd": 50.0,
+  "fees": {
+    "spot_taker": 0.001,
+    "perp_taker": 0.00075,
+    "verified": true
+  },
+  "funding_window": {
+    "oldest": "2026-03-10T12:00:00+00:00",
+    "newest": "2026-10-03T04:00:00+00:00",
+    "rows": 1240
+  },
+  "bootstrap": {
+    "block_days": 5,
+    "n_boot": 2000,
+    "seed": 20261003
+  },
+  "verdict": {
+    "symbol": "\u9f99\u867e_USDT",
+    "window_days": 207,
+    "n_days": 208,
+    "funding_rows": 1240,
+    "gross_funding_usd": 22.3515,
+    "basis_drift_usd": 0.6095,
+    "fees_usd": -0.175,
+    "net_usd": 22.786,
+    "net_usd_per_day": 0.10955,
+    "net_usd_per_day_trimmed": 0.10151,
+    "net_usd_per_day_recent30": 0.03524,
+    "is_net_usd": 12.7506,
+    "oos_net_usd": 10.0354,
+    "is_days": 104,
+    "oos_days": 104,
+    "positive_in_both_halves": true,
+    "oos_ci_low": 5.8677,
+    "oos_ci_high": 15.4844,
+    "ci_excludes_zero": true,
+    "funding_negative_days": 13,
+    "funding_negative_share": 0.0625,
+    "longest_negative_run_days": 5,
+    "largest_day_share_of_gross": 0.0599,
+    "verdict": "survives",
+    "reason": "positive both halves, OOS CI excludes zero on the long window"
+  },
+  "funding_regime": {
+    "n_days": 208,
+    "negative_days": 13,
+    "negative_share": 0.0625,
+    "longest_negative_run_days": 5,
+    "worst_day": -0.002854,
+    "mean_daily_funding": 0.00214919
+  }
+}

@@ -1,0 +1,286 @@
+{
+ "generated_utc": "2026-10-03T14:24:03.580100+00:00",
+ "attempts_per_venue": 3,
+ "spacing_s": 2.5,
+ "results": {
+  "bybit": {
+   "url": "https://api.bybit.com/v5/market/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 134,
+     "latency_ms": 179.6,
+     "error": null,
+     "body_head": "{\"retCode\":0,\"retMsg\":\"OK\",\"result\":{\"timeSecond\":\"1791037385\",\"timeNano\":\"1791037385180802332\"},\"retExtInfo\":{},\"time\":"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 134,
+     "latency_ms": 126.5,
+     "error": null,
+     "body_head": "{\"retCode\":0,\"retMsg\":\"OK\",\"result\":{\"timeSecond\":\"1791037387\",\"timeNano\":\"1791037387813866478\"},\"retExtInfo\":{},\"time\":"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 134,
+     "latency_ms": 199.5,
+     "error": null,
+     "body_head": "{\"retCode\":0,\"retMsg\":\"OK\",\"result\":{\"timeSecond\":\"1791037390\",\"timeNano\":\"1791037390597341494\"},\"retExtInfo\":{},\"time\":"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "okx": {
+   "url": "https://www.okx.com/api/v5/public/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 53,
+     "latency_ms": 188.8,
+     "error": null,
+     "body_head": "{\"code\":\"0\",\"data\":[{\"ts\":\"1791037390749\"}],\"msg\":\"\"}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 53,
+     "latency_ms": 204.8,
+     "error": null,
+     "body_head": "{\"code\":\"0\",\"data\":[{\"ts\":\"1791037393493\"}],\"msg\":\"\"}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 53,
+     "latency_ms": 273.1,
+     "error": null,
+     "body_head": "{\"code\":\"0\",\"data\":[{\"ts\":\"1791037396223\"}],\"msg\":\"\"}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "bitget": {
+   "url": "https://api.bitget.com/api/v2/public/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 98,
+     "latency_ms": 197.2,
+     "error": null,
+     "body_head": "{\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1791037396501,\"data\":{\"serverTime\":\"1791037396501\"}}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 98,
+     "latency_ms": 196.0,
+     "error": null,
+     "body_head": "{\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1791037399292,\"data\":{\"serverTime\":\"1791037399293\"}}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 98,
+     "latency_ms": 272.0,
+     "error": null,
+     "body_head": "{\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1791037401990,\"data\":{\"serverTime\":\"1791037401990\"}}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "coinbase": {
+   "url": "https://api.exchange.coinbase.com/products/BTC-USD/ticker",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 186,
+     "latency_ms": 111.7,
+     "error": null,
+     "body_head": "{\"ask\":\"84811.12\",\"bid\":\"84811.11\",\"volume\":\"4413.96696149\",\"trade_id\":1101959084,\"price\":\"84811.11\",\"size\":\"0.00000009\""
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 180,
+     "latency_ms": 128.2,
+     "error": null,
+     "body_head": "{\"ask\":\"84812\",\"bid\":\"84811.99\",\"volume\":\"4413.72924191\",\"trade_id\":1101959098,\"price\":\"84812\",\"size\":\"0.00141928\",\"time"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 180,
+     "latency_ms": 139.5,
+     "error": null,
+     "body_head": "{\"ask\":\"84812\",\"bid\":\"84811.99\",\"volume\":\"4413.72924191\",\"trade_id\":1101959105,\"price\":\"84812\",\"size\":\"0.00615418\",\"time"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "kraken": {
+   "url": "https://api.kraken.com/0/public/Time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 87,
+     "latency_ms": 293.6,
+     "error": null,
+     "body_head": "{\"error\":[],\"result\":{\"unixtime\":1791037407,\"rfc1123\":\"Sat, 03 Oct 26 14:23:27 +0000\"}}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 87,
+     "latency_ms": 293.2,
+     "error": null,
+     "body_head": "{\"error\":[],\"result\":{\"unixtime\":1791037410,\"rfc1123\":\"Sat, 03 Oct 26 14:23:30 +0000\"}}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 87,
+     "latency_ms": 282.3,
+     "error": null,
+     "body_head": "{\"error\":[],\"result\":{\"unixtime\":1791037413,\"rfc1123\":\"Sat, 03 Oct 26 14:23:33 +0000\"}}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "deribit": {
+   "url": "https://www.deribit.com/api/v2/public/get_time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 117,
+     "latency_ms": 261.8,
+     "error": null,
+     "body_head": "{\"jsonrpc\":\"2.0\",\"result\":1791037413898,\"usIn\":1791037413898093,\"usOut\":1791037413898140,\"usDiff\":47,\"testnet\":false}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 117,
+     "latency_ms": 272.8,
+     "error": null,
+     "body_head": "{\"jsonrpc\":\"2.0\",\"result\":1791037416766,\"usIn\":1791037416766901,\"usOut\":1791037416766973,\"usDiff\":72,\"testnet\":false}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 117,
+     "latency_ms": 270.7,
+     "error": null,
+     "body_head": "{\"jsonrpc\":\"2.0\",\"result\":1791037419640,\"usIn\":1791037419639995,\"usOut\":1791037419640051,\"usDiff\":56,\"testnet\":false}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "kraken_futures": {
+   "url": "https://futures.kraken.com/derivatives/api/v3/instruments",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 1283.2,
+     "error": null,
+     "body_head": "{\"result\":\"success\",\"instruments\":[{\"symbol\":\"PI_XBTUSD\",\"type\":\"futures_inverse\",\"underlying\":\"rr_xbtusd\",\"tickSize\":0."
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 1252.2,
+     "error": null,
+     "body_head": "{\"result\":\"success\",\"instruments\":[{\"symbol\":\"PI_XBTUSD\",\"type\":\"futures_inverse\",\"underlying\":\"rr_xbtusd\",\"tickSize\":0."
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 1288.5,
+     "error": null,
+     "body_head": "{\"result\":\"success\",\"instruments\":[{\"symbol\":\"PI_XBTUSD\",\"type\":\"futures_inverse\",\"underlying\":\"rr_xbtusd\",\"tickSize\":0."
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "cryptocom": {
+   "url": "https://api.crypto.com/exchange/v1/public/get-instruments",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 1054.4,
+     "error": null,
+     "body_head": "{\n  \"id\" : -1,\n  \"method\" : \"public/get-instruments\",\n  \"code\" : 0,\n  \"result\" : {\n    \"data\" : [ {\n      \"symbol\" : \"1I"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 413.8,
+     "error": null,
+     "body_head": "{\n  \"id\" : -1,\n  \"method\" : \"public/get-instruments\",\n  \"code\" : 0,\n  \"result\" : {\n    \"data\" : [ {\n      \"symbol\" : \"1I"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 385.5,
+     "error": null,
+     "body_head": "{\n  \"id\" : -1,\n  \"method\" : \"public/get-instruments\",\n  \"code\" : 0,\n  \"result\" : {\n    \"data\" : [ {\n      \"symbol\" : \"1I"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "coinbase_intx": {
+   "url": "https://api.international.coinbase.com/api/v1/instruments",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 768.0,
+     "error": null,
+     "body_head": "[{\"instrument_id\":\"149264164756389888\",\"instrument_uuid\":\"e9360798-6a10-45d6-af05-67c30eb91e2d\",\"symbol\":\"ETH-PERP\",\"typ"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 1247.8,
+     "error": null,
+     "body_head": "[{\"instrument_id\":\"149264164756389888\",\"instrument_uuid\":\"e9360798-6a10-45d6-af05-67c30eb91e2d\",\"symbol\":\"ETH-PERP\",\"typ"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 200000,
+     "latency_ms": 777.1,
+     "error": null,
+     "body_head": "[{\"instrument_id\":\"149264164756389888\",\"instrument_uuid\":\"e9360798-6a10-45d6-af05-67c30eb91e2d\",\"symbol\":\"ETH-PERP\",\"typ"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  }
+ }
+}

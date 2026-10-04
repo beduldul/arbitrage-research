@@ -1,0 +1,1496 @@
+{
+  "generated_iso": "2026-10-03T06:38:34.319979Z",
+  "notional_usd": 100.0,
+  "window_minutes": 28.0,
+  "interval_s": 5.0,
+  "samples": 336,
+  "reachability": [
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 448.8,
+      "bytes": 1327,
+      "error": null,
+      "name": "binance_vision_depth_BTCUSDT"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=BTC_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 433.7,
+      "bytes": 944,
+      "error": null,
+      "name": "gate_spot_BTC_USDT"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=btcusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 135.8,
+      "bytes": 845,
+      "error": null,
+      "name": "htx_spot_btcusdt"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=btcusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 97.5,
+      "bytes": 845,
+      "error": null,
+      "name": "htx_btcusdt"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=ethusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 95.0,
+      "bytes": 816,
+      "error": null,
+      "name": "htx_ethusdt"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=solusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 96.2,
+      "bytes": 832,
+      "error": null,
+      "name": "htx_solusdt"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=xrpusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 105.7,
+      "bytes": 940,
+      "error": null,
+      "name": "htx_xrpusdt"
+    },
+    {
+      "url": "https://api.huobi.pro/market/depth?symbol=dogeusdt&depth=20&type=step0",
+      "status": 200,
+      "latency_ms": 98.4,
+      "bytes": 1029,
+      "error": null,
+      "name": "htx_dogeusdt"
+    }
+  ],
+  "rate": {
+    "n_429": 0,
+    "total_wait_s": 0.0,
+    "concurrency": 3
+  },
+  "venues": {
+    "binance": {
+      "taker_bps": 10.0,
+      "tier": "spot VIP0 (published 0.10%)",
+      "verified": false
+    },
+    "gate": {
+      "taker_bps": 10.0,
+      "tier": "spot VIP0 (published 0.10%)",
+      "verified": false
+    },
+    "htx": {
+      "taker_bps": 20.0,
+      "tier": "spot base (published 0.20%)",
+      "verified": false
+    }
+  },
+  "directions": {
+    "binance>gate__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 0.8482,
+        "mean_bps": -0.2871,
+        "median_bps": -0.2315,
+        "p90_bps": 0.1187,
+        "min_bps": -1.3602,
+        "pct_positive": 16.67,
+        "longest_positive_run": 22
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.1435,
+        "mean_bps": -20.2765,
+        "median_bps": -20.2211,
+        "p90_bps": -19.8715,
+        "min_bps": -21.3472,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.1435,
+        "mean_bps": -20.2765,
+        "median_bps": -20.2211,
+        "p90_bps": -19.8715,
+        "min_bps": -21.3472,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293428Z",
+        "buy_ask": 84663.87,
+        "sell_bid": 84659.6,
+        "net_pub_bps": -20.4933,
+        "gross_bps": -0.5043
+      }
+    },
+    "binance>gate__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 2.6159,
+        "mean_bps": 0.8075,
+        "median_bps": 0.7845,
+        "p90_bps": 1.4573,
+        "min_bps": -0.448,
+        "pct_positive": 94.64,
+        "longest_positive_run": 186
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.3794,
+        "mean_bps": -19.1841,
+        "median_bps": -19.2071,
+        "p90_bps": -18.5356,
+        "min_bps": -20.4371,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.3794,
+        "mean_bps": -19.1841,
+        "median_bps": -19.2071,
+        "p90_bps": -18.5356,
+        "min_bps": -20.4371,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293526Z",
+        "buy_ask": 2679.5,
+        "sell_bid": 2679.63,
+        "net_pub_bps": -19.5058,
+        "gross_bps": 0.4852
+      }
+    },
+    "binance>gate__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.6731,
+        "mean_bps": -1.2052,
+        "median_bps": -0.8369,
+        "p90_bps": -0.4173,
+        "min_bps": -3.3467,
+        "pct_positive": 0.3,
+        "longest_positive_run": 1
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.3203,
+        "mean_bps": -21.1927,
+        "median_bps": -20.8252,
+        "p90_bps": -20.4065,
+        "min_bps": -23.33,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.3203,
+        "mean_bps": -21.1927,
+        "median_bps": -20.8252,
+        "p90_bps": -20.4065,
+        "min_bps": -23.33,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293605Z",
+        "buy_ask": 119.64,
+        "sell_bid": 119.62,
+        "net_pub_bps": -21.6583,
+        "gross_bps": -1.6717
+      }
+    },
+    "binance>gate__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.3468,
+        "mean_bps": -1.6005,
+        "median_bps": -1.3478,
+        "p90_bps": -0.6729,
+        "min_bps": -4.0385,
+        "pct_positive": 3.87,
+        "longest_positive_run": 3
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.6459,
+        "mean_bps": -21.5873,
+        "median_bps": -21.3351,
+        "p90_bps": -20.6615,
+        "min_bps": -24.0204,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.6459,
+        "mean_bps": -21.5873,
+        "median_bps": -21.3351,
+        "p90_bps": -20.6615,
+        "min_bps": -24.0204,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293697Z",
+        "buy_ask": 1.4863,
+        "sell_bid": 1.4861,
+        "net_pub_bps": -21.9806,
+        "gross_bps": -1.9952
+      }
+    },
+    "binance>gate__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.0769,
+        "mean_bps": -2.0595,
+        "median_bps": -2.1523,
+        "p90_bps": -1.0762,
+        "min_bps": -5.3781,
+        "pct_positive": 0.6,
+        "longest_positive_run": 1
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.9153,
+        "mean_bps": -22.0452,
+        "median_bps": -22.138,
+        "p90_bps": -21.064,
+        "min_bps": -25.3573,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.9153,
+        "mean_bps": -22.0452,
+        "median_bps": -22.138,
+        "p90_bps": -21.064,
+        "min_bps": -25.3573,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293778Z",
+        "buy_ask": 0.09299,
+        "sell_bid": 0.09297,
+        "net_pub_bps": -22.1365,
+        "gross_bps": -2.1508
+      }
+    },
+    "binance>htx__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -1.9031,
+        "mean_bps": -3.361,
+        "median_bps": -3.3402,
+        "p90_bps": -2.3922,
+        "min_bps": -4.5809,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -31.8774,
+        "mean_bps": -33.3309,
+        "median_bps": -33.3102,
+        "p90_bps": -32.365,
+        "min_bps": -34.5472,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -21.8893,
+        "mean_bps": -23.3443,
+        "median_bps": -23.3236,
+        "p90_bps": -22.3774,
+        "min_bps": -24.5618,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293856Z",
+        "buy_ask": 84663.87,
+        "sell_bid": 84627.29,
+        "net_pub_bps": -34.2877,
+        "gross_bps": -4.3206
+      }
+    },
+    "binance>htx__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.8683,
+        "mean_bps": -0.5717,
+        "median_bps": -0.5976,
+        "p90_bps": 0.411,
+        "min_bps": -5.0769,
+        "pct_positive": 19.35,
+        "longest_positive_run": 22
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -28.1173,
+        "mean_bps": -30.55,
+        "median_bps": -30.5758,
+        "p90_bps": -29.5702,
+        "min_bps": -35.0417,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.1254,
+        "mean_bps": -20.5606,
+        "median_bps": -20.5864,
+        "p90_bps": -19.5798,
+        "min_bps": -25.0568,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293930Z",
+        "buy_ask": 2679.5,
+        "sell_bid": 2679.33,
+        "net_pub_bps": -30.6125,
+        "gross_bps": -0.6344
+      }
+    },
+    "binance>htx__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -6.1753,
+        "mean_bps": -10.2195,
+        "median_bps": -10.036,
+        "p90_bps": -7.7325,
+        "min_bps": -17.6313,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -36.1368,
+        "mean_bps": -40.1689,
+        "median_bps": -39.9859,
+        "p90_bps": -37.6893,
+        "min_bps": -47.5585,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -26.153,
+        "mean_bps": -30.1891,
+        "median_bps": -30.0059,
+        "p90_bps": -27.707,
+        "min_bps": -37.5861,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.293985Z",
+        "buy_ask": 119.64,
+        "sell_bid": 119.5426,
+        "net_pub_bps": -38.0967,
+        "gross_bps": -8.1411
+      }
+    },
+    "binance>htx__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -2.6951,
+        "mean_bps": -11.6219,
+        "median_bps": -11.9877,
+        "p90_bps": -10.1759,
+        "min_bps": -15.9639,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -32.667,
+        "mean_bps": -41.5671,
+        "median_bps": -41.9318,
+        "p90_bps": -40.1254,
+        "min_bps": -45.896,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -22.6797,
+        "mean_bps": -31.5887,
+        "median_bps": -31.9538,
+        "p90_bps": -30.1455,
+        "min_bps": -35.922,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294056Z",
+        "buy_ask": 1.4863,
+        "sell_bid": 1.48456,
+        "net_pub_bps": -41.6518,
+        "gross_bps": -11.7069
+      }
+    },
+    "binance>htx__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -8.3952,
+        "mean_bps": -11.9017,
+        "median_bps": -11.514,
+        "p90_bps": -9.4705,
+        "min_bps": -18.4009,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -38.3501,
+        "mean_bps": -41.846,
+        "median_bps": -41.4595,
+        "p90_bps": -39.4221,
+        "min_bps": -48.3258,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -28.3684,
+        "mean_bps": -31.8679,
+        "median_bps": -31.481,
+        "p90_bps": -29.4416,
+        "min_bps": -38.3542,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294124Z",
+        "buy_ask": 0.09299,
+        "sell_bid": 0.092874,
+        "net_pub_bps": -42.4171,
+        "gross_bps": -12.4745
+      }
+    },
+    "gate>binance__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.2817,
+        "mean_bps": 0.2715,
+        "median_bps": 0.1973,
+        "p90_bps": 0.7681,
+        "min_bps": -0.8611,
+        "pct_positive": 83.04,
+        "longest_positive_run": 85
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.7108,
+        "mean_bps": -19.719,
+        "median_bps": -19.7931,
+        "p90_bps": -19.2234,
+        "min_bps": -20.8494,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.7108,
+        "mean_bps": -19.719,
+        "median_bps": -19.7931,
+        "p90_bps": -19.2234,
+        "min_bps": -20.8494,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294204Z",
+        "buy_ask": 84659.7,
+        "sell_bid": 84663.86,
+        "net_pub_bps": -19.4996,
+        "gross_bps": 0.4914
+      }
+    },
+    "gate>binance__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 0.3733,
+        "mean_bps": -0.9501,
+        "median_bps": -0.9709,
+        "p90_bps": -0.2986,
+        "min_bps": -2.6899,
+        "pct_positive": 3.27,
+        "longest_positive_run": 6
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.6174,
+        "mean_bps": -20.9382,
+        "median_bps": -20.959,
+        "p90_bps": -20.288,
+        "min_bps": -22.6745,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.6174,
+        "mean_bps": -20.9382,
+        "median_bps": -20.959,
+        "p90_bps": -20.288,
+        "min_bps": -22.6745,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294294Z",
+        "buy_ask": 2679.64,
+        "sell_bid": 2679.49,
+        "net_pub_bps": -20.8745,
+        "gross_bps": -0.8862
+      }
+    },
+    "gate>binance__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.6738,
+        "mean_bps": -0.4759,
+        "median_bps": -0.8356,
+        "p90_bps": 0.8347,
+        "min_bps": -3.3453,
+        "pct_positive": 11.31,
+        "longest_positive_run": 5
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.3196,
+        "mean_bps": -20.465,
+        "median_bps": -20.8239,
+        "p90_bps": -19.1569,
+        "min_bps": -23.3286,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.3196,
+        "mean_bps": -20.465,
+        "median_bps": -20.8239,
+        "p90_bps": -19.1569,
+        "min_bps": -23.3286,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294370Z",
+        "buy_ask": 119.63,
+        "sell_bid": 119.63,
+        "net_pub_bps": -19.99,
+        "gross_bps": 0.0
+      }
+    },
+    "gate>binance__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 2.6931,
+        "mean_bps": -0.0738,
+        "median_bps": 0.0,
+        "p90_bps": 1.346,
+        "min_bps": -2.6938,
+        "pct_positive": 48.81,
+        "longest_positive_run": 30
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.3023,
+        "mean_bps": -20.0636,
+        "median_bps": -19.99,
+        "p90_bps": -18.6467,
+        "min_bps": -22.6784,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.3023,
+        "mean_bps": -20.0636,
+        "median_bps": -19.99,
+        "p90_bps": -18.6467,
+        "min_bps": -22.6784,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294452Z",
+        "buy_ask": 1.4862,
+        "sell_bid": 1.4862,
+        "net_pub_bps": -19.99,
+        "gross_bps": 0.0
+      }
+    },
+    "gate>binance__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 3.2282,
+        "mean_bps": -0.3748,
+        "median_bps": -0.0824,
+        "p90_bps": 0.8453,
+        "min_bps": -3.345,
+        "pct_positive": 14.29,
+        "longest_positive_run": 5
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -16.7682,
+        "mean_bps": -20.364,
+        "median_bps": -20.0722,
+        "p90_bps": -19.1464,
+        "min_bps": -23.3284,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -16.7682,
+        "mean_bps": -20.364,
+        "median_bps": -20.0722,
+        "p90_bps": -19.1464,
+        "min_bps": -23.3284,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294538Z",
+        "buy_ask": 0.09298,
+        "sell_bid": 0.09298,
+        "net_pub_bps": -19.99,
+        "gross_bps": 0.0
+      }
+    },
+    "gate>htx__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -1.6779,
+        "mean_bps": -3.0884,
+        "median_bps": -3.0136,
+        "p90_bps": -2.0202,
+        "min_bps": -4.4657,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -31.6529,
+        "mean_bps": -33.0591,
+        "median_bps": -32.9846,
+        "p90_bps": -31.9942,
+        "min_bps": -34.4323,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -21.6646,
+        "mean_bps": -23.0722,
+        "median_bps": -22.9976,
+        "p90_bps": -22.0062,
+        "min_bps": -24.4467,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294615Z",
+        "buy_ask": 84659.7,
+        "sell_bid": 84627.29,
+        "net_pub_bps": -33.7968,
+        "gross_bps": -3.8283
+      }
+    },
+    "gate>htx__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 1.0293,
+        "mean_bps": -1.4843,
+        "median_bps": -1.4572,
+        "p90_bps": -0.7002,
+        "min_bps": -4.965,
+        "pct_positive": 3.57,
+        "longest_positive_run": 4
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -28.9538,
+        "mean_bps": -31.4598,
+        "median_bps": -31.4328,
+        "p90_bps": -30.6781,
+        "min_bps": -34.9301,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -18.9627,
+        "mean_bps": -21.4713,
+        "median_bps": -21.4443,
+        "p90_bps": -20.6888,
+        "min_bps": -24.9451,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294702Z",
+        "buy_ask": 2679.64,
+        "sell_bid": 2679.33,
+        "net_pub_bps": -31.4589,
+        "gross_bps": -1.4833
+      }
+    },
+    "gate>htx__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -6.1909,
+        "mean_bps": -9.8597,
+        "median_bps": -9.5322,
+        "p90_bps": -7.7119,
+        "min_bps": -17.6313,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -36.1524,
+        "mean_bps": -39.8102,
+        "median_bps": -39.4836,
+        "p90_bps": -37.6688,
+        "min_bps": -47.5585,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -26.1685,
+        "mean_bps": -29.83,
+        "median_bps": -29.5031,
+        "p90_bps": -27.6865,
+        "min_bps": -37.5861,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294782Z",
+        "buy_ask": 119.63,
+        "sell_bid": 119.5426,
+        "net_pub_bps": -37.264,
+        "gross_bps": -7.3059
+      }
+    },
+    "gate>htx__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -2.6951,
+        "mean_bps": -11.0215,
+        "median_bps": -11.2435,
+        "p90_bps": -10.0389,
+        "min_bps": -17.981,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -32.667,
+        "mean_bps": -40.9685,
+        "median_bps": -41.1898,
+        "p90_bps": -39.9879,
+        "min_bps": -47.9071,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -22.6797,
+        "mean_bps": -30.9895,
+        "median_bps": -31.211,
+        "p90_bps": -30.008,
+        "min_bps": -37.9351,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294867Z",
+        "buy_ask": 1.4862,
+        "sell_bid": 1.48456,
+        "net_pub_bps": -40.9818,
+        "gross_bps": -11.0349
+      }
+    },
+    "gate>htx__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -6.8796,
+        "mean_bps": -11.1845,
+        "median_bps": -10.5456,
+        "p90_bps": -8.628,
+        "min_bps": -17.8648,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -36.839,
+        "mean_bps": -41.131,
+        "median_bps": -40.494,
+        "p90_bps": -38.5822,
+        "min_bps": -47.7913,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -26.8559,
+        "mean_bps": -31.1522,
+        "median_bps": -30.5145,
+        "p90_bps": -28.6008,
+        "min_bps": -37.8191,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294952Z",
+        "buy_ask": 0.09298,
+        "sell_bid": 0.092874,
+        "net_pub_bps": -41.3461,
+        "gross_bps": -11.4003
+      }
+    },
+    "htx>binance__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 4.5807,
+        "mean_bps": 3.3592,
+        "median_bps": 3.339,
+        "p90_bps": 4.3206,
+        "min_bps": 1.9011,
+        "pct_positive": 100.0,
+        "longest_positive_run": 336
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -25.4131,
+        "mean_bps": -26.6308,
+        "median_bps": -26.651,
+        "p90_bps": -25.6724,
+        "min_bps": -28.0846,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -15.4185,
+        "mean_bps": -16.6375,
+        "median_bps": -16.6577,
+        "p90_bps": -15.6781,
+        "min_bps": -18.0927,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.294997Z",
+        "buy_ask": 84627.3,
+        "sell_bid": 84663.86,
+        "net_pub_bps": -25.6728,
+        "gross_bps": 4.3201
+      }
+    },
+    "htx>binance__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 2.0902,
+        "mean_bps": 0.3956,
+        "median_bps": 0.467,
+        "p90_bps": 1.2695,
+        "min_bps": -2.0873,
+        "pct_positive": 76.79,
+        "longest_positive_run": 80
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -27.8961,
+        "mean_bps": -29.5855,
+        "median_bps": -29.5144,
+        "p90_bps": -28.7143,
+        "min_bps": -32.061,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.904,
+        "mean_bps": -19.5951,
+        "median_bps": -19.524,
+        "p90_bps": -18.7231,
+        "min_bps": -22.0731,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295044Z",
+        "buy_ask": 2679.34,
+        "sell_bid": 2679.49,
+        "net_pub_bps": -29.4218,
+        "gross_bps": 0.5598
+      }
+    },
+    "htx>binance__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 10.9905,
+        "mean_bps": 6.9831,
+        "median_bps": 6.8615,
+        "p90_bps": 8.6967,
+        "min_bps": 4.1195,
+        "pct_positive": 100.0,
+        "longest_positive_run": 336
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.0224,
+        "mean_bps": -23.0178,
+        "median_bps": -23.1391,
+        "p90_bps": -21.3094,
+        "min_bps": -25.8728,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -9.0214,
+        "mean_bps": -13.0209,
+        "median_bps": -13.1423,
+        "p90_bps": -11.3107,
+        "min_bps": -15.8787,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295088Z",
+        "buy_ask": 119.5518,
+        "sell_bid": 119.63,
+        "net_pub_bps": -23.4585,
+        "gross_bps": 6.5411
+      }
+    },
+    "htx>binance__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 6.1913,
+        "mean_bps": 2.2013,
+        "median_bps": 2.0885,
+        "p90_bps": 3.7137,
+        "min_bps": -1.2618,
+        "pct_positive": 97.62,
+        "longest_positive_run": 89
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -23.8072,
+        "mean_bps": -27.7853,
+        "median_bps": -27.8977,
+        "p90_bps": -26.2774,
+        "min_bps": -31.238,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -13.811,
+        "mean_bps": -17.7931,
+        "median_bps": -17.9056,
+        "p90_bps": -16.2837,
+        "min_bps": -21.2493,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295140Z",
+        "buy_ask": 1.48548,
+        "sell_bid": 1.4862,
+        "net_pub_bps": -26.0296,
+        "gross_bps": 3.9623
+      }
+    },
+    "htx>binance__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 4.0908,
+        "mean_bps": 0.5244,
+        "median_bps": 0.861,
+        "p90_bps": 1.9377,
+        "min_bps": -10.1038,
+        "pct_positive": 61.31,
+        "longest_positive_run": 45
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -25.9015,
+        "mean_bps": -29.4572,
+        "median_bps": -29.1216,
+        "p90_bps": -28.0481,
+        "min_bps": -40.0535,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -15.9074,
+        "mean_bps": -19.4667,
+        "median_bps": -19.1307,
+        "p90_bps": -18.0561,
+        "min_bps": -30.0736,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295181Z",
+        "buy_ask": 0.092981,
+        "sell_bid": 0.09298,
+        "net_pub_bps": -30.0872,
+        "gross_bps": -0.1075
+      }
+    },
+    "htx>gate__BTCUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 4.4547,
+        "mean_bps": 3.0732,
+        "median_bps": 3.0015,
+        "p90_bps": 4.1835,
+        "min_bps": 1.6652,
+        "pct_positive": 100.0,
+        "longest_positive_run": 336
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -25.5387,
+        "mean_bps": -26.916,
+        "median_bps": -26.9875,
+        "p90_bps": -25.8091,
+        "min_bps": -28.3198,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -15.5442,
+        "mean_bps": -16.9229,
+        "median_bps": -16.9945,
+        "p90_bps": -15.8149,
+        "min_bps": -18.3281,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295224Z",
+        "buy_ask": 84627.3,
+        "sell_bid": 84659.6,
+        "net_pub_bps": -26.1747,
+        "gross_bps": 3.8167
+      }
+    },
+    "htx>gate__ETHUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 3.5855,
+        "mean_bps": 1.2407,
+        "median_bps": 1.2704,
+        "p90_bps": 2.1255,
+        "min_bps": -1.9752,
+        "pct_positive": 95.24,
+        "longest_positive_run": 270
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -26.4053,
+        "mean_bps": -28.743,
+        "median_bps": -28.7134,
+        "p90_bps": -27.8607,
+        "min_bps": -31.9493,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -16.4117,
+        "mean_bps": -18.7518,
+        "median_bps": -18.7221,
+        "p90_bps": -17.8687,
+        "min_bps": -21.9612,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295283Z",
+        "buy_ask": 2679.34,
+        "sell_bid": 2679.63,
+        "net_pub_bps": -28.9009,
+        "gross_bps": 1.0824
+      }
+    },
+    "htx>gate__SOLUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 10.9905,
+        "mean_bps": 6.6137,
+        "median_bps": 6.3455,
+        "p90_bps": 8.3905,
+        "min_bps": 4.1195,
+        "pct_positive": 100.0,
+        "longest_positive_run": 336
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -19.0224,
+        "mean_bps": -23.3861,
+        "median_bps": -23.6535,
+        "p90_bps": -21.6146,
+        "min_bps": -25.8728,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -9.0214,
+        "mean_bps": -13.3895,
+        "median_bps": -13.6572,
+        "p90_bps": -11.6162,
+        "min_bps": -15.8787,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295324Z",
+        "buy_ask": 119.5518,
+        "sell_bid": 119.62,
+        "net_pub_bps": -24.2925,
+        "gross_bps": 5.7046
+      }
+    },
+    "htx>gate__XRPUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 4.8284,
+        "mean_bps": 1.2754,
+        "median_bps": 1.2552,
+        "p90_bps": 3.1892,
+        "min_bps": -1.5484,
+        "pct_positive": 82.14,
+        "longest_positive_run": 46
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -25.1661,
+        "mean_bps": -28.7084,
+        "median_bps": -28.7284,
+        "p90_bps": -26.7998,
+        "min_bps": -31.5237,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -15.1713,
+        "mean_bps": -18.7172,
+        "median_bps": -18.7372,
+        "p90_bps": -16.8069,
+        "min_bps": -21.5353,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295374Z",
+        "buy_ask": 1.48548,
+        "sell_bid": 1.4861,
+        "net_pub_bps": -27.3476,
+        "gross_bps": 2.6389
+      }
+    },
+    "htx>gate__DOGEUSDT": {
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": 2.9059,
+        "mean_bps": -0.4426,
+        "median_bps": -0.2153,
+        "p90_bps": 0.9681,
+        "min_bps": -11.1787,
+        "pct_positive": 38.99,
+        "longest_positive_run": 14
+      },
+      "net_pub": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -27.0828,
+        "mean_bps": -30.4208,
+        "median_bps": -30.1946,
+        "p90_bps": -29.0148,
+        "min_bps": -41.1252,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "net_uniform": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -17.0899,
+        "mean_bps": -20.4315,
+        "median_bps": -20.2048,
+        "p90_bps": -19.0238,
+        "min_bps": -31.1464,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "max_positive_usd": 0.0,
+      "last": {
+        "iso": "2026-10-03T06:38:30.295422Z",
+        "buy_ask": 0.092981,
+        "sell_bid": 0.09297,
+        "net_pub_bps": -31.1595,
+        "gross_bps": -1.183
+      }
+    }
+  },
+  "positive_mean_gross": [
+    "binance>gate__ETHUSDT",
+    "gate>binance__BTCUSDT",
+    "htx>binance__BTCUSDT",
+    "htx>binance__ETHUSDT",
+    "htx>binance__SOLUSDT",
+    "htx>binance__XRPUSDT",
+    "htx>binance__DOGEUSDT",
+    "htx>gate__BTCUSDT",
+    "htx>gate__ETHUSDT",
+    "htx>gate__SOLUSDT",
+    "htx>gate__XRPUSDT"
+  ],
+  "positive_mean_net_published": [],
+  "verdict_counts": {
+    "directions": 30,
+    "gross_positive_mean": 11,
+    "net_positive_mean_published_fees": 0
+  }
+}

@@ -1,0 +1,223 @@
+{
+ "generated_at": "2026-10-03T12:59:12.178112+00:00",
+ "source": "https://api.mainnet.orca.so/v1/whirlpool/list",
+ "status": 200,
+ "pool_fees": {
+  "POPCAT": {
+   "pools": [
+    {
+     "quote": "SOL",
+     "fee_bps": 5.0,
+     "tvl_usd": 729887.3913424223
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 30.0,
+     "tvl_usd": 53082.95120398046
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 30129.869357259762
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 30.0,
+     "tvl_usd": 9076.151715631957
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 100.0,
+     "tvl_usd": 131.9874874126377
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 16.0,
+     "tvl_usd": 6.261040981300766
+    }
+   ],
+   "min_fee_bps": 4.0,
+   "max_fee_bps": 200.0,
+   "deepest_pool": {
+    "quote": "SOL",
+    "fee_bps": 5.0,
+    "tvl_usd": 729887.3913424223
+   },
+   "deepest_pool_fee_bps": 5.0,
+   "deepest_pool_round_trip_bps": 10.0
+  },
+  "WIF": {
+   "pools": [
+    {
+     "quote": "SOL",
+     "fee_bps": 4.0,
+     "tvl_usd": 528316.4358869728
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 178514.5168797973
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 16.0,
+     "tvl_usd": 73742.80055293822
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 30.0,
+     "tvl_usd": 38014.19464646648
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 30.0,
+     "tvl_usd": 13530.363627611338
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 5.0,
+     "tvl_usd": 8623.69089334292
+    }
+   ],
+   "min_fee_bps": 1.0,
+   "max_fee_bps": 200.0,
+   "deepest_pool": {
+    "quote": "SOL",
+    "fee_bps": 4.0,
+    "tvl_usd": 528316.4358869728
+   },
+   "deepest_pool_fee_bps": 4.0,
+   "deepest_pool_round_trip_bps": 8.0
+  },
+  "BONK": {
+   "pools": [
+    {
+     "quote": "SOL",
+     "fee_bps": 30.0,
+     "tvl_usd": 1142141.6417302492
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 30.0,
+     "tvl_usd": 1107994.513598291
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 5.0,
+     "tvl_usd": 598919.0808711153
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 469113.20579747396
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 100.0,
+     "tvl_usd": 6198.298914053125
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 200.0,
+     "tvl_usd": 1116.4916093143293
+    }
+   ],
+   "min_fee_bps": 2.0,
+   "max_fee_bps": 200.0,
+   "deepest_pool": {
+    "quote": "SOL",
+    "fee_bps": 30.0,
+    "tvl_usd": 1142141.6417302492
+   },
+   "deepest_pool_fee_bps": 30.0,
+   "deepest_pool_round_trip_bps": 60.0
+  },
+  "TRUMP": {
+   "pools": [
+    {
+     "quote": "USDC",
+     "fee_bps": 16.0,
+     "tvl_usd": 760970.7736312111
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 16.0,
+     "tvl_usd": 132504.23625280932
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 53367.10867512646
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 200.0,
+     "tvl_usd": 38570.66215664933
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 65.0,
+     "tvl_usd": 2372.580267010435
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 1014.6370198694235
+    }
+   ],
+   "min_fee_bps": 1.0,
+   "max_fee_bps": 200.0,
+   "deepest_pool": {
+    "quote": "USDC",
+    "fee_bps": 16.0,
+    "tvl_usd": 760970.7736312111
+   },
+   "deepest_pool_fee_bps": 16.0,
+   "deepest_pool_round_trip_bps": 32.0
+  },
+  "PENGU": {
+   "pools": [
+    {
+     "quote": "SOL",
+     "fee_bps": 30.0,
+     "tvl_usd": 2454615.3735218043
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 65.0,
+     "tvl_usd": 44181.44204922869
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 100.0,
+     "tvl_usd": 17311.446487648078
+    },
+    {
+     "quote": "SOL",
+     "fee_bps": 16.0,
+     "tvl_usd": 4942.50214378596
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 100.0,
+     "tvl_usd": 3395.3437016304692
+    },
+    {
+     "quote": "USDC",
+     "fee_bps": 200.0,
+     "tvl_usd": 600.9427956619877
+    }
+   ],
+   "min_fee_bps": 1.0,
+   "max_fee_bps": 200.0,
+   "deepest_pool": {
+    "quote": "SOL",
+    "fee_bps": 30.0,
+    "tvl_usd": 2454615.3735218043
+   },
+   "deepest_pool_fee_bps": 30.0,
+   "deepest_pool_round_trip_bps": 60.0
+  }
+ },
+ "failures": {}
+}

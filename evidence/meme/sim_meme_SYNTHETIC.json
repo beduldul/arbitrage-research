@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "mode": "SYNTHETIC",
+ "mode_label": "SYNTHETIC INPUT \u2014 NOT EVIDENCE",
+ "chain": "base",
+ "capital": 100.0,
+ "constructible_count": 1,
+ "unconstructible_count": 1,
+ "total_gross_usd": 2.89705147,
+ "total_net_pnl": 2.18585003,
+ "total_return_pct": 2.18585,
+ "total_fees_usd": 0.71120145,
+ "total_gas_usd": 0.1025,
+ "total_priority_fee_usd": 0.0,
+ "total_bridge_usd": 0.0,
+ "dollars_per_day": 629.52480747,
+ "dollars_per_min": 0.43717001,
+ "max_drawdown": 0.0,
+ "worst_trade": 2.18585003,
+ "positive_share": 1.0,
+ "coverage_minutes": 5.0,
+ "assumptions": [
+  "input mode: SYNTHETIC",
+  "every opportunity trades the full $100 notional in one round trip (no partial fills, no capital splitting)",
+  "buy at the entry venue's executable ask, sell at the exit venue's executable bid; half-spread is included in both prices",
+  "price impact uses the project slippage model k=0.5 * notional / measured_depth",
+  "native gas is charged at the midpoint of a labelled assumed range, per DEX chain",
+  "Solana priority fee + Jito tip are charged ONCE per round trip as one landing cost (if the exit requires a separate Solana tx this doubles \u2014 a stated assumption)",
+  "opportunities without timestamps are spaced 5 min apart; $/day and $/min divide by that coverage window",
+  "chain filter: base"
+ ],
+ "source_files": [],
+ "warnings": [
+  "1 opportunity(ies) marked UNCONSTRUCTIBLE: measured depth below the $100 size; excluded from PnL (a real finding, not an error)"
+ ],
+ "trades": [
+  {
+   "trade_id": "base:SYN-SHALLOW:0",
+   "symbol": "SYN-SHALLOW",
+   "chain": "base",
+   "notional": 100.0,
+   "gross_spread_bps": 489.505247,
+   "constructible": false,
+   "reason": "measured depth $40.00 at the $100.00 size is below the trade notional \u2014 the book cannot absorb the order (UNCONSTRUCTIBLE, not an error)",
+   "entry": null,
+   "exit": null,
+   "gas": [],
+   "gas_usd": 0.0,
+   "priority_fee_usd": 0.0,
+   "jito_tip_usd": 0.0,
+   "bridge_fee_usd": 0.0,
+   "total_costs_usd": 0.0,
+   "net_pnl": 0.0,
+   "net_bps": 0.0,
+   "at": "2026-10-03T00:00:00+00:00",
+   "source": "synthetic",
+   "source_path": null,
+   "ledger": []
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "symbol": "SYN-WIDE",
+   "chain": "base",
+   "notional": 100.0,
+   "gross_spread_bps": 289.705147,
+   "constructible": true,
+   "reason": null,
+   "entry": {
+    "venue": "dexA",
+    "chain": "base",
+    "kind": "dex",
+    "side": "buy",
+    "notional": 100.0,
+    "executable_price": 1.0005,
+    "pool_fee_bps": 30.0,
+    "pool_fee_usd": 0.3,
+    "impact_bps": 0.0005,
+    "impact_usd": 5e-06,
+    "router_fee_bps": 0.0,
+    "router_fee_usd": 0.0,
+    "total_usd": 0.300005
+   },
+   "exit": {
+    "venue": "dexB",
+    "chain": "base",
+    "kind": "dex",
+    "side": "sell",
+    "notional": 102.89705147,
+    "executable_price": 1.029485,
+    "pool_fee_bps": 30.0,
+    "pool_fee_usd": 0.30869115,
+    "impact_bps": 0.000514,
+    "impact_usd": 5.29e-06,
+    "router_fee_bps": 0.0,
+    "router_fee_usd": 0.0,
+    "total_usd": 0.30869645
+   },
+   "gas": [
+    {
+     "chain": "base",
+     "low_usd": 0.005,
+     "high_usd": 0.2,
+     "point_usd": 0.1025,
+     "label": "Base L2 gas per tx (assumed range)"
+    }
+   ],
+   "gas_usd": 0.1025,
+   "priority_fee_usd": 0.0,
+   "jito_tip_usd": 0.0,
+   "bridge_fee_usd": 0.0,
+   "total_costs_usd": 0.71120145,
+   "net_pnl": 2.18585003,
+   "net_bps": 218.585003,
+   "at": "2026-10-03T00:05:00+00:00",
+   "source": "synthetic",
+   "source_path": null,
+   "ledger": [
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "pool_fee_entry",
+     "leg": "entry",
+     "usd": 0.3
+    },
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "impact_entry",
+     "leg": "entry",
+     "usd": 5e-06
+    },
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "router_fee_entry",
+     "leg": "entry",
+     "usd": 0.0
+    },
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "pool_fee_exit",
+     "leg": "exit",
+     "usd": 0.30869115
+    },
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "impact_exit",
+     "leg": "exit",
+     "usd": 5.29e-06
+    },
+    {
+     "trade_id": "base:SYN-WIDE:1",
+     "label": "router_fee_exit",
+     "leg": "exit",
+     "usd": 0.0
+    },
+    {
+     "trade_id": "SYN-WIDE",
+     "label": "gas:base",
+     "leg": "chain",
+     "usd": 0.1025
+    }
+   ]
+  }
+ ],
+ "fees_ledger": [
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "pool_fee_entry",
+   "leg": "entry",
+   "usd": 0.3
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "impact_entry",
+   "leg": "entry",
+   "usd": 5e-06
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "router_fee_entry",
+   "leg": "entry",
+   "usd": 0.0
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "pool_fee_exit",
+   "leg": "exit",
+   "usd": 0.30869115
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "impact_exit",
+   "leg": "exit",
+   "usd": 5.29e-06
+  },
+  {
+   "trade_id": "base:SYN-WIDE:1",
+   "label": "router_fee_exit",
+   "leg": "exit",
+   "usd": 0.0
+  },
+  {
+   "trade_id": "SYN-WIDE",
+   "label": "gas:base",
+   "leg": "chain",
+   "usd": 0.1025
+  }
+ ],
+ "equity_curve": [
+  {
+   "at": "2026-10-03T00:00:00+00:00",
+   "equity": 100.0
+  },
+  {
+   "at": "2026-10-03T00:05:00+00:00",
+   "equity": 102.18585003
+  }
+ ]
+}

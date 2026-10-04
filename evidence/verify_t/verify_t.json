@@ -1,0 +1,83 @@
+{
+  "generated_at_note": "measurement only; cached raw venue payloads",
+  "identity": {
+    "binance_base": "T",
+    "kraken_base_from_buggy_parser": "T",
+    "kraken_base_from_metadata": "USDT",
+    "price_ratio_kraken_over_binance": 184.669466,
+    "same_base_by_metadata": false,
+    "same_price_level": false,
+    "symbol_collision": true,
+    "verdict": "FALSIFIED",
+    "binance_symbol": "TUSDT",
+    "kraken_symbol": "PF_USDTUSD",
+    "binance_price_usd": 0.005414,
+    "kraken_price_usd": 0.99980048641,
+    "kraken_pair": "USDT:USD",
+    "kraken_category": "Stablecoin",
+    "kraken_24h_volume_usd": 0,
+    "kraken_open_interest_contracts": 9778.0
+  },
+  "funding_mechanism": {
+    "binance_interval_h": 4.0,
+    "kraken_interval_h": 1.0,
+    "binance_settlements_per_8h_bucket": 2,
+    "kraken_settlements_per_8h_bucket": 8,
+    "comparable_as": "income per wall-clock 8h bucket (sum of native payments)",
+    "not_comparable_as": "per-settlement rate (cadence differs: 4.0h vs 1.0h)",
+    "apples_to_apples": false
+  },
+  "funding_series": {
+    "shared_8h_buckets": 170,
+    "binance_T_mean_bps_8h": -18.7994,
+    "kraken_USDTUSD_mean_bps_8h": -0.1713,
+    "pearson_corr": -0.0785,
+    "spread_mean_bps_8h": -18.6282,
+    "note": "the spread is Binance Threshold funding; the Kraken leg is inert"
+  },
+  "fees": {
+    "binance": {
+      "taker_bps": 5.0,
+      "maker_bps": 2.0
+    },
+    "kraken_futures": {
+      "taker_bps": 5.0,
+      "maker_bps": 2.0
+    },
+    "round_trip_cost_usd": 0.1,
+    "break_even_taker_bps_per_event": 537.399
+  },
+  "minimums_at_50_usd_leg": {
+    "binance_TUSDT": {
+      "qty": 9235.315848,
+      "min_qty": 1.0,
+      "min_notional_usd": 5.0,
+      "notional_usd": 50.0,
+      "qty_ok": true,
+      "notional_ok": true,
+      "placeable": true
+    },
+    "kraken_PF_USDTUSD": {
+      "contracts": 50.01,
+      "contract_notional_usd": 0.9998,
+      "min_contracts": null,
+      "placeable": null,
+      "min_verified": false
+    }
+  },
+  "net": {
+    "report_gross_usd_day": 0.358266,
+    "report_net_usd_day_taker": 0.354933,
+    "corrected_net_usd_day": 0.0,
+    "corrected_note": "non-executable: the two legs are different assets"
+  },
+  "capacity": {
+    "binance_T_depth_usd": 189206.14,
+    "kraken_USDTUSD_ticker_depth_usd": 1052.88,
+    "report_capacity_usd": 1052.88,
+    "kraken_book_best_bid": 0.4999,
+    "kraken_book_best_ask": 0.9999,
+    "kraken_book_degenerate": true,
+    "note": "binding leg is the USDT/USD stablecoin book, not a T-token market"
+  }
+}

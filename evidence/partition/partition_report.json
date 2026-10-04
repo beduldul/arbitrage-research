@@ -1,0 +1,376 @@
+{
+ "generated_at": "2026-10-03T15:53:09.408311+00:00",
+ "partition_counts": {
+  "kraken_n": 745,
+  "kraken_excludes_zero": 342,
+  "non_kraken_n": 2475,
+  "non_kraken_excludes_zero": 1426
+ },
+ "reconstruction": {
+  "n_pairs": 1958,
+  "block": 5,
+  "n_boot": 2000,
+  "seed": 20261003,
+  "kraken_paired": {
+   "n": 546,
+   "ci_excl": 243,
+   "gates_pass": 283
+  },
+  "non_kraken_paired": {
+   "n": 1412,
+   "ci_excl": 684,
+   "gates_pass": 127
+  },
+  "venue_label_agreement": 0.49591419816138915,
+  "gate_agreement": 0.5949948927477018
+ },
+ "levels_bps_per_8h": {
+  "BAT": [
+   {
+    "venue": "binance",
+    "symbol": "BATUSDT",
+    "n": 90,
+    "mean_bps": 0.803,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "bybit",
+    "symbol": "BATUSDT",
+    "n": 90,
+    "mean_bps": 0.1272,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "okx",
+    "symbol": "BAT-USDT-SWAP",
+    "n": 90,
+    "mean_bps": 0.1216,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "bitget",
+    "symbol": "BATUSDT",
+    "n": 90,
+    "mean_bps": 0.8453,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "gate",
+    "symbol": "BAT_USDT",
+    "n": 0
+   },
+   {
+    "venue": "kraken_futures",
+    "symbol": "PF_BATUSD",
+    "n": 91,
+    "mean_bps": 22.4126,
+    "median_bps": -1.7779
+   }
+  ],
+  "QNT": [
+   {
+    "venue": "binance",
+    "symbol": "QNTUSDT",
+    "n": 90,
+    "mean_bps": -0.1121,
+    "median_bps": 0.8865
+   },
+   {
+    "venue": "bybit",
+    "symbol": "QNTUSDT",
+    "n": 90,
+    "mean_bps": 0.2326,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "okx",
+    "symbol": "QNT-USDT-SWAP",
+    "n": 0,
+    "mean_bps": null,
+    "median_bps": null
+   },
+   {
+    "venue": "bitget",
+    "symbol": "QNTUSDT",
+    "n": 90,
+    "mean_bps": 0.4276,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "gate",
+    "symbol": "QNT_USDT",
+    "n": 90,
+    "mean_bps": -0.1712,
+    "median_bps": 1.0
+   },
+   {
+    "venue": "kraken_futures",
+    "symbol": "PF_QNTUSD",
+    "n": 91,
+    "mean_bps": 16.0499,
+    "median_bps": -3.7691
+   }
+  ]
+ },
+ "pair_stats": [
+  {
+   "base": "BAT",
+   "venue_a": "kraken_futures",
+   "venue_b": "okx",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": 22.565310211767308,
+   "median_bps": -1.5910425960094505,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.4111111111111111,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.21744718966691595
+  },
+  {
+   "base": "BAT",
+   "venue_a": "bybit",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -22.559692092702672,
+   "median_bps": 1.8232024999999952,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.4111111111111111,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.21933061371561133
+  },
+  {
+   "base": "BAT",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -21.883934314924897,
+   "median_bps": 2.3502322500000052,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.3888888888888889,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.21765525651479775
+  },
+  {
+   "base": "BAT",
+   "venue_a": "bitget",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -21.841550981591563,
+   "median_bps": 1.7953291747311804,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.3888888888888889,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.21810559716074185
+  },
+  {
+   "base": "QNT",
+   "venue_a": "gate",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -16.405199322986395,
+   "median_bps": 2.03938739583333,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.4666666666666667,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.38688041075766616
+  },
+  {
+   "base": "QNT",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -16.346049322986392,
+   "median_bps": 2.6407864375000054,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.45555555555555555,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.38751739132180657
+  },
+  {
+   "base": "QNT",
+   "venue_a": "bybit",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -16.00133487854195,
+   "median_bps": 3.3590250416666643,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.43333333333333335,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.3898453705069113
+  },
+  {
+   "base": "QNT",
+   "venue_a": "bitget",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -15.806421545208615,
+   "median_bps": 3.7582040208333356,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.4222222222222222,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.3894450219327195
+  },
+  {
+   "base": "ARK",
+   "venue_a": "bybit",
+   "venue_b": "gate",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": -15.243734444444447,
+   "median_bps": 0.0,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.2777777777777778,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.5192859985254216
+  },
+  {
+   "base": "LSK",
+   "venue_a": "bitget",
+   "venue_b": "bybit",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": 14.081685555555556,
+   "median_bps": -2.725049999999996,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.4,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.43315333026611036
+  },
+  {
+   "base": "ARK",
+   "venue_a": "bitget",
+   "venue_b": "bybit",
+   "n_buckets": 90,
+   "identity_valid": true,
+   "mean_bps": 13.889512222222226,
+   "median_bps": 0.0,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": false,
+   "same_sign_share": 0.28888888888888886,
+   "passes_same_sign_gate": false,
+   "passes_median_gate": false,
+   "passes_both_gates": false,
+   "n": 90,
+   "k": 4,
+   "top_share": 0.6008266060361596
+  },
+  {
+   "base": "T",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 91,
+   "identity_valid": false,
+   "mean_bps": -23.88435612931031,
+   "median_bps": -7.74062896666666,
+   "mean_abs_exceeds_median": true,
+   "median_same_sign_as_mean": true,
+   "same_sign_share": 0.9120879120879121,
+   "passes_same_sign_gate": true,
+   "passes_median_gate": true,
+   "passes_both_gates": true,
+   "n": 91,
+   "k": 5,
+   "top_share": 0.4275905155455119
+  }
+ ],
+ "kraken_mechanism": {
+  "historical_fields": {
+   "PF_BATUSD": {
+    "n_hourly_rows": 8808,
+    "raw_over_relative_median": 0.0914,
+    "fundingRate_last": -3.706646626167e-06,
+    "relativeFundingRate_last": -3.9060916666667e-05
+   },
+   "PF_QNTUSD": {
+    "n_hourly_rows": 8808,
+    "raw_over_relative_median": 246.2173,
+    "fundingRate_last": -0.02062896809496842,
+    "relativeFundingRate_last": -8.0971391666667e-05
+   },
+   "PF_USDTUSD": {
+    "n_hourly_rows": 8808,
+    "raw_over_relative_median": 0.9997,
+    "fundingRate_last": -2.70840402e-06,
+    "relativeFundingRate_last": -2.709e-06
+   }
+  },
+  "live_tickers": {
+   "PF_BATUSD": {
+    "last": 0.09512,
+    "markPrice": 0.09667799864,
+    "indexPrice": 0.095745,
+    "fundingRate": 4.9039407330796e-05,
+    "fundingRatePrediction": 8.1372358390875e-05
+   },
+   "PF_QNTUSD": {
+    "last": 248.33,
+    "markPrice": 248.75475520661,
+    "indexPrice": 248.8919,
+    "fundingRate": -0.018962222370024918,
+    "fundingRatePrediction": -0.0042199398156245
+   },
+   "_stats": {
+    "requests": 2,
+    "cache_hits": 0,
+    "errors": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,469 @@
+{
+ "generated_at": "2026-10-03T08:23:45.446376+00:00",
+ "mode": "reanalyze",
+ "source_files": [
+  "raw_quotes_20261003T070537Z.json",
+  "raw_quotes_20261003T071955Z.json",
+  "raw_quotes_20261003T072252Z.json",
+  "raw_quotes_20261003T074303Z.json",
+  "raw_quotes_20261003T075317Z.json",
+  "raw_quotes_20261003T081831Z.json"
+ ],
+ "cost_constants": {
+  "cex_taker_round_trip_bps": 20.0,
+  "solana_gas_usd": 0.005,
+  "evm_gas_usd_range": [
+   2.0,
+   50.0
+  ],
+  "cex_withdrawal_usd": 1.2,
+  "transfer_usd_low": 0.12,
+  "slippage_buffer_bps": 10.0
+ },
+ "distribution": {
+  "ARB@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -52.447,
+    "median": -43.238,
+    "max": -34.895
+   },
+   "gross_vs_bid_bps": {
+    "min": -49.915,
+    "median": -40.701,
+    "max": -32.363
+   },
+   "impact_bps_median": 39.7582,
+   "routes": [
+    "Denali"
+   ]
+  },
+  "ARB@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -101.986,
+    "median": -44.953,
+    "max": -36.798
+   },
+   "gross_vs_bid_bps": {
+    "min": -99.467,
+    "median": -42.424,
+    "max": -34.267
+   },
+   "impact_bps_median": 43.5158,
+   "routes": [
+    "Denali",
+    "Denali+Raydium CLMM",
+    "Raydium CLMM+Denali"
+   ]
+  },
+  "AVAX@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -19.344,
+    "median": -11.728,
+    "max": -1.493
+   },
+   "gross_vs_bid_bps": {
+    "min": -18.885,
+    "median": -11.269,
+    "max": -1.034
+   },
+   "impact_bps_median": 4.0076,
+   "routes": [
+    "Denali",
+    "Meteora DLMM"
+   ]
+  },
+  "AVAX@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -47.181,
+    "median": -14.163,
+    "max": -3.027
+   },
+   "gross_vs_bid_bps": {
+    "min": -46.724,
+    "median": -13.704,
+    "max": -2.568
+   },
+   "impact_bps_median": 7.4281,
+   "routes": [
+    "Denali",
+    "Denali+Meteora DLMM",
+    "Denali+Raydium CLMM+Meteora DLMM",
+    "Meteora DLMM+Denali",
+    "Raydium CLMM+Denali+Meteora DLMM",
+    "Raydium CLMM+Meteora DLMM+Denali"
+   ]
+  },
+  "ETH@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": 0.711,
+    "median": 3.449,
+    "max": 6.834
+   },
+   "gross_vs_bid_bps": {
+    "min": 0.73,
+    "median": 3.467,
+    "max": 6.853
+   },
+   "impact_bps_median": 0.0,
+   "routes": [
+    "BisonFi",
+    "GoonFi V2",
+    "HumidiFi",
+    "Meteora DLMM+GoonFi V2",
+    "Meteora DLMM+Kipseli",
+    "Meteora DLMM+Obsidian",
+    "PancakeSwap+Flux",
+    "PancakeSwap+Kipseli",
+    "PancakeSwap+Obsidian",
+    "PancakeSwap+Quantum",
+    "TesseraV",
+    "Whirlpool+Flux",
+    "Whirlpool+GoonFi V2",
+    "Whirlpool+Kipseli",
+    "Whirlpool+Obsidian",
+    "Whirlpool+Scorch+GoonFi V2",
+    "Whirlpool+TesseraV"
+   ]
+  },
+  "ETH@1000": {
+   "n": 66,
+   "gross_vs_mid_bps": {
+    "min": -0.793,
+    "median": 2.937,
+    "max": 6.959
+   },
+   "gross_vs_bid_bps": {
+    "min": -0.775,
+    "median": 2.955,
+    "max": 6.977
+   },
+   "impact_bps_median": 0.0,
+   "routes": [
+    "BisonFi",
+    "BisonFi+GoonFi V2",
+    "BisonFi+Meteora DLMM+Whirlpool+GoonFi V2+GoonFi V2",
+    "BisonFi+PancakeSwap+Whirlpool+HumidiFi+GoonFi V2",
+    "GoonFi V2",
+    "GoonFi V2+HumidiFi",
+    "GoonFi V2+PancakeSwap+BisonFi",
+    "GoonFi V2+PancakeSwap+BisonFi+HumidiFi",
+    "GoonFi V2+Whirlpool",
+    "GoonFi V2+ZeroFi",
+    "HumidiFi",
+    "HumidiFi+BisonFi",
+    "HumidiFi+GoonFi V2",
+    "HumidiFi+TesseraV",
+    "Meteora DLMM+GoonFi V2+PancakeSwap+Obsidian",
+    "Meteora DLMM+Kipseli",
+    "Meteora DLMM+Meteora DLMM+GoonFi V2+HumidiFi",
+    "Meteora DLMM+PancakeSwap+GoonFi V2+GoonFi V2",
+    "Meteora DLMM+PancakeSwap+Obsidian+HumidiFi",
+    "Meteora DLMM+PancakeSwap+Scorch+SolFi V2",
+    "Meteora DLMM+Quantum",
+    "Meteora DLMM+Quantum+GoonFi V2",
+    "PancakeSwap+Byreal+Obsidian+GoonFi V2",
+    "PancakeSwap+GoonFi V2+GoonFi V2",
+    "PancakeSwap+GoonFi V2+ZeroFi",
+    "PancakeSwap+Kipseli+GoonFi V2",
+    "PancakeSwap+Meteora DLMM+Kipseli",
+    "PancakeSwap+Whirlpool+Byreal+Quantum",
+    "PancakeSwap+Whirlpool+HumidiFi",
+    "PancakeSwap+Whirlpool+HumidiFi+Kipseli",
+    "PancakeSwap+Whirlpool+Manifest+GoonFi V2",
+    "TesseraV",
+    "TesseraV+BisonFi",
+    "Whirlpool+BisonFi+Flux+Quantum",
+    "Whirlpool+BisonFi+GoonFi V2",
+    "Whirlpool+GoonFi V2",
+    "Whirlpool+Kipseli",
+    "Whirlpool+Kipseli+BisonFi",
+    "Whirlpool+Obsidian",
+    "Whirlpool+PancakeSwap+Quantum",
+    "Whirlpool+PancakeSwap+TesseraV",
+    "Whirlpool+Scorch+GoonFi V2"
+   ]
+  },
+  "LINK@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -36.388,
+    "median": -7.805,
+    "max": 2.08
+   },
+   "gross_vs_bid_bps": {
+    "min": -36.033,
+    "median": -7.449,
+    "max": 2.438
+   },
+   "impact_bps_median": 16.9195,
+   "routes": [
+    "Denali",
+    "Raydium CLMM",
+    "Whirlpool+BisonFi",
+    "Whirlpool+Flux",
+    "Whirlpool+GoonFi V2",
+    "Whirlpool+Kipseli",
+    "Whirlpool+Obsidian",
+    "Whirlpool+Quantum",
+    "Whirlpool+TesseraV+AlphaQ"
+   ]
+  },
+  "LINK@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -19.57,
+    "median": -9.58,
+    "max": 0.408
+   },
+   "gross_vs_bid_bps": {
+    "min": -19.213,
+    "median": -9.223,
+    "max": 0.765
+   },
+   "impact_bps_median": 16.5755,
+   "routes": [
+    "Denali",
+    "Denali+Meteora DLMM+Raydium CLMM",
+    "Denali+Raydium CLMM+Meteora DLMM",
+    "Denali+Whirlpool+GoonFi V2",
+    "Denali+Whirlpool+Scorch+GoonFi V2",
+    "Meteora DLMM+Denali+Raydium CLMM",
+    "Meteora DLMM+Raydium CLMM+Denali",
+    "Raydium CLMM+Denali+Meteora DLMM",
+    "Raydium CLMM+Denali+Whirlpool+Kipseli",
+    "Raydium CLMM+Denali+Whirlpool+Obsidian",
+    "Whirlpool+Flux+Denali",
+    "Whirlpool+GoonFi V2+Denali",
+    "Whirlpool+Kipseli+Denali",
+    "Whirlpool+Obsidian+Denali",
+    "Whirlpool+TesseraV+Scorch+AlphaQ+Denali",
+    "Whirlpool+Whirlpool+AlphaQ+Denali"
+   ]
+  },
+  "SOL@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -3.46,
+    "median": -1.238,
+    "max": 0.443
+   },
+   "gross_vs_bid_bps": {
+    "min": -3.041,
+    "median": -0.819,
+    "max": 0.862
+   },
+   "impact_bps_median": 0.0,
+   "routes": [
+    "BisonFi",
+    "BisonFi+Deriverse",
+    "Flux",
+    "GoonFi V2",
+    "HumidiFi",
+    "Kipseli",
+    "Obsidian",
+    "Quantum",
+    "Raydium CLMM+Deriverse",
+    "Scorch+Manifest",
+    "TesseraV"
+   ]
+  },
+  "SOL@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -3.606,
+    "median": -1.386,
+    "max": 2.449
+   },
+   "gross_vs_bid_bps": {
+    "min": -3.187,
+    "median": -0.967,
+    "max": 2.868
+   },
+   "impact_bps_median": 0.0148,
+   "routes": [
+    "BisonFi",
+    "BisonFi+Scorch+GoonFi V2",
+    "Flux",
+    "GoonFi V2",
+    "HumidiFi",
+    "Kipseli",
+    "Obsidian",
+    "Quantum",
+    "Scorch+AlphaQ",
+    "Scorch+GoonFi V2+Quantum",
+    "Scorch+JupLend AMM",
+    "TesseraV",
+    "Whirlpool"
+   ]
+  },
+  "USDT/USDC@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -3.158,
+    "median": -2.861,
+    "max": -2.031
+   },
+   "gross_vs_bid_bps": {
+    "min": -3.108,
+    "median": -2.811,
+    "max": -1.981
+   },
+   "impact_bps_median": 0.0,
+   "routes": [
+    "AlphaQ",
+    "BisonFi+Flux",
+    "BisonFi+GoonFi V2",
+    "BisonFi+Kipseli",
+    "Byreal",
+    "Deriverse",
+    "GoonFi V2",
+    "Manifest",
+    "Manifest+GoonFi V2",
+    "Raydium CLMM+Quantum",
+    "Scorch+Deriverse",
+    "Scorch+GoonFi V2",
+    "Scorch+Kipseli",
+    "Scorch+Whirlpool",
+    "SolFi V2",
+    "TesseraV+Kipseli"
+   ]
+  },
+  "USDT/USDC@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -3.2,
+    "median": -2.868,
+    "max": -2.036
+   },
+   "gross_vs_bid_bps": {
+    "min": -3.15,
+    "median": -2.819,
+    "max": -1.986
+   },
+   "impact_bps_median": 0.0021,
+   "routes": [
+    "AlphaQ",
+    "BisonFi+Kipseli",
+    "BisonFi+Obsidian",
+    "Byreal",
+    "Deriverse",
+    "GoonFi V2",
+    "JupLend AMM",
+    "Manifest",
+    "Scorch+Kipseli",
+    "Scorch+Obsidian",
+    "SolFi V2",
+    "TesseraV+Kipseli"
+   ]
+  },
+  "WBTC@100": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -9.37,
+    "median": -7.003,
+    "max": -3.626
+   },
+   "gross_vs_bid_bps": {
+    "min": -9.37,
+    "median": -7.002,
+    "max": -3.625
+   },
+   "impact_bps_median": 0.546,
+   "routes": [
+    "Manifest+BisonFi",
+    "Manifest+GoonFi V2",
+    "Manifest+HumidiFi",
+    "Manifest+TesseraV",
+    "Manifest+Whirlpool",
+    "Whirlpool+BisonFi",
+    "Whirlpool+Flux",
+    "Whirlpool+GoonFi V2",
+    "Whirlpool+HumidiFi",
+    "Whirlpool+Kipseli",
+    "Whirlpool+Quantum",
+    "Whirlpool+TesseraV"
+   ]
+  },
+  "WBTC@1000": {
+   "n": 68,
+   "gross_vs_mid_bps": {
+    "min": -9.614,
+    "median": -7.106,
+    "max": -4.546
+   },
+   "gross_vs_bid_bps": {
+    "min": -9.614,
+    "median": -7.106,
+    "max": -4.545
+   },
+   "impact_bps_median": 0.866,
+   "routes": [
+    "Manifest+BisonFi",
+    "Manifest+GoonFi V2",
+    "Manifest+GoonFi V2+Scorch+Byreal",
+    "Manifest+GoonFi V2+TesseraV",
+    "Manifest+Meteora DLMM+TesseraV+BisonFi+GoonFi V2",
+    "Manifest+Scorch+AlphaQ",
+    "Manifest+Scorch+GoonFi V2",
+    "Manifest+Scorch+Kipseli",
+    "Manifest+TesseraV",
+    "Manifest+TesseraV+GoonFi V2",
+    "Manifest+TesseraV+Scorch+Flux+Kipseli",
+    "Whirlpool+BisonFi",
+    "Whirlpool+GoonFi V2",
+    "Whirlpool+Kipseli",
+    "Whirlpool+Obsidian",
+    "Whirlpool+Scorch+GoonFi V2",
+    "Whirlpool+Scorch+Manifest",
+    "Whirlpool+TesseraV"
+   ]
+  }
+ },
+ "verdict": {
+  "notional_100": {
+   "largest_gap_bps": -49.915,
+   "largest_gap_abs_bps": 49.915,
+   "largest_max_executable_edge_bps": 50.166,
+   "largest_gap_token": "ARB",
+   "cost_stack_added_bps": 150.5,
+   "cost_stack_components": {
+    "cex_taker_round_trip_bps": 20.0,
+    "gas_bps": 0.5,
+    "transfer_bps": 120.0,
+    "slippage_buffer_bps": 10.0
+   },
+   "net_of_largest_gap_bps": -100.334,
+   "cost_stack_if_inventory_both_sides_bps": 30.5,
+   "net_if_inventory_both_sides_bps": 19.666,
+   "net_with_low_transfer_estimate_bps": 7.666,
+   "gap_exceeds_costs": false,
+   "gap_exceeds_costs_with_low_transfer": true,
+   "gap_exceeds_costs_even_with_inventory": true
+  },
+  "notional_1000": {
+   "largest_gap_bps": -99.467,
+   "largest_gap_abs_bps": 99.467,
+   "largest_max_executable_edge_bps": 100.466,
+   "largest_gap_token": "ARB",
+   "cost_stack_added_bps": 42.05,
+   "cost_stack_components": {
+    "cex_taker_round_trip_bps": 20.0,
+    "gas_bps": 0.05,
+    "transfer_bps": 12.0,
+    "slippage_buffer_bps": 10.0
+   },
+   "net_of_largest_gap_bps": 58.416,
+   "cost_stack_if_inventory_both_sides_bps": 30.05,
+   "net_if_inventory_both_sides_bps": 70.416,
+   "net_with_low_transfer_estimate_bps": 69.216,
+   "gap_exceeds_costs": true,
+   "gap_exceeds_costs_with_low_transfer": true,
+   "gap_exceeds_costs_even_with_inventory": true
+  }
+ }
+}

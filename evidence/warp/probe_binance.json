@@ -1,0 +1,317 @@
+{
+ "generated_utc": "2026-10-03T14:27:02.005101+00:00",
+ "attempts_per_venue": 3,
+ "spacing_s": 2.5,
+ "results": {
+  "fapi_ping": {
+   "url": "https://fapi.binance.com/fapi/v1/ping",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 180.7,
+     "error": null,
+     "head": "{}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 173.9,
+     "error": null,
+     "head": "{}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 189.2,
+     "error": null,
+     "head": "{}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fapi_fundingRate": {
+   "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&limit=10",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 1262,
+     "latency_ms": 231.7,
+     "error": null,
+     "head": "[{\"symbol\":\"BTCUSDT\",\"fundingTime\":1790755200000,\"fundingRate\":\"-0.00000244\",\"markPrice\":\"83259.6292"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 1262,
+     "latency_ms": 258.6,
+     "error": null,
+     "head": "[{\"symbol\":\"BTCUSDT\",\"fundingTime\":1790755200000,\"fundingRate\":\"-0.00000244\",\"markPrice\":\"83259.6292"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 1262,
+     "latency_ms": 202.8,
+     "error": null,
+     "head": "[{\"symbol\":\"BTCUSDT\",\"fundingTime\":1790755200000,\"fundingRate\":\"-0.00000244\",\"markPrice\":\"83259.6292"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fapi_premiumIndex": {
+   "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 231,
+     "latency_ms": 169.5,
+     "error": null,
+     "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"84790.84782609\",\"indexPrice\":\"84826.16326087\",\"estimatedSettlePrice"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 231,
+     "latency_ms": 250.7,
+     "error": null,
+     "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"84790.90000000\",\"indexPrice\":\"84826.16695652\",\"estimatedSettlePrice"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 231,
+     "latency_ms": 257.8,
+     "error": null,
+     "head": "{\"symbol\":\"BTCUSDT\",\"markPrice\":\"84790.90000000\",\"indexPrice\":\"84826.16043478\",\"estimatedSettlePrice"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fapi_exchangeInfo": {
+   "url": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 300000,
+     "latency_ms": 275.7,
+     "error": null,
+     "head": "{\"timezone\":\"UTC\",\"serverTime\":1790941589239,\"futuresType\":\"U_MARGINED\",\"rateLimits\":[{\"rateLimitTyp"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 300000,
+     "latency_ms": 350.5,
+     "error": null,
+     "head": "{\"timezone\":\"UTC\",\"serverTime\":1790941589244,\"futuresType\":\"U_MARGINED\",\"rateLimits\":[{\"rateLimitTyp"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 300000,
+     "latency_ms": 281.2,
+     "error": null,
+     "head": "{\"timezone\":\"UTC\",\"serverTime\":1790941589238,\"futuresType\":\"U_MARGINED\",\"rateLimits\":[{\"rateLimitTyp"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fapi_ticker24h": {
+   "url": "https://fapi.binance.com/fapi/v1/ticker/24hr",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 293031,
+     "latency_ms": 346.3,
+     "error": null,
+     "head": "[{\"closeTime\":1791037577069,\"count\":535656,\"firstId\":703046573,\"highPrice\":\"1.30590\",\"lastId\":703582"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 292995,
+     "latency_ms": 281.5,
+     "error": null,
+     "head": "[{\"closeTime\":1791037518589,\"count\":4897,\"firstId\":285859,\"highPrice\":\"12.53000\",\"lastId\":290755,\"la"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 292995,
+     "latency_ms": 367.9,
+     "error": null,
+     "head": "[{\"closeTime\":1791037587189,\"count\":1764060,\"firstId\":1603075362,\"highPrice\":\"1.197800\",\"lastId\":160"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fapi_time": {
+   "url": "https://fapi.binance.com/fapi/v1/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 169.9,
+     "error": null,
+     "head": "{\"serverTime\":1791037591516}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 197.1,
+     "error": null,
+     "head": "{\"serverTime\":1791037594208}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 191.1,
+     "error": null,
+     "head": "{\"serverTime\":1791037596910}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "dapi_ping": {
+   "url": "https://dapi.binance.com/dapi/v1/ping",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 456.5,
+     "error": null,
+     "head": "{}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 381.4,
+     "error": null,
+     "head": "{}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 2,
+     "latency_ms": 441.5,
+     "error": null,
+     "head": "{}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "fstream_ws": {
+   "url": "https://fstream.binance.com/ws/btcusdt@markPrice",
+   "attempts": [
+    {
+     "status": 400,
+     "ok": false,
+     "bytes": 0,
+     "latency_ms": 413.9,
+     "error": "HTTPError 400",
+     "head": ""
+    },
+    {
+     "status": 400,
+     "ok": false,
+     "bytes": 0,
+     "latency_ms": 426.4,
+     "error": "HTTPError 400",
+     "head": ""
+    },
+    {
+     "status": 400,
+     "ok": false,
+     "bytes": 0,
+     "latency_ms": 422.5,
+     "error": "HTTPError 400",
+     "head": ""
+    }
+   ],
+   "ok_count": 0,
+   "reachable": false
+  },
+  "api_spot": {
+   "url": "https://api.binance.com/api/v3/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 486.0,
+     "error": null,
+     "head": "{\"serverTime\":1791037609953}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 190.8,
+     "error": null,
+     "head": "{\"serverTime\":1791037612642}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 207.3,
+     "error": null,
+     "head": "{\"serverTime\":1791037615327}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  },
+  "api_vision": {
+   "url": "https://data-api.binance.vision/api/v3/time",
+   "attempts": [
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 617.5,
+     "error": null,
+     "head": "{\"serverTime\":1791037615906}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 467.5,
+     "error": null,
+     "head": "{\"serverTime\":1791037618935}"
+    },
+    {
+     "status": 200,
+     "ok": true,
+     "bytes": 28,
+     "latency_ms": 510.7,
+     "error": null,
+     "head": "{\"serverTime\":1791037621955}"
+    }
+   ],
+   "ok_count": 3,
+   "reachable": true
+  }
+ }
+}

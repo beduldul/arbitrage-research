@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Raw cached venue payloads (hundreds of MB; re-fetched by the scanners)
+evidence/**/raw/
+**/raw/
+*.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Test / tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

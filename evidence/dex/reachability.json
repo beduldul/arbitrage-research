@@ -1,0 +1,324 @@
+{
+ "generated_at": "2026-10-03T07:07:25.694247+00:00",
+ "probes": [
+  {
+   "name": "jupiter_swap_v1",
+   "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=1000000000&slippageBps=50",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 89,
+     "bytes": 1033,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 89
+  },
+  {
+   "name": "jupiter_lite_legacy",
+   "url": "https://lite-api.jup.ag/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=1000000000",
+   "attempts": [
+    {
+     "status": 404,
+     "latency_ms": 25,
+     "bytes": 15,
+     "ok": false,
+     "error": null,
+     "attempt": 1
+    },
+    {
+     "status": 404,
+     "latency_ms": 92,
+     "bytes": 15,
+     "ok": false,
+     "error": null,
+     "attempt": 2
+    },
+    {
+     "status": 404,
+     "latency_ms": 15,
+     "bytes": 15,
+     "ok": false,
+     "error": null,
+     "attempt": 3
+    }
+   ],
+   "ok": false,
+   "final_status": 404,
+   "final_latency_ms": 15
+  },
+  {
+   "name": "jupiter_quote_api_v6",
+   "url": "https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=1000000000",
+   "attempts": [
+    {
+     "status": 0,
+     "latency_ms": 3,
+     "bytes": 0,
+     "ok": false,
+     "error": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+     "attempt": 1
+    },
+    {
+     "status": 0,
+     "latency_ms": 3,
+     "bytes": 0,
+     "ok": false,
+     "error": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+     "attempt": 2
+    },
+    {
+     "status": 0,
+     "latency_ms": 3,
+     "bytes": 0,
+     "ok": false,
+     "error": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+     "attempt": 3
+    }
+   ],
+   "ok": false,
+   "final_status": 0,
+   "final_latency_ms": 3
+  },
+  {
+   "name": "jupiter_price_v3",
+   "url": "https://lite-api.jup.ag/price/v3?ids=So11111111111111111111111111111111111111112,EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 103,
+     "bytes": 437,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 103
+  },
+  {
+   "name": "1inch_v6_eth",
+   "url": "https://api.1inch.dev/swap/v6.0/1/quote?src=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&dst=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&amount=100000000000000000",
+   "attempts": [
+    {
+     "status": 401,
+     "latency_ms": 86,
+     "bytes": 40,
+     "ok": false,
+     "error": null,
+     "attempt": 1
+    },
+    {
+     "status": 401,
+     "latency_ms": 27,
+     "bytes": 40,
+     "ok": false,
+     "error": null,
+     "attempt": 2
+    },
+    {
+     "status": 401,
+     "latency_ms": 110,
+     "bytes": 40,
+     "ok": false,
+     "error": null,
+     "attempt": 3
+    }
+   ],
+   "ok": false,
+   "final_status": 401,
+   "final_latency_ms": 110
+  },
+  {
+   "name": "0x_permit2_price",
+   "url": "https://api.0x.org/swap/permit2/price?chainId=1&sellToken=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&buyToken=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&sellAmount=100000000000000000",
+   "attempts": [
+    {
+     "status": 401,
+     "latency_ms": 744,
+     "bytes": 96,
+     "ok": false,
+     "error": null,
+     "attempt": 1
+    },
+    {
+     "status": 401,
+     "latency_ms": 236,
+     "bytes": 96,
+     "ok": false,
+     "error": null,
+     "attempt": 2
+    },
+    {
+     "status": 401,
+     "latency_ms": 287,
+     "bytes": 96,
+     "ok": false,
+     "error": null,
+     "attempt": 3
+    }
+   ],
+   "ok": false,
+   "final_status": 401,
+   "final_latency_ms": 287
+  },
+  {
+   "name": "dexscreener_solana",
+   "url": "https://api.dexscreener.com/latest/dex/search?q=SOL/USDC",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 170,
+     "bytes": 72432,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 170
+  },
+  {
+   "name": "coingecko_simple",
+   "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana,ethereum,bitcoin,usd-coin,tether&vs_currencies=usd",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 345,
+     "bytes": 129,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 345
+  },
+  {
+   "name": "binance_vision_book",
+   "url": "https://data-api.binance.vision/api/v3/ticker/bookTicker?symbol=SOLUSDT",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 373,
+     "bytes": 120,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 373
+  },
+  {
+   "name": "gate_tickers",
+   "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 443,
+     "bytes": 264,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 443
+  },
+  {
+   "name": "htx_tickers",
+   "url": "https://api.huobi.pro/market/tickers",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 67,
+     "bytes": 122951,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 67
+  },
+  {
+   "name": "hyperliquid_mids",
+   "url": "https://api.hyperliquid.xyz/info",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 178,
+     "bytes": 19999,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 178
+  },
+  {
+   "name": "bybit_tickers",
+   "url": "https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 58,
+     "bytes": 408,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 58
+  },
+  {
+   "name": "okx_ticker",
+   "url": "https://www.okx.com/api/v5/market/ticker?instId=SOL-USDT",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 145,
+     "bytes": 349,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 145
+  },
+  {
+   "name": "bitget_ticker",
+   "url": "https://api.bitget.com/api/v2/spot/market/tickers?symbol=SOLUSDT",
+   "attempts": [
+    {
+     "status": 200,
+     "latency_ms": 145,
+     "bytes": 404,
+     "ok": true,
+     "error": null,
+     "attempt": 1
+    }
+   ],
+   "ok": true,
+   "final_status": 200,
+   "final_latency_ms": 145
+  }
+ ]
+}

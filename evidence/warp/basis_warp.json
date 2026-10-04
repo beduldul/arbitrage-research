@@ -1,0 +1,252 @@
+{
+  "generated_at": "2026-10-03T15:06:47.851364+00:00",
+  "notional_usd": 100.0,
+  "leg_usd": 50.0,
+  "venues": {
+    "binance": {
+      "spot_taker_bps": 10.0,
+      "perp_taker_bps": 5.0,
+      "pairs": [
+        {
+          "base": "BNB",
+          "spot_symbol": "BNBUSDT",
+          "perp_symbol": "BNBUSDT",
+          "spot_bid": 777.05,
+          "spot_ask": 777.06,
+          "perp_bid": 777.46,
+          "perp_ask": 777.47,
+          "entry_basis_bps": 5.1476,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -24.8524,
+          "permits_50_leg": true
+        },
+        {
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "perp_symbol": "BTCUSDT",
+          "spot_bid": 84793.36,
+          "spot_ask": 84793.37,
+          "perp_bid": 84752.6,
+          "perp_ask": 84752.7,
+          "entry_basis_bps": -4.8082,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -34.8082,
+          "permits_50_leg": true
+        },
+        {
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "perp_symbol": "ETHUSDT",
+          "spot_bid": 2682.03,
+          "spot_ask": 2682.04,
+          "perp_bid": 2680.64,
+          "perp_ask": 2680.65,
+          "entry_basis_bps": -5.2199,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -35.2199,
+          "permits_50_leg": true
+        },
+        {
+          "base": "SOL",
+          "spot_symbol": "SOLUSDT",
+          "perp_symbol": "SOLUSDT",
+          "spot_bid": 119.46,
+          "spot_ask": 119.47,
+          "perp_bid": 119.4,
+          "perp_ask": 119.41,
+          "entry_basis_bps": -5.8592,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -35.8592,
+          "permits_50_leg": true
+        },
+        {
+          "base": "DOGE",
+          "spot_symbol": "DOGEUSDT",
+          "perp_symbol": "DOGEUSDT",
+          "spot_bid": 0.0931,
+          "spot_ask": 0.09311,
+          "perp_bid": 0.09305,
+          "perp_ask": 0.09306,
+          "entry_basis_bps": -6.444,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -36.444,
+          "permits_50_leg": true
+        },
+        {
+          "base": "XRP",
+          "spot_symbol": "XRPUSDT",
+          "perp_symbol": "XRPUSDT",
+          "spot_bid": 1.4857,
+          "spot_ask": 1.4858,
+          "perp_bid": 1.4848,
+          "perp_ask": 1.4849,
+          "entry_basis_bps": -6.7304,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -36.7304,
+          "permits_50_leg": true
+        }
+      ],
+      "best": {
+        "base": "BNB",
+        "spot_symbol": "BNBUSDT",
+        "perp_symbol": "BNBUSDT",
+        "spot_bid": 777.05,
+        "spot_ask": 777.06,
+        "perp_bid": 777.46,
+        "perp_ask": 777.47,
+        "entry_basis_bps": 5.1476,
+        "roundtrip_cost_bps": 30.0,
+        "net_entry_bps": -24.8524,
+        "permits_50_leg": true
+      }
+    },
+    "bybit": {
+      "spot_taker_bps": 10.0,
+      "perp_taker_bps": 5.0,
+      "pairs": [
+        {
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "perp_symbol": "ETHUSDT",
+          "spot_bid": 2681.74,
+          "spot_ask": 2681.75,
+          "perp_bid": 2680.63,
+          "perp_ask": 2680.64,
+          "entry_basis_bps": -4.1764,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -34.1764,
+          "permits_50_leg": true
+        },
+        {
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "perp_symbol": "BTCUSDT",
+          "spot_bid": 84785.1,
+          "spot_ask": 84785.2,
+          "perp_bid": 84748.6,
+          "perp_ask": 84748.7,
+          "entry_basis_bps": -4.3168,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -34.3168,
+          "permits_50_leg": true
+        },
+        {
+          "base": "SOL",
+          "spot_symbol": "SOLUSDT",
+          "perp_symbol": "SOLUSDT",
+          "spot_bid": 119.45,
+          "spot_ask": 119.46,
+          "perp_bid": 119.38,
+          "perp_ask": 119.39,
+          "entry_basis_bps": -6.6968,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -36.6968,
+          "permits_50_leg": true
+        }
+      ],
+      "best": {
+        "base": "ETH",
+        "spot_symbol": "ETHUSDT",
+        "perp_symbol": "ETHUSDT",
+        "spot_bid": 2681.74,
+        "spot_ask": 2681.75,
+        "perp_bid": 2680.63,
+        "perp_ask": 2680.64,
+        "entry_basis_bps": -4.1764,
+        "roundtrip_cost_bps": 30.0,
+        "net_entry_bps": -34.1764,
+        "permits_50_leg": true
+      }
+    },
+    "okx": {
+      "spot_taker_bps": 10.0,
+      "perp_taker_bps": 5.0,
+      "pairs": [
+        {
+          "base": "BTC",
+          "spot_symbol": "BTC-USDT",
+          "perp_symbol": "BTC-USDT",
+          "spot_bid": 84792.9,
+          "spot_ask": 84793.0,
+          "perp_bid": 84769.6,
+          "perp_ask": 84769.7,
+          "entry_basis_bps": -2.7597,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -32.7597,
+          "permits_50_leg": true
+        },
+        {
+          "base": "ETH",
+          "spot_symbol": "ETH-USDT",
+          "perp_symbol": "ETH-USDT",
+          "spot_bid": 2682.02,
+          "spot_ask": 2682.03,
+          "perp_bid": 2680.35,
+          "perp_ask": 2680.36,
+          "entry_basis_bps": -6.2639,
+          "roundtrip_cost_bps": 30.0,
+          "net_entry_bps": -36.2639,
+          "permits_50_leg": true
+        }
+      ],
+      "best": {
+        "base": "BTC",
+        "spot_symbol": "BTC-USDT",
+        "perp_symbol": "BTC-USDT",
+        "spot_bid": 84792.9,
+        "spot_ask": 84793.0,
+        "perp_bid": 84769.6,
+        "perp_ask": 84769.7,
+        "entry_basis_bps": -2.7597,
+        "roundtrip_cost_bps": 30.0,
+        "net_entry_bps": -32.7597,
+        "permits_50_leg": true
+      }
+    },
+    "deribit": {
+      "spot_taker_bps": 5.0,
+      "perp_taker_bps": 5.0,
+      "pairs": [
+        {
+          "base": "BTC",
+          "spot_symbol": "BTC_USDT",
+          "perp_symbol": "BTC-PERPETUAL",
+          "spot_bid": 84761.0,
+          "spot_ask": 84804.0,
+          "perp_bid": 84773.0,
+          "perp_ask": 84773.5,
+          "entry_basis_bps": -3.6555,
+          "roundtrip_cost_bps": 20.0,
+          "net_entry_bps": -23.6555,
+          "permits_50_leg": true
+        },
+        {
+          "base": "ETH",
+          "spot_symbol": "ETH_USDT",
+          "perp_symbol": "ETH-PERPETUAL",
+          "spot_bid": 2676.6,
+          "spot_ask": 2687.8,
+          "perp_bid": 2680.95,
+          "perp_ask": 2681.0,
+          "entry_basis_bps": -25.4855,
+          "roundtrip_cost_bps": 20.0,
+          "net_entry_bps": -45.4855,
+          "permits_50_leg": true
+        }
+      ],
+      "best": {
+        "base": "BTC",
+        "spot_symbol": "BTC_USDT",
+        "perp_symbol": "BTC-PERPETUAL",
+        "spot_bid": 84761.0,
+        "spot_ask": 84804.0,
+        "perp_bid": 84773.0,
+        "perp_ask": 84773.5,
+        "entry_basis_bps": -3.6555,
+        "roundtrip_cost_bps": 20.0,
+        "net_entry_bps": -23.6555,
+        "permits_50_leg": true
+      }
+    }
+  }
+}

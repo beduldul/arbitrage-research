@@ -1,0 +1,747 @@
+{
+  "generated_iso": "2026-10-03T06:43:26.964055Z",
+  "notional_usd": 100.0,
+  "window_minutes": 28.0,
+  "interval_s": 5.0,
+  "samples": 336,
+  "reachability": [
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 465.0,
+      "bytes": 1327,
+      "error": null,
+      "name": "binance_vision_depth_BTCUSDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=USDCUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 92.4,
+      "bytes": 1367,
+      "error": null,
+      "name": "binance_USDCUSDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=FDUSDUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 91.8,
+      "bytes": 1326,
+      "error": null,
+      "name": "binance_FDUSDUSDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=TUSDUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 94.1,
+      "bytes": 1270,
+      "error": null,
+      "name": "binance_TUSDUSDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=USDPUSDT&limit=20",
+      "status": 200,
+      "latency_ms": 155.1,
+      "bytes": 45,
+      "error": null,
+      "name": "binance_USDPUSDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=USD1USDT&limit=20",
+      "status": 200,
+      "latency_ms": 95.7,
+      "bytes": 1331,
+      "error": null,
+      "name": "binance_USD1USDT"
+    },
+    {
+      "url": "https://data-api.binance.vision/api/v3/depth?symbol=FDUSDUSDC&limit=20",
+      "status": 200,
+      "latency_ms": 117.7,
+      "bytes": 1286,
+      "error": null,
+      "name": "binance_cross_FDUSDUSDC"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=USDC_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 437.6,
+      "bytes": 994,
+      "error": null,
+      "name": "gate_USDC_USDT"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=FDUSD_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 96.1,
+      "bytes": 914,
+      "error": null,
+      "name": "gate_FDUSD_USDT"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=TUSD_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 107.6,
+      "bytes": 767,
+      "error": null,
+      "name": "gate_TUSD_USDT"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=USDP_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 99.6,
+      "bytes": 738,
+      "error": null,
+      "name": "gate_USDP_USDT"
+    },
+    {
+      "url": "https://api.gateio.ws/api/v4/spot/order_book?currency_pair=USD1_USDT&limit=20",
+      "status": 200,
+      "latency_ms": 103.7,
+      "bytes": 926,
+      "error": null,
+      "name": "gate_USD1_USDT"
+    }
+  ],
+  "dead_pairs": {
+    "BUSDUSDT": {
+      "empty": true,
+      "best_bid": null,
+      "best_ask": null
+    },
+    "DAIUSDT": {
+      "empty": true,
+      "best_bid": null,
+      "best_ask": null
+    },
+    "USDDUSDT": {
+      "empty": true,
+      "best_bid": null,
+      "best_ask": null
+    },
+    "PYUSDUSDT": {
+      "empty": true,
+      "best_bid": null,
+      "best_ask": null
+    },
+    "TUSDUSDC": {
+      "empty": true,
+      "best_bid": null,
+      "best_ask": null
+    }
+  },
+  "rate": {
+    "rebuilt_from_cache": true
+  },
+  "per_pair": {
+    "binance__USDCUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.0898,
+        "mean_bps": -20.0898,
+        "median_bps": -20.0898,
+        "p90_bps": -20.0898,
+        "min_bps": -20.0898,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -4.0995,
+        "mean_bps": -4.0995,
+        "median_bps": -4.0995,
+        "p90_bps": -4.0995,
+        "min_bps": -4.0995,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -0.1,
+        "mean_bps": -0.1,
+        "median_bps": -0.1,
+        "p90_bps": -0.1,
+        "min_bps": -0.1,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 0.1,
+        "min": 0.1,
+        "max": 0.1
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 1.00014,
+        "best_ask": 1.00015,
+        "spread_bps": 0.1,
+        "mid": 1.000145,
+        "rt_gross_bps": -0.1,
+        "rt_net_taker_bps": -20.0898,
+        "rt_net_maker_bps": -4.0995,
+        "max_positive_usd": 0.0
+      }
+    },
+    "binance__FDUSDUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.989,
+        "mean_bps": -20.9891,
+        "median_bps": -20.9891,
+        "p90_bps": -20.989,
+        "min_bps": -20.9891,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -5.0002,
+        "mean_bps": -5.0003,
+        "median_bps": -5.0003,
+        "p90_bps": -5.0002,
+        "min_bps": -5.0003,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -1.001,
+        "mean_bps": -1.0011,
+        "median_bps": -1.0011,
+        "p90_bps": -1.001,
+        "min_bps": -1.0011,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 1.0012,
+        "min": 1.0011,
+        "max": 1.0012
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.9989,
+        "best_ask": 0.999,
+        "spread_bps": 1.0011,
+        "mid": 0.99895,
+        "rt_gross_bps": -1.001,
+        "rt_net_taker_bps": -20.989,
+        "rt_net_maker_bps": -5.0002,
+        "max_positive_usd": 0.0
+      }
+    },
+    "binance__TUSDUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -21.986,
+        "mean_bps": -21.986,
+        "median_bps": -21.986,
+        "p90_bps": -21.986,
+        "min_bps": -21.986,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -5.9988,
+        "mean_bps": -5.9988,
+        "median_bps": -5.9988,
+        "p90_bps": -5.9988,
+        "min_bps": -5.9988,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -2.0,
+        "mean_bps": -2.0,
+        "median_bps": -2.0,
+        "p90_bps": -2.0,
+        "min_bps": -2.0,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 2.0002,
+        "min": 2.0002,
+        "max": 2.0002
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.9998,
+        "best_ask": 1.0,
+        "spread_bps": 2.0002,
+        "mid": 0.9999,
+        "rt_gross_bps": -2.0,
+        "rt_net_taker_bps": -21.986,
+        "rt_net_maker_bps": -5.9988,
+        "max_positive_usd": 0.0
+      }
+    },
+    "binance__USDPUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 0,
+        "n_unfillable": 336,
+        "max_bps": null,
+        "mean_bps": null,
+        "median_bps": null,
+        "p90_bps": null,
+        "min_bps": null,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 0,
+        "n_unfillable": 336,
+        "max_bps": null,
+        "mean_bps": null,
+        "median_bps": null,
+        "p90_bps": null,
+        "min_bps": null,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 0,
+        "n_unfillable": 336,
+        "max_bps": null,
+        "mean_bps": null,
+        "median_bps": null,
+        "p90_bps": null,
+        "min_bps": null,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": null,
+        "min": null,
+        "max": null
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": true,
+        "executable": false
+      }
+    },
+    "binance__USD1USDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.0898,
+        "mean_bps": -20.0898,
+        "median_bps": -20.0898,
+        "p90_bps": -20.0898,
+        "min_bps": -20.0898,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -4.0996,
+        "mean_bps": -4.0996,
+        "median_bps": -4.0996,
+        "p90_bps": -4.0996,
+        "min_bps": -4.0996,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -0.1,
+        "mean_bps": -0.1,
+        "median_bps": -0.1,
+        "p90_bps": -0.1,
+        "min_bps": -0.1,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 0.1,
+        "min": 0.1,
+        "max": 0.1
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.99961,
+        "best_ask": 0.99962,
+        "spread_bps": 0.1,
+        "mid": 0.999615,
+        "rt_gross_bps": -0.1,
+        "rt_net_taker_bps": -20.0898,
+        "rt_net_maker_bps": -4.0996,
+        "max_positive_usd": 0.0
+      }
+    },
+    "gate__USDCUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.9878,
+        "mean_bps": -20.9878,
+        "median_bps": -20.9878,
+        "p90_bps": -20.9878,
+        "min_bps": -20.9878,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -4.999,
+        "mean_bps": -4.999,
+        "median_bps": -4.999,
+        "p90_bps": -4.999,
+        "min_bps": -4.999,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -0.9998,
+        "mean_bps": -0.9998,
+        "median_bps": -0.9998,
+        "p90_bps": -0.9998,
+        "min_bps": -0.9998,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 0.9999,
+        "min": 0.9999,
+        "max": 0.9999
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 1.0001,
+        "best_ask": 1.0002,
+        "spread_bps": 0.9999,
+        "mid": 1.00015,
+        "rt_gross_bps": -0.9998,
+        "rt_net_taker_bps": -20.9878,
+        "rt_net_maker_bps": -4.999,
+        "max_positive_usd": 0.0
+      }
+    },
+    "gate__FDUSDUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.9888,
+        "mean_bps": -20.9888,
+        "median_bps": -20.9888,
+        "p90_bps": -20.9888,
+        "min_bps": -20.9888,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -5.0,
+        "mean_bps": -5.0,
+        "median_bps": -5.0,
+        "p90_bps": -5.0,
+        "min_bps": -5.0,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -1.0008,
+        "mean_bps": -1.0008,
+        "median_bps": -1.0008,
+        "p90_bps": -1.0008,
+        "min_bps": -1.0008,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 1.0009,
+        "min": 1.0009,
+        "max": 1.0009
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.9991,
+        "best_ask": 0.9992,
+        "spread_bps": 1.0009,
+        "mid": 0.99915,
+        "rt_gross_bps": -1.0008,
+        "rt_net_taker_bps": -20.9888,
+        "rt_net_maker_bps": -5.0,
+        "max_positive_usd": 0.0
+      }
+    },
+    "gate__TUSDUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -29.995,
+        "mean_bps": -29.995,
+        "median_bps": -29.995,
+        "p90_bps": -29.995,
+        "min_bps": -29.995,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -14.0207,
+        "mean_bps": -14.0207,
+        "median_bps": -14.0207,
+        "p90_bps": -14.0207,
+        "min_bps": -14.0207,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -10.0251,
+        "mean_bps": -10.0251,
+        "median_bps": -10.0251,
+        "p90_bps": -10.0251,
+        "min_bps": -10.0251,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 10.0301,
+        "min": 10.0301,
+        "max": 10.0301
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.9965,
+        "best_ask": 0.9975,
+        "spread_bps": 10.0301,
+        "mid": 0.997,
+        "rt_gross_bps": -10.0251,
+        "rt_net_taker_bps": -29.995,
+        "rt_net_maker_bps": -14.0207,
+        "max_positive_usd": 0.0
+      }
+    },
+    "gate__USDPUSDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -523.1666,
+        "mean_bps": -846.3451,
+        "median_bps": -541.6123,
+        "p90_bps": -527.7847,
+        "min_bps": -8656.0263,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -507.9856,
+        "mean_bps": -831.682,
+        "median_bps": -526.4609,
+        "p90_bps": -512.6112,
+        "min_bps": -8653.8756,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -504.1885,
+        "mean_bps": -828.0143,
+        "median_bps": -522.6711,
+        "p90_bps": -508.8159,
+        "min_bps": -8653.3377,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 195.3996,
+        "min": 175.1624,
+        "max": 213.1317
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 1.0073,
+        "best_ask": 1.0251,
+        "spread_bps": 175.1624,
+        "mid": 1.0162,
+        "rt_gross_bps": -504.1885,
+        "rt_net_taker_bps": -523.1666,
+        "rt_net_maker_bps": -507.9856,
+        "max_positive_usd": 0.0
+      }
+    },
+    "gate__USD1USDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -20.9884,
+        "mean_bps": -20.9884,
+        "median_bps": -20.9884,
+        "p90_bps": -20.9884,
+        "min_bps": -20.9884,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "maker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -4.9996,
+        "mean_bps": -4.9996,
+        "median_bps": -4.9996,
+        "p90_bps": -4.9996,
+        "min_bps": -4.9996,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "gross": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -1.0004,
+        "mean_bps": -1.0004,
+        "median_bps": -1.0004,
+        "p90_bps": -1.0004,
+        "min_bps": -1.0004,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      },
+      "spread_bps": {
+        "mean": 1.0005,
+        "min": 1.0005,
+        "max": 1.0005
+      },
+      "max_positive_usd": 0.0,
+      "any_depeg": false,
+      "last": {
+        "iso": null,
+        "empty": false,
+        "executable": true,
+        "best_bid": 0.9995,
+        "best_ask": 0.9996,
+        "spread_bps": 1.0005,
+        "mid": 0.99955,
+        "rt_gross_bps": -1.0004,
+        "rt_net_taker_bps": -20.9884,
+        "rt_net_maker_bps": -4.9996,
+        "max_positive_usd": 0.0
+      }
+    }
+  },
+  "triangles": {
+    "USDT>USDC>FDUSD>USDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -30.4672,
+        "mean_bps": -31.1513,
+        "median_bps": -31.4653,
+        "p90_bps": -30.4672,
+        "min_bps": -31.565,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      }
+    },
+    "USDT>FDUSD>USDC>USDT": {
+      "taker": {
+        "n": 336,
+        "n_exec": 336,
+        "n_unfillable": 0,
+        "max_bps": -30.471,
+        "mean_bps": -30.8846,
+        "median_bps": -30.5707,
+        "p90_bps": -30.5707,
+        "min_bps": -31.5686,
+        "pct_positive": 0.0,
+        "longest_positive_run": 0
+      }
+    }
+  },
+  "any_depeg_observed": false,
+  "depeg_pairs": [],
+  "depeg_triangles": [],
+  "verdict_counts": {
+    "taker_positive_mean": 0,
+    "maker_positive_mean": 0,
+    "pairs": 10
+  }
+}

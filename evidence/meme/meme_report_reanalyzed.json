@@ -1,0 +1,555 @@
+{
+ "generated_at": "2026-10-03T13:47:18.451200+00:00",
+ "notional_usd": 100.0,
+ "reachability": [
+  {
+   "name": "jupiter_quote",
+   "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=100000000&slippageBps=50",
+   "status": 200,
+   "latency_ms": 188.6,
+   "ok": true,
+   "payload_sample": "{\"inputMint\":\"So11111111111111111111111111111111111111112\",\"inAmount\":\"100000000\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"outAmount\":\"11950323\",\"otherAmountThreshold\":\"11890572\",\"swapMode\":\"ExactIn\",\"slippageBps\":50,\"platformFee\":null,\"priceImpactPct\":\"0.0000073070356724104812496568\",\"routePlan\":[{\"swapInfo\":{\"ammKey\":\"8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo\",\"label\":\"Bis"
+  },
+  {
+   "name": "jupiter_quote_dexes_raydium",
+   "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=100000000&slippageBps=50&dexes=Raydium",
+   "status": 200,
+   "latency_ms": 35.3,
+   "ok": true,
+   "payload_sample": "{\"inputMint\":\"So11111111111111111111111111111111111111112\",\"inAmount\":\"100000000\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"outAmount\":\"11908840\",\"otherAmountThreshold\":\"11849296\",\"swapMode\":\"ExactIn\",\"slippageBps\":50,\"platformFee\":null,\"priceImpactPct\":\"0.0034785685975765700086537507\",\"routePlan\":[{\"swapInfo\":{\"ammKey\":\"7XawhbbxtsRcQA8KTkHT9f9nc6d69UwqCDh6U5EEbEmX\",\"label\":\"Ray"
+  },
+  {
+   "name": "jupiter_price",
+   "url": "https://lite-api.jup.ag/price/v3?ids=So11111111111111111111111111111111111111112",
+   "status": 200,
+   "latency_ms": 49.4,
+   "ok": true,
+   "payload_sample": "{\"So11111111111111111111111111111111111111112\":{\"createdAt\":\"2024-06-05T08:55:25.527Z\",\"liquidity\":982865108.8780346,\"usdPrice\":119.49181703296617,\"blockId\":452943723,\"decimals\":9,\"priceChange24h\":-2.379757199186252}}"
+  },
+  {
+   "name": "jupiter_labels",
+   "url": "https://lite-api.jup.ag/swap/v1/program-id-to-label",
+   "status": 200,
+   "latency_ms": 33.9,
+   "ok": true,
+   "payload_sample": "{\"whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc\":\"Whirlpool\",\"HYEXCHtHkBagdStcJCp3xbbb9B7sdMdWXFNj6mdsG4hn\":\"Hylo Exchange\",\"PERPHjGBqRHArX4DySjwM6UJHiR3sWAatqfdBS2qQJu\":\"Perps\",\"SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy\":\"Sanctum\",\"FLUXubRmkEi2q6K3Y9kBPg9248ggaZVsoSFhtJHSrm1X\":\"FluxBeam\",\"Dooar9JkhdZ7J3LHN3A7YCuoGRUggXhQaG4kijfLGU2j\":\"StepN\",\"Archer8kgiavM61GyusMzaaS2ft5sALtNsD1HxkUPMhy\":\"Archer\""
+  },
+  {
+   "name": "raydium_pools_list",
+   "url": "https://api-v3.raydium.io/pools/info/list?poolType=all&poolSortField=volume24h&sortType=desc&pageSize=10&page=1",
+   "status": 200,
+   "latency_ms": 175.5,
+   "ok": true,
+   "payload_sample": "{\"id\":\"4eebcc21-f74a-4a34-82d6-39afa46cb6c8\",\"success\":true,\"data\":{\"count\":10,\"data\":[{\"type\":\"Concentrated\",\"programId\":\"CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK\",\"id\":\"3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv\",\"mintA\":{\"chainId\":101,\"address\":\"So11111111111111111111111111111111111111112\",\"programId\":\"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\",\"logoURI\":\"https://img-v1.raydium.io/icon/"
+  },
+  {
+   "name": "orca_pools",
+   "url": "https://api.orca.so/v2/solana/pools?size=5",
+   "status": 200,
+   "latency_ms": 172.6,
+   "ok": true,
+   "payload_sample": "{\"data\":[{\"address\":\"Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE\",\"whirlpoolsConfig\":\"2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ\",\"whirlpoolBump\":[255],\"tickSpacing\":4,\"tickSpacingSeed\":[4,0],\"feeRate\":400,\"protocolFeeRate\":1300,\"liquidity\":\"1026454310092252\",\"sqrtPrice\":\"6376504137203947114\",\"tickCurrentIndex\":-21247,\"protocolFeeOwedA\":\"39659920\",\"protocolFeeOwedB\":\"4718\",\"tokenMintA\":\"So11111"
+  },
+  {
+   "name": "geckoterminal_pools",
+   "url": "https://api.geckoterminal.com/api/v2/networks/solana/pools?page=1",
+   "status": 200,
+   "latency_ms": 74.8,
+   "ok": true,
+   "payload_sample": "{\"data\":[{\"id\":\"solana_58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2\",\"type\":\"pool\",\"attributes\":{\"base_token_price_usd\":\"119.363172066746025388886650732\",\"base_token_price_native_currency\":\"1.0\",\"quote_token_price_usd\":\"1.002526131353681755711203256955156636103964588\",\"quote_token_price_native_currency\":\"0.00839887129368037\",\"base_token_price_quote_token\":\"119.063617602\",\"quote_token_price_base_to"
+  },
+  {
+   "name": "dexscreener_search",
+   "url": "https://api.dexscreener.com/latest/dex/search?q=SOL/USDC",
+   "status": 200,
+   "latency_ms": 96.3,
+   "ok": true,
+   "payload_sample": "{\"schemaVersion\":\"1.0.0\",\"pairs\":[{\"chainId\":\"solana\",\"dexId\":\"meteoradbc\",\"url\":\"https://dexscreener.com/solana/8vkx9cjbpfqde8dzircyrkqfd9xsa1pk3m98nbnbwhtd\",\"pairAddress\":\"8vkx9CJBpfqDe8DZiRcyrKQfD9Xsa1PK3M98nbNbwhtd\",\"baseToken\":{\"address\":\"3YJSqXQkN5gXoZkHrHFnAMKwqyGv7B7WmRdyYVFAXnmh\",\"name\":\"UpSideDownCat\",\"symbol\":\"USDC\"},\"quoteToken\":{\"address\":\"So11111111111111111111111111111111111111112\","
+  },
+  {
+   "name": "jito_tip_floor",
+   "url": "https://bundles.jito.wtf/api/v1/bundles/tip_floor",
+   "status": 200,
+   "latency_ms": 348.5,
+   "ok": true,
+   "payload_sample": "[{\"time\":\"2026-10-03T13:13:27+00:00\",\"landed_tips_25th_percentile\":1.87725e-6,\"landed_tips_50th_percentile\":2.443e-6,\"landed_tips_75th_percentile\":0.0000128515,\"landed_tips_95th_percentile\":0.001,\"landed_tips_99th_percentile\":0.0015110000000000004,\"ema_landed_tips_50th_percentile\":3.3412743139703203e-6}]"
+  },
+  {
+   "name": "meteora_pair_all",
+   "url": "https://dlmm-api.meteora.ag/pair/all",
+   "status": 404,
+   "latency_ms": 108.5,
+   "ok": false,
+   "payload_sample": ""
+  },
+  {
+   "name": "pumpfun_frontend",
+   "url": "https://frontend-api.pump.fun/coins/So11111111111111111111111111111111111111112",
+   "status": 530,
+   "latency_ms": 78.5,
+   "ok": false,
+   "payload_sample": "<!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!-->\n<html class=\"no-js\" lang=\"en-US\">\n    <!--<![endif]-->\n    <head>\n        <title>Origin DNS error | frontend-api.pump.fun | Cloudflare</"
+  },
+  {
+   "name": "birdeye_price",
+   "url": "https://public-api.birdeye.so/defi/price?address=So11111111111111111111111111111111111111112",
+   "status": 401,
+   "latency_ms": 88.1,
+   "ok": false,
+   "payload_sample": "{\"success\":false,\"message\":\"Unauthorized\"}"
+  }
+ ],
+ "venues_used": [
+  "Raydium",
+  "Whirlpool",
+  "Meteora DLMM",
+  "Raydium CLMM",
+  "Meteora",
+  "Bonkswap"
+ ],
+ "tokens_covered": [
+  "BONK",
+  "WIF",
+  "POPCAT",
+  "FARTCOIN",
+  "TRUMP",
+  "PENGU",
+  "MEW"
+ ],
+ "window_seconds": 1887.9,
+ "solana_cycles": 11,
+ "evm_cycles": 11,
+ "effective_cycle_seconds": 171.62,
+ "pair_samples": 1375,
+ "fetch_failures": {
+  "http_400": 359
+ },
+ "cost_stack_solana": {
+  "gas_usd": 0.000597,
+  "priority_usd": 0.0,
+  "jito_tip_usd": 0.001536,
+  "slippage_buffer_bps": 10.0,
+  "added_usd": 0.002133,
+  "added_bps_at_notional": 10.213,
+  "gas_source": "5000 lamports @ SOL=$119.49",
+  "priority_source": "measured p75 0 uLamports/CU x 300000 CU (https://api.mainnet-beta.solana.com)",
+  "jito_source": "measured landed_tips_75th_percentile (https://bundles.jito.wtf/api/v1/bundles/tip_floor)",
+  "sol_price": 119.492,
+  "priority_distribution": {
+   "source": "https://api.mainnet-beta.solana.com",
+   "cu_limit": 300000,
+   "n": 150,
+   "nonzero": 2,
+   "p50": 0,
+   "p75": 0,
+   "p90": 0,
+   "p95": 0,
+   "max": 212094
+  },
+  "jito_distribution": {
+   "source": "https://bundles.jito.wtf/api/v1/bundles/tip_floor",
+   "landed_tips_25th_percentile": 1.87725e-06,
+   "landed_tips_50th_percentile": 2.443e-06,
+   "landed_tips_75th_percentile": 1.28515e-05,
+   "landed_tips_95th_percentile": 0.001,
+   "landed_tips_99th_percentile": 0.0015110000000000004,
+   "time": "2026-10-03T13:13:27+00:00"
+  }
+ },
+ "cost_stack_evm": {
+  "ethereum": {
+   "native_price_usd": 2680.96,
+   "gas_usd": 0.027923,
+   "rpc": "https://ethereum-rpc.publicnode.com",
+   "gas_assumed": 150000,
+   "gas_price_wei": 69435794,
+   "gas_price_gwei": 0.069435794,
+   "usd": 0.027923187942336003
+  },
+  "bsc": {
+   "native_price_usd": 773.21,
+   "gas_usd": 0.005799,
+   "rpc": "https://bsc-rpc.publicnode.com",
+   "gas_assumed": 150000,
+   "gas_price_wei": 50000000,
+   "gas_price_gwei": 0.05,
+   "usd": 0.005799075000000001
+  },
+  "base": {
+   "native_price_usd": 2678.87,
+   "gas_usd": 0.002411,
+   "rpc": "https://base-rpc.publicnode.com",
+   "gas_assumed": 150000,
+   "gas_price_wei": 6000000,
+   "gas_price_gwei": 0.006,
+   "usd": 0.002410983
+  }
+ },
+ "verdict": {
+  "venue_pairs_measured": 90,
+  "venue_pairs_ever_net_positive": 1,
+  "venue_pairs_ever_net_positive_pct": 0.8,
+  "top_venue_pairs": {
+   "solana:BONK:Raydium CLMM->Whirlpool": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Raydium CLMM",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -5.432,
+    "mean_net_bps": -34.922,
+    "p90_net_bps": -6.601,
+    "min_net_bps": -81.072,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -24.709,
+    "ever_positive": false
+   },
+   "solana:BONK:Meteora DLMM->Whirlpool": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Meteora DLMM",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -7.51,
+    "mean_net_bps": -40.059,
+    "p90_net_bps": -20.518,
+    "min_net_bps": -87.974,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -29.846,
+    "ever_positive": false
+   },
+   "solana:BONK:Bonkswap->Whirlpool": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Bonkswap",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -13.183,
+    "mean_net_bps": -52.025,
+    "p90_net_bps": -17.52,
+    "min_net_bps": -97.091,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -41.811,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Raydium CLMM->Whirlpool": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Raydium CLMM",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -14.337,
+    "mean_net_bps": -30.119,
+    "p90_net_bps": -18.173,
+    "min_net_bps": -45.025,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -19.906,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Meteora DLMM->Whirlpool": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Meteora DLMM",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -14.636,
+    "mean_net_bps": -31.222,
+    "p90_net_bps": -16.002,
+    "min_net_bps": -49.145,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -21.008,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Whirlpool->Raydium CLMM": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Whirlpool",
+    "sell_venue": "Raydium CLMM",
+    "max_net_bps": -22.167,
+    "mean_net_bps": -29.697,
+    "p90_net_bps": -24.432,
+    "min_net_bps": -37.546,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -19.484,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Whirlpool->Meteora DLMM": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Whirlpool",
+    "sell_venue": "Meteora DLMM",
+    "max_net_bps": -22.529,
+    "mean_net_bps": -31.638,
+    "p90_net_bps": -25.33,
+    "min_net_bps": -39.866,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -21.425,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Meteora DLMM->Raydium CLMM": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Meteora DLMM",
+    "sell_venue": "Raydium CLMM",
+    "max_net_bps": -24.388,
+    "mean_net_bps": -36.335,
+    "p90_net_bps": -32.205,
+    "min_net_bps": -52.357,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -26.122,
+    "ever_positive": false
+   },
+   "solana:TRUMP:Raydium CLMM->Meteora DLMM": {
+    "n": 11,
+    "token": "TRUMP",
+    "chain": "solana",
+    "buy_venue": "Raydium CLMM",
+    "sell_venue": "Meteora DLMM",
+    "max_net_bps": -24.452,
+    "mean_net_bps": -37.174,
+    "p90_net_bps": -32.36,
+    "min_net_bps": -46.082,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -26.96,
+    "ever_positive": false
+   },
+   "solana:BONK:Whirlpool->Raydium CLMM": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Whirlpool",
+    "sell_venue": "Raydium CLMM",
+    "max_net_bps": -24.847,
+    "mean_net_bps": -42.052,
+    "p90_net_bps": -27.819,
+    "min_net_bps": -82.995,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -31.839,
+    "ever_positive": false
+   },
+   "solana:WIF:Raydium->Whirlpool": {
+    "n": 11,
+    "token": "WIF",
+    "chain": "solana",
+    "buy_venue": "Raydium",
+    "sell_venue": "Whirlpool",
+    "max_net_bps": -26.096,
+    "mean_net_bps": -44.671,
+    "p90_net_bps": -28.211,
+    "min_net_bps": -70.676,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -34.457,
+    "ever_positive": false
+   },
+   "solana:BONK:Whirlpool->Meteora DLMM": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Whirlpool",
+    "sell_venue": "Meteora DLMM",
+    "max_net_bps": -31.686,
+    "mean_net_bps": -47.93,
+    "p90_net_bps": -34.221,
+    "min_net_bps": -105.291,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -37.716,
+    "ever_positive": false
+   },
+   "solana:BONK:Meteora DLMM->Raydium CLMM": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Meteora DLMM",
+    "sell_venue": "Raydium CLMM",
+    "max_net_bps": -32.963,
+    "mean_net_bps": -58.353,
+    "p90_net_bps": -46.393,
+    "min_net_bps": -94.771,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -48.14,
+    "ever_positive": false
+   },
+   "solana:BONK:Bonkswap->Raydium CLMM": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Bonkswap",
+    "sell_venue": "Raydium CLMM",
+    "max_net_bps": -38.62,
+    "mean_net_bps": -70.299,
+    "p90_net_bps": -45.303,
+    "min_net_bps": -103.883,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -60.086,
+    "ever_positive": false
+   },
+   "solana:BONK:Raydium CLMM->Meteora DLMM": {
+    "n": 11,
+    "token": "BONK",
+    "chain": "solana",
+    "buy_venue": "Raydium CLMM",
+    "sell_venue": "Meteora DLMM",
+    "max_net_bps": -40.258,
+    "mean_net_bps": -59.1,
+    "p90_net_bps": -50.842,
+    "min_net_bps": -110.16,
+    "pct_positive": 0.0,
+    "longest_positive_run": 0,
+    "mean_positive_net_bps": 0.0,
+    "mean_gross_bps": -48.887,
+    "ever_positive": false
+   }
+  },
+  "best_pair_by_mean_positive": "solana:BONK:Whirlpool->Whirlpool",
+  "best_usd_per_day_at_notional": 0.292,
+  "assumed_cycles_per_day": 503.4,
+  "size_sweeps": [
+   {
+    "max_executable_size_usd": 0.0,
+    "sweep": [
+     {
+      "size_usd": 100.0,
+      "gross_bps": -16.135,
+      "added_bps": 10.213,
+      "net_bps": -26.349
+     },
+     {
+      "size_usd": 500.0,
+      "gross_bps": -29.129,
+      "added_bps": 10.043,
+      "net_bps": -39.171
+     },
+     {
+      "size_usd": 1000.0,
+      "gross_bps": -48.27,
+      "added_bps": 10.021,
+      "net_bps": -58.292
+     },
+     {
+      "size_usd": 5000.0,
+      "gross_bps": -162.919,
+      "added_bps": 10.004,
+      "net_bps": -172.923
+     }
+    ],
+    "token": "TRUMP",
+    "buy_venue": "Whirlpool",
+    "sell_venue": "Raydium CLMM"
+   },
+   {
+    "max_executable_size_usd": 0.0,
+    "sweep": [
+     {
+      "size_usd": 100.0,
+      "gross_bps": -24.759,
+      "added_bps": 10.213,
+      "net_bps": -34.972
+     },
+     {
+      "size_usd": 500.0,
+      "gross_bps": -40.824,
+      "added_bps": 10.043,
+      "net_bps": -50.867
+     },
+     {
+      "size_usd": 1000.0,
+      "gross_bps": -57.916,
+      "added_bps": 10.021,
+      "net_bps": -67.938
+     },
+     {
+      "size_usd": 5000.0,
+      "gross_bps": -169.701,
+      "added_bps": 10.004,
+      "net_bps": -179.705
+     }
+    ],
+    "token": "TRUMP",
+    "buy_venue": "Raydium CLMM",
+    "sell_venue": "Whirlpool"
+   },
+   {
+    "max_executable_size_usd": 0.0,
+    "sweep": [
+     {
+      "size_usd": 100.0,
+      "gross_bps": -22.64,
+      "added_bps": 10.213,
+      "net_bps": -32.853
+     },
+     {
+      "size_usd": 500.0,
+      "gross_bps": -28.45,
+      "added_bps": 10.043,
+      "net_bps": -38.493
+     },
+     {
+      "size_usd": 1000.0,
+      "gross_bps": -41.49,
+      "added_bps": 10.021,
+      "net_bps": -51.512
+     },
+     {
+      "size_usd": 5000.0,
+      "gross_bps": -78.96,
+      "added_bps": 10.004,
+      "net_bps": -88.964
+     }
+    ],
+    "token": "TRUMP",
+    "buy_venue": "Meteora DLMM",
+    "sell_venue": "Whirlpool"
+   }
+  ]
+ },
+ "discarded": 66,
+ "cross_venue_verdict": {
+  "cross_venue_samples": 990,
+  "same_venue_samples": 385,
+  "widest_gross_bps": 4.781,
+  "mean_gross_bps": -240.476,
+  "worst_gross_bps": -1184.468,
+  "max_net_bps": -5.432,
+  "mean_net_bps": -250.67,
+  "cross_venue_samples_net_positive": 0,
+  "pct_cross_venue_net_positive": 0.0,
+  "ever_net_positive": false,
+  "best_pair": "solana:BONK:Raydium CLMM->Whirlpool",
+  "best_pair_gross_bps": 4.781,
+  "best_pair_net_bps": -5.432,
+  "best_usd_per_day_at_notional": 0.0,
+  "assumed_cycles_per_day": 503.4
+ },
+ "reanalyzed_at": "2026-10-03T13:57:53.523038+00:00"
+}

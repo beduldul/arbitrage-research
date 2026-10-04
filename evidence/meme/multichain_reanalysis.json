@@ -1,0 +1,1039 @@
+{
+ "generated_at": "2026-10-03T13:16:12.729110+00:00",
+ "mode": "reanalyze",
+ "source_files": [
+  "raw_multichain_20261003T131412Z.json"
+ ],
+ "notional_usd": 100.0,
+ "distribution": {
+  "abstract|cex_dex|PENGU": {
+   "n": 47,
+   "max_bps": 25.285,
+   "mean_bps": -3.759,
+   "p90_bps": 14.213,
+   "min_bps": -63.416,
+   "pct_positive": 36.17,
+   "longest_positive_run": 8,
+   "max_liquidity_usd": 422691.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "abstractswap"
+   ]
+  },
+  "abstract|cross_pool|PENGU": {
+   "n": 47,
+   "max_bps": -43.619,
+   "mean_bps": -46.865,
+   "p90_bps": -43.619,
+   "min_bps": -64.609,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 226176.0,
+   "buy_venues": [
+    "abstractswap"
+   ],
+   "sell_venues": [
+    "aborean"
+   ]
+  },
+  "arbitrum|cex_dex|BONK": {
+   "n": 47,
+   "max_bps": -62.377,
+   "mean_bps": -108.042,
+   "p90_bps": -89.545,
+   "min_bps": -143.881,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 26120.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "camelot"
+   ]
+  },
+  "base|cex_dex|AERO": {
+   "n": 47,
+   "max_bps": -46.161,
+   "mean_bps": -59.115,
+   "p90_bps": -52.51,
+   "min_bps": -64.965,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 41703033.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "aerodrome"
+   ]
+  },
+  "base|cex_dex|BOME": {
+   "n": 47,
+   "max_bps": -34.312,
+   "mean_bps": -60.855,
+   "p90_bps": -49.544,
+   "min_bps": -90.201,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 20274.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "base|cross_pool|AERO": {
+   "n": 47,
+   "max_bps": 1.291,
+   "mean_bps": -7.366,
+   "p90_bps": 1.29,
+   "min_bps": -15.107,
+   "pct_positive": 12.77,
+   "longest_positive_run": 6,
+   "max_liquidity_usd": 2817752.0,
+   "buy_venues": [
+    "aerodrome"
+   ],
+   "sell_venues": [
+    "aerodrome"
+   ]
+  },
+  "base|cross_pool|BRETT": {
+   "n": 47,
+   "max_bps": -30.984,
+   "mean_bps": -44.271,
+   "p90_bps": -30.984,
+   "min_bps": -61.786,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 209802.0,
+   "buy_venues": [
+    "aerodrome"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "base|cross_pool|DEGEN": {
+   "n": 47,
+   "max_bps": -22.767,
+   "mean_bps": -39.527,
+   "p90_bps": -22.767,
+   "min_bps": -50.905,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 127118.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "base|cross_pool|DOGINME": {
+   "n": 46,
+   "max_bps": 28.153,
+   "mean_bps": -29.128,
+   "p90_bps": -14.961,
+   "min_bps": -59.712,
+   "pct_positive": 4.35,
+   "longest_positive_run": 2,
+   "max_liquidity_usd": 87680.0,
+   "buy_venues": [
+    "aerodrome",
+    "uniswap"
+   ],
+   "sell_venues": [
+    "aerodrome",
+    "uniswap"
+   ]
+  },
+  "base|cross_pool|NPC": {
+   "n": 44,
+   "max_bps": -55.06,
+   "mean_bps": -64.108,
+   "p90_bps": -59.747,
+   "min_bps": -69.106,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 59150.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "aerodrome"
+   ]
+  },
+  "base|cross_pool|PEPE": {
+   "n": 18,
+   "max_bps": -65.213,
+   "mean_bps": -65.213,
+   "p90_bps": -65.213,
+   "min_bps": -65.213,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 96137.0,
+   "buy_venues": [
+    "quickswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "base|cross_pool|SPX": {
+   "n": 1,
+   "max_bps": -74.132,
+   "mean_bps": -74.132,
+   "p90_bps": -74.132,
+   "min_bps": -74.132,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 34564.0,
+   "buy_venues": [
+    "aerodrome"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "base|cross_pool|TOSHI": {
+   "n": 47,
+   "max_bps": -35.526,
+   "mean_bps": -41.348,
+   "p90_bps": -35.526,
+   "min_bps": -43.575,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 100175.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "bsc|cex_dex|BONK": {
+   "n": 47,
+   "max_bps": -45.972,
+   "mean_bps": -82.707,
+   "p90_bps": -67.947,
+   "min_bps": -95.185,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 89657.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cex_dex|DOGE": {
+   "n": 94,
+   "max_bps": -24.984,
+   "mean_bps": -45.918,
+   "p90_bps": -32.854,
+   "min_bps": -62.453,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 4418090.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cex_dex|FLOKI": {
+   "n": 47,
+   "max_bps": -21.673,
+   "mean_bps": -38.718,
+   "p90_bps": -25.371,
+   "min_bps": -65.812,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 9745874.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cex_dex|PENGU": {
+   "n": 47,
+   "max_bps": -45.52,
+   "mean_bps": -67.056,
+   "p90_bps": -49.903,
+   "min_bps": -80.923,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 105694.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cex_dex|SHIB": {
+   "n": 47,
+   "max_bps": -34.708,
+   "mean_bps": -63.737,
+   "p90_bps": -54.166,
+   "min_bps": -77.003,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 422084.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "dinosaureggs"
+   ]
+  },
+  "bsc|cross_pool|BABYDOGE": {
+   "n": 47,
+   "max_bps": -23.505,
+   "mean_bps": -27.488,
+   "p90_bps": -23.505,
+   "min_bps": -35.819,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 6952041.0,
+   "buy_venues": [
+    "pancakeswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cross_pool|BAN": {
+   "n": 55,
+   "max_bps": 24.176,
+   "mean_bps": -22.703,
+   "p90_bps": 13.122,
+   "min_bps": -29.925,
+   "pct_positive": 14.55,
+   "longest_positive_run": 1,
+   "max_liquidity_usd": 161218.0,
+   "buy_venues": [
+    "pancakeswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cross_pool|CAT": {
+   "n": 47,
+   "max_bps": -46.04,
+   "mean_bps": -51.791,
+   "p90_bps": -46.04,
+   "min_bps": -55.051,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 592155.0,
+   "buy_venues": [
+    "pancakeswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cross_pool|CHEEMS": {
+   "n": 29,
+   "max_bps": -54.883,
+   "mean_bps": -61.472,
+   "p90_bps": -54.883,
+   "min_bps": -62.527,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 1820800.0,
+   "buy_venues": [
+    "pancakeswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cross_pool|DOGE": {
+   "n": 47,
+   "max_bps": -2.955,
+   "mean_bps": -10.741,
+   "p90_bps": -11.087,
+   "min_bps": -11.087,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 145111.0,
+   "buy_venues": [
+    "pancakeswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "bsc|cross_pool|FLOKI": {
+   "n": 6,
+   "max_bps": -37.708,
+   "mean_bps": -37.708,
+   "p90_bps": -37.708,
+   "min_bps": -37.708,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 339273.0,
+   "buy_venues": [
+    "biswap"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "cronos|cex_dex|DOGE": {
+   "n": 47,
+   "max_bps": -37.333,
+   "mean_bps": -55.02,
+   "p90_bps": -40.138,
+   "min_bps": -72.872,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 80630.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "vvsfinance"
+   ]
+  },
+  "cronos|cex_dex|SHIB": {
+   "n": 47,
+   "max_bps": -26.856,
+   "mean_bps": -61.642,
+   "p90_bps": -44.441,
+   "min_bps": -79.589,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 133045.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "vvsfinance"
+   ]
+  },
+  "ethereum|cex_dex|BANANA": {
+   "n": 94,
+   "max_bps": 516.819,
+   "mean_bps": 196.219,
+   "p90_bps": 503.517,
+   "min_bps": -117.527,
+   "pct_positive": 50.0,
+   "longest_positive_run": 1,
+   "max_liquidity_usd": 21184409.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|BONK": {
+   "n": 47,
+   "max_bps": -75.38,
+   "mean_bps": -121.21,
+   "p90_bps": -102.646,
+   "min_bps": -157.178,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 47114.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "pancakeswap"
+   ]
+  },
+  "ethereum|cex_dex|FLOKI": {
+   "n": 47,
+   "max_bps": -75.418,
+   "mean_bps": -95.102,
+   "p90_bps": -81.329,
+   "min_bps": -115.826,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 8076103.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|MEME": {
+   "n": 47,
+   "max_bps": -25.37,
+   "mean_bps": -66.351,
+   "p90_bps": -42.416,
+   "min_bps": -93.551,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 275599.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|NEIRO": {
+   "n": 47,
+   "max_bps": -62.337,
+   "mean_bps": -97.466,
+   "p90_bps": -86.855,
+   "min_bps": -113.652,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 3711798.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|PENGU": {
+   "n": 94,
+   "max_bps": 481.16,
+   "mean_bps": 311.251,
+   "p90_bps": 466.042,
+   "min_bps": 114.353,
+   "pct_positive": 100.0,
+   "longest_positive_run": 94,
+   "max_liquidity_usd": 51441536.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|PEPE": {
+   "n": 47,
+   "max_bps": -86.319,
+   "mean_bps": -110.826,
+   "p90_bps": -93.341,
+   "min_bps": -123.662,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 31522783.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|SHIB": {
+   "n": 47,
+   "max_bps": -87.966,
+   "mean_bps": -110.038,
+   "p90_bps": -105.53,
+   "min_bps": -119.67,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 3079740.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "shibaswap"
+   ]
+  },
+  "ethereum|cex_dex|TRUMP": {
+   "n": 94,
+   "max_bps": 1287.297,
+   "mean_bps": 981.903,
+   "p90_bps": 1265.178,
+   "min_bps": 679.421,
+   "pct_positive": 100.0,
+   "longest_positive_run": 94,
+   "max_liquidity_usd": 1755300126.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|TURBO": {
+   "n": 47,
+   "max_bps": -7.166,
+   "mean_bps": -59.521,
+   "p90_bps": -22.805,
+   "min_bps": -113.727,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 95879.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cex_dex|WIF": {
+   "n": 47,
+   "max_bps": 1166.637,
+   "mean_bps": 1123.166,
+   "p90_bps": 1136.605,
+   "min_bps": 1102.932,
+   "pct_positive": 100.0,
+   "longest_positive_run": 47,
+   "max_liquidity_usd": 16536637.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cross_pool|ELON": {
+   "n": 47,
+   "max_bps": -63.177,
+   "mean_bps": -79.489,
+   "p90_bps": -77.284,
+   "min_bps": -84.644,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 1558833.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cross_pool|MOG": {
+   "n": 1,
+   "max_bps": -101.68,
+   "mean_bps": -101.68,
+   "p90_bps": -101.68,
+   "min_bps": -101.68,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 29223.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cross_pool|NPC": {
+   "n": 47,
+   "max_bps": 45.275,
+   "mean_bps": 25.451,
+   "p90_bps": 45.275,
+   "min_bps": 6.871,
+   "pct_positive": 100.0,
+   "longest_positive_run": 47,
+   "max_liquidity_usd": 25228.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cross_pool|SHIB": {
+   "n": 47,
+   "max_bps": -42.445,
+   "mean_bps": -70.153,
+   "p90_bps": -49.53,
+   "min_bps": -86.562,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 270632.0,
+   "buy_venues": [
+    "shibaswap",
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "ethereum|cross_pool|SPX": {
+   "n": 2,
+   "max_bps": -118.81,
+   "mean_bps": -118.81,
+   "p90_bps": -118.81,
+   "min_bps": -118.81,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 192906.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "hyperevm|cex_dex|USDC": {
+   "n": 47,
+   "max_bps": -82.042,
+   "mean_bps": -86.198,
+   "p90_bps": -82.042,
+   "min_bps": -90.708,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 70453.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "turbo"
+   ]
+  },
+  "robinhood|cex_dex|AERO": {
+   "n": 14,
+   "max_bps": 210.923,
+   "mean_bps": 202.649,
+   "p90_bps": 208.606,
+   "min_bps": 194.192,
+   "pct_positive": 100.0,
+   "longest_positive_run": 14,
+   "max_liquidity_usd": 749899901.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "robinhood|cex_dex|BANANA": {
+   "n": 47,
+   "max_bps": 195.982,
+   "mean_bps": 171.937,
+   "p90_bps": 183.146,
+   "min_bps": 144.829,
+   "pct_positive": 100.0,
+   "longest_positive_run": 47,
+   "max_liquidity_usd": 20413484.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "robinhood|cex_dex|PENGU": {
+   "n": 47,
+   "max_bps": 42.676,
+   "mean_bps": -11.092,
+   "p90_bps": 10.598,
+   "min_bps": -38.276,
+   "pct_positive": 12.77,
+   "longest_positive_run": 5,
+   "max_liquidity_usd": 194909.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "robinhood|cex_dex|TAO": {
+   "n": 47,
+   "max_bps": -41.79,
+   "mean_bps": -65.416,
+   "p90_bps": -50.773,
+   "min_bps": -86.266,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 87613.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "giga"
+   ]
+  },
+  "robinhood|cex_dex|TURBO": {
+   "n": 47,
+   "max_bps": 447.802,
+   "mean_bps": 390.717,
+   "p90_bps": 431.664,
+   "min_bps": 336.851,
+   "pct_positive": 100.0,
+   "longest_positive_run": 47,
+   "max_liquidity_usd": 26561.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "robinhood|cex_dex|USDE": {
+   "n": 47,
+   "max_bps": -117.343,
+   "mean_bps": -117.343,
+   "p90_bps": -117.343,
+   "min_bps": -117.343,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 35665.0,
+   "buy_venues": [
+    "binance"
+   ],
+   "sell_venues": [
+    "giga"
+   ]
+  },
+  "robinhood|cross_pool|CLOCKIN": {
+   "n": 11,
+   "max_bps": 3.533,
+   "mean_bps": 3.533,
+   "p90_bps": 3.533,
+   "min_bps": 3.533,
+   "pct_positive": 100.0,
+   "longest_positive_run": 11,
+   "max_liquidity_usd": 39792.0,
+   "buy_venues": [
+    "up"
+   ],
+   "sell_venues": [
+    "up"
+   ]
+  },
+  "robinhood|cross_pool|GIGA": {
+   "n": 47,
+   "max_bps": -66.492,
+   "mean_bps": -67.618,
+   "p90_bps": -66.492,
+   "min_bps": -67.962,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 35322.0,
+   "buy_venues": [
+    "giga"
+   ],
+   "sell_venues": [
+    "giga"
+   ]
+  },
+  "robinhood|cross_pool|MEME": {
+   "n": 47,
+   "max_bps": 492.664,
+   "mean_bps": 463.632,
+   "p90_bps": 492.664,
+   "min_bps": 451.112,
+   "pct_positive": 100.0,
+   "longest_positive_run": 47,
+   "max_liquidity_usd": 27475.0,
+   "buy_venues": [
+    "uniswap"
+   ],
+   "sell_venues": [
+    "uniswap"
+   ]
+  },
+  "robinhood|cross_pool|PONS": {
+   "n": 36,
+   "max_bps": -187.265,
+   "mean_bps": -206.02,
+   "p90_bps": -201.065,
+   "min_bps": -212.788,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 25214.0,
+   "buy_venues": [
+    "giga"
+   ],
+   "sell_venues": [
+    "giga"
+   ]
+  },
+  "robinhood|cross_pool|SPY": {
+   "n": 47,
+   "max_bps": -73.548,
+   "mean_bps": -75.643,
+   "p90_bps": -73.896,
+   "min_bps": -77.675,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "max_liquidity_usd": 39913.0,
+   "buy_venues": [
+    "giga"
+   ],
+   "sell_venues": [
+    "giga"
+   ]
+  }
+ },
+ "verdict": {
+  "abstract": {
+   "candidates": 94,
+   "max_net_bps": 25.285,
+   "mean_net_bps": -25.312,
+   "p90_net_bps": 9.394,
+   "pct_positive": 18.09,
+   "longest_positive_run": 1,
+   "any_net_positive": true,
+   "max_size_usd_clearing_zero": 576.7,
+   "identity_verified_candidates": 47,
+   "identity_verified_max_net_bps": -43.619,
+   "identity_verified_any_positive": false,
+   "identity_verified_max_size_usd_clearing_zero": 0.0,
+   "gas_usd_range_labelled": [
+    0.0,
+    5.0
+   ],
+   "best_symbol": "PENGU",
+   "best_kind": "cex_dex"
+  },
+  "arbitrum": {
+   "candidates": 47,
+   "max_net_bps": -62.377,
+   "mean_net_bps": -108.042,
+   "p90_net_bps": -89.545,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "any_net_positive": false,
+   "max_size_usd_clearing_zero": 0.0,
+   "identity_verified_candidates": 0,
+   "identity_verified_max_net_bps": null,
+   "identity_verified_any_positive": false,
+   "identity_verified_max_size_usd_clearing_zero": 0.0,
+   "gas_usd_range_labelled": [
+    0.01,
+    0.3
+   ],
+   "best_symbol": "BONK",
+   "best_kind": "cex_dex"
+  },
+  "base": {
+   "candidates": 391,
+   "max_net_bps": 28.153,
+   "mean_net_bps": -44.182,
+   "p90_net_bps": -11.482,
+   "pct_positive": 2.05,
+   "longest_positive_run": 1,
+   "any_net_positive": true,
+   "max_size_usd_clearing_zero": 170.9,
+   "identity_verified_candidates": 344,
+   "identity_verified_max_net_bps": 28.153,
+   "identity_verified_any_positive": true,
+   "identity_verified_max_size_usd_clearing_zero": 170.9,
+   "gas_usd_range_labelled": [
+    0.005,
+    0.1
+   ],
+   "best_symbol": "DOGINME",
+   "best_kind": "cross_pool"
+  },
+  "bsc": {
+   "candidates": 513,
+   "max_net_bps": 24.176,
+   "mean_net_bps": -46.119,
+   "p90_net_bps": -11.087,
+   "pct_positive": 1.56,
+   "longest_positive_run": 1,
+   "any_net_positive": true,
+   "max_size_usd_clearing_zero": 113.9,
+   "identity_verified_candidates": 278,
+   "identity_verified_max_net_bps": 24.176,
+   "identity_verified_any_positive": true,
+   "identity_verified_max_size_usd_clearing_zero": 113.9,
+   "gas_usd_range_labelled": [
+    0.05,
+    0.6
+   ],
+   "best_symbol": "BAN",
+   "best_kind": "cross_pool"
+  },
+  "cronos": {
+   "candidates": 94,
+   "max_net_bps": -26.856,
+   "mean_net_bps": -58.331,
+   "p90_net_bps": -41.648,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "any_net_positive": false,
+   "max_size_usd_clearing_zero": 0.0,
+   "identity_verified_candidates": 0,
+   "identity_verified_max_net_bps": null,
+   "identity_verified_any_positive": false,
+   "identity_verified_max_size_usd_clearing_zero": 0.0,
+   "gas_usd_range_labelled": [
+    0.01,
+    0.2
+   ],
+   "best_symbol": "SHIB",
+   "best_kind": "cex_dex"
+  },
+  "ethereum": {
+   "candidates": 802,
+   "max_net_bps": 1287.297,
+   "mean_net_bps": 193.977,
+   "p90_net_bps": 1116.583,
+   "pct_positive": 41.02,
+   "longest_positive_run": 3,
+   "any_net_positive": true,
+   "max_size_usd_clearing_zero": 9852.6,
+   "identity_verified_candidates": 332,
+   "identity_verified_max_net_bps": 45.275,
+   "identity_verified_any_positive": true,
+   "identity_verified_max_size_usd_clearing_zero": 170.9,
+   "gas_usd_range_labelled": [
+    0.5,
+    15.0
+   ],
+   "best_symbol": "TRUMP",
+   "best_kind": "cex_dex"
+  },
+  "hyperevm": {
+   "candidates": 47,
+   "max_net_bps": -82.042,
+   "mean_net_bps": -86.198,
+   "p90_net_bps": -82.042,
+   "pct_positive": 0.0,
+   "longest_positive_run": 0,
+   "any_net_positive": false,
+   "max_size_usd_clearing_zero": 0.0,
+   "identity_verified_candidates": 0,
+   "identity_verified_max_net_bps": null,
+   "identity_verified_any_positive": false,
+   "identity_verified_max_size_usd_clearing_zero": 0.0,
+   "gas_usd_range_labelled": [
+    0.005,
+    0.05
+   ],
+   "best_symbol": "USDC",
+   "best_kind": "cex_dex"
+  },
+  "robinhood": {
+   "candidates": 437,
+   "max_net_bps": 492.664,
+   "mean_net_bps": 63.731,
+   "p90_net_bps": 451.112,
+   "pct_positive": 39.36,
+   "longest_positive_run": 3,
+   "any_net_positive": true,
+   "max_size_usd_clearing_zero": 9852.6,
+   "identity_verified_candidates": 188,
+   "identity_verified_max_net_bps": 492.664,
+   "identity_verified_any_positive": true,
+   "identity_verified_max_size_usd_clearing_zero": 576.7,
+   "gas_usd_range_labelled": [
+    0.0,
+    5.0
+   ],
+   "best_symbol": "MEME",
+   "best_kind": "cross_pool"
+  }
+ }
+}

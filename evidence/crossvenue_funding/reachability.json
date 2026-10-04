@@ -1,0 +1,437 @@
+[
+  {
+    "name": "gate:enumerate",
+    "url": "https://api.gateio.ws/api/v4/futures/usdt/contracts",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 1320884,
+        "latency_ms": 2938.3
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 1320897,
+        "latency_ms": 2407.6
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 1320900,
+        "latency_ms": 2121.5
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 1320918,
+        "latency_ms": 2397.4
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 1320911,
+        "latency_ms": 2201.3
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "gate:funding",
+    "url": "https://api.gateio.ws/api/v4/futures/usdt/funding_rate?contract=BTC_USDT&limit=10",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 322,
+        "latency_ms": 422.5,
+        "payload_valid": true
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 322,
+        "latency_ms": 458.1,
+        "payload_valid": true
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 322,
+        "latency_ms": 377.0,
+        "payload_valid": true
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 322,
+        "latency_ms": 457.4,
+        "payload_valid": true
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 322,
+        "latency_ms": 367.5,
+        "payload_valid": true
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "bybit:enumerate",
+    "url": "https://api.bybit.com/v5/market/instruments-info?category=linear&limit=1000",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 835612,
+        "latency_ms": 632.4
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 835612,
+        "latency_ms": 321.5
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 835612,
+        "latency_ms": 245.1
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 835612,
+        "latency_ms": 494.0
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 835612,
+        "latency_ms": 242.7
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "bybit:funding",
+    "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BTCUSDT&limit=10",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 968,
+        "latency_ms": 60.6,
+        "payload_valid": true
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 968,
+        "latency_ms": 61.3,
+        "payload_valid": true
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 968,
+        "latency_ms": 66.1,
+        "payload_valid": true
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 968,
+        "latency_ms": 65.7,
+        "payload_valid": true
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 968,
+        "latency_ms": 69.0,
+        "payload_valid": true
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "okx:enumerate",
+    "url": "https://www.okx.com/api/v5/public/instruments?instType=SWAP",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 536826,
+        "latency_ms": 357.4
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 536826,
+        "latency_ms": 326.9
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 536826,
+        "latency_ms": 252.9
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 536826,
+        "latency_ms": 330.7
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 536826,
+        "latency_ms": 275.3
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "okx:funding",
+    "url": "https://www.okx.com/api/v5/public/funding-rate-history?instId=BTC-USDT-SWAP&limit=10",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 1976,
+        "latency_ms": 156.7,
+        "payload_valid": true
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 1976,
+        "latency_ms": 235.7,
+        "payload_valid": true
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 1976,
+        "latency_ms": 245.8,
+        "payload_valid": true
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 1976,
+        "latency_ms": 145.5,
+        "payload_valid": true
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 1976,
+        "latency_ms": 160.7,
+        "payload_valid": true
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "bitget:enumerate",
+    "url": "https://api.bitget.com/api/v2/mix/market/contracts?productType=usdt-futures",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 629178,
+        "latency_ms": 356.4
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 629178,
+        "latency_ms": 325.2
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 629178,
+        "latency_ms": 245.5
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 629178,
+        "latency_ms": 317.4
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 629178,
+        "latency_ms": 287.8
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "bitget:funding",
+    "url": "https://api.bitget.com/api/v2/mix/market/history-fund-rate?symbol=BTCUSDT&productType=usdt-futures&pageSize=10&pageNo=1",
+    "method": "GET",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 815,
+        "latency_ms": 151.9,
+        "payload_valid": true
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 815,
+        "latency_ms": 164.3,
+        "payload_valid": true
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 815,
+        "latency_ms": 203.8,
+        "payload_valid": true
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 815,
+        "latency_ms": 247.1,
+        "payload_valid": true
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 815,
+        "latency_ms": 167.3,
+        "payload_valid": true
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "hyperliquid:enumerate",
+    "url": "https://api.hyperliquid.xyz/info",
+    "method": "POST",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 72086,
+        "latency_ms": 148.6
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 72087,
+        "latency_ms": 172.9
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 72060,
+        "latency_ms": 519.6
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 72119,
+        "latency_ms": 167.7
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 72123,
+        "latency_ms": 226.1
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  },
+  {
+    "name": "hyperliquid:funding",
+    "url": "https://api.hyperliquid.xyz/info",
+    "method": "POST",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "bytes": 2140,
+        "latency_ms": 253.3,
+        "payload_valid": true
+      },
+      {
+        "attempt": 2,
+        "status": 200,
+        "bytes": 2140,
+        "latency_ms": 197.2,
+        "payload_valid": true
+      },
+      {
+        "attempt": 3,
+        "status": 200,
+        "bytes": 2140,
+        "latency_ms": 214.7,
+        "payload_valid": true
+      },
+      {
+        "attempt": 4,
+        "status": 200,
+        "bytes": 2140,
+        "latency_ms": 158.4,
+        "payload_valid": true
+      },
+      {
+        "attempt": 5,
+        "status": 200,
+        "bytes": 2140,
+        "latency_ms": 157.8,
+        "payload_valid": true
+      }
+    ],
+    "ok_attempts": 5,
+    "valid_attempts": 5,
+    "reachable": true,
+    "payload_valid": true
+  }
+]

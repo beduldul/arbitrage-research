@@ -1,0 +1,16 @@
+{
+ "binance_usdt_perps_in_index": 901,
+ "months_requested": 6,
+ "months": [
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08",
+  "2026-09"
+ ],
+ "with_funding_history": 777,
+ "with_spot_volume_ge_1m": 203,
+ "with_spot_volume_ge_5m": 87,
+ "with_perp_snapshot": 733
+}

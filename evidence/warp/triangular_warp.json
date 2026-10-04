@@ -1,0 +1,1674 @@
+{
+  "generated_at": "2026-10-03T14:38:25.389379+00:00",
+  "notional_usd": 100.0,
+  "venues": {
+    "coinbase": {
+      "fee": {
+        "taker_bps": 60.0,
+        "verified": false,
+        "tier": "Exchange base <$10k 30d"
+      },
+      "n_triangles_enumerated": 39,
+      "n_polled": 12,
+      "samples": 20,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 20,
+        "executable_samples": 20,
+        "max_net_bps": -179.217,
+        "mean_net_bps": -185.28,
+        "median_net_bps": -183.094,
+        "p90_net_bps": -180.568,
+        "min_net_bps": -197.577,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USD->USDT->LINK->USD",
+        "legs": [
+          "USDT/USD",
+          "LINK/USDT",
+          "LINK/USD"
+        ],
+        "min_leg_volume_usd": 42203.0
+      },
+      "triangles": [
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -179.217,
+          "mean_net_bps": -185.28,
+          "median_net_bps": -183.094,
+          "p90_net_bps": -180.568,
+          "min_net_bps": -197.577,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->LINK->USD",
+          "legs": [
+            "USDT/USD",
+            "LINK/USDT",
+            "LINK/USD"
+          ],
+          "min_leg_volume_usd": 42203.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -179.327,
+          "mean_net_bps": -183.613,
+          "median_net_bps": -183.036,
+          "p90_net_bps": -179.791,
+          "min_net_bps": -189.748,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->XLM->USD",
+          "legs": [
+            "USDT/USD",
+            "XLM/USDT",
+            "XLM/USD"
+          ],
+          "min_leg_volume_usd": 17894.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -179.434,
+          "mean_net_bps": -179.919,
+          "median_net_bps": -179.856,
+          "p90_net_bps": -179.61,
+          "min_net_bps": -180.618,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->USDT->USD",
+          "legs": [
+            "ETH/USD",
+            "ETH/USDT",
+            "USDT/USD"
+          ],
+          "min_leg_volume_usd": 1737201.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -179.585,
+          "mean_net_bps": -181.874,
+          "median_net_bps": -182.502,
+          "p90_net_bps": -179.652,
+          "min_net_bps": -184.998,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->USDT->USD",
+          "legs": [
+            "BTC/USD",
+            "BTC/USDT",
+            "USDT/USD"
+          ],
+          "min_leg_volume_usd": 2042021.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -180.162,
+          "mean_net_bps": -180.95,
+          "median_net_bps": -181.083,
+          "p90_net_bps": -180.251,
+          "min_net_bps": -182.003,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->SOL->USDT->USD",
+          "legs": [
+            "SOL/USD",
+            "SOL/USDT",
+            "USDT/USD"
+          ],
+          "min_leg_volume_usd": 325207.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -180.422,
+          "mean_net_bps": -181.498,
+          "median_net_bps": -181.365,
+          "p90_net_bps": -180.929,
+          "min_net_bps": -183.066,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->XRP->USDT->USD",
+          "legs": [
+            "XRP/USD",
+            "XRP/USDT",
+            "USDT/USD"
+          ],
+          "min_leg_volume_usd": 49916.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -180.854,
+          "mean_net_bps": -181.963,
+          "median_net_bps": -181.951,
+          "p90_net_bps": -180.955,
+          "min_net_bps": -183.351,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->ADA->USD",
+          "legs": [
+            "USDT/USD",
+            "ADA/USDT",
+            "ADA/USD"
+          ],
+          "min_leg_volume_usd": 148496.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -182.231,
+          "mean_net_bps": -183.5,
+          "median_net_bps": -183.614,
+          "p90_net_bps": -182.467,
+          "min_net_bps": -184.876,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->AVAX->USD",
+          "legs": [
+            "USDT/USD",
+            "AVAX/USDT",
+            "AVAX/USD"
+          ],
+          "min_leg_volume_usd": 78213.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -184.472,
+          "mean_net_bps": -187.183,
+          "median_net_bps": -187.374,
+          "p90_net_bps": -184.765,
+          "min_net_bps": -189.643,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->NEAR->USD",
+          "legs": [
+            "USDT/USD",
+            "NEAR/USDT",
+            "NEAR/USD"
+          ],
+          "min_leg_volume_usd": 22538.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -192.067,
+          "mean_net_bps": -214.576,
+          "median_net_bps": -216.596,
+          "p90_net_bps": -200.169,
+          "min_net_bps": -234.379,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->QNT->USD",
+          "legs": [
+            "USDT/USD",
+            "QNT/USDT",
+            "QNT/USD"
+          ],
+          "min_leg_volume_usd": 362042.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 20,
+          "max_net_bps": -193.548,
+          "mean_net_bps": -197.458,
+          "median_net_bps": -197.58,
+          "p90_net_bps": -195.056,
+          "min_net_bps": -200.811,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->LINK->USD",
+          "legs": [
+            "ETH/USD",
+            "LINK/ETH",
+            "LINK/USD"
+          ],
+          "min_leg_volume_usd": 104.0
+        },
+        {
+          "samples": 20,
+          "executable_samples": 0,
+          "max_net_bps": null,
+          "mean_net_bps": null,
+          "median_net_bps": null,
+          "p90_net_bps": null,
+          "min_net_bps": null,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->ETH->LINK->USDC",
+          "legs": [
+            "ETH/USDC",
+            "LINK/ETH",
+            "LINK/USDC"
+          ],
+          "min_leg_volume_usd": 104.0
+        }
+      ]
+    },
+    "kraken": {
+      "fee": {
+        "taker_bps": 26.0,
+        "verified": false,
+        "tier": "spot base $0 tier"
+      },
+      "n_triangles_enumerated": 76,
+      "n_polled": 12,
+      "samples": 19,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 19,
+        "executable_samples": 19,
+        "max_net_bps": -74.583,
+        "mean_net_bps": -76.453,
+        "median_net_bps": -76.303,
+        "p90_net_bps": -75.36,
+        "min_net_bps": -78.04,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USD->ETH->EUR->USD",
+        "legs": [
+          "ETH/USD",
+          "ETH/EUR",
+          "EUR/USD"
+        ],
+        "min_leg_volume_usd": 11013406.0
+      },
+      "triangles": [
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -74.583,
+          "mean_net_bps": -76.453,
+          "median_net_bps": -76.303,
+          "p90_net_bps": -75.36,
+          "min_net_bps": -78.04,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->EUR->USD",
+          "legs": [
+            "ETH/USD",
+            "ETH/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 11013406.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -74.872,
+          "mean_net_bps": -76.357,
+          "median_net_bps": -76.326,
+          "p90_net_bps": -75.338,
+          "min_net_bps": -78.0,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->EUR->USD",
+          "legs": [
+            "BTC/USD",
+            "BTC/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 19927230.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -75.375,
+          "mean_net_bps": -77.264,
+          "median_net_bps": -77.263,
+          "p90_net_bps": -76.388,
+          "min_net_bps": -78.566,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->SOL->EUR->USD",
+          "legs": [
+            "SOL/USD",
+            "SOL/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 9263853.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -75.418,
+          "mean_net_bps": -77.65,
+          "median_net_bps": -77.576,
+          "p90_net_bps": -75.945,
+          "min_net_bps": -79.828,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->RP->EUR->USD",
+          "legs": [
+            "RP/USD",
+            "RP/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 11478094.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -75.798,
+          "mean_net_bps": -77.057,
+          "median_net_bps": -77.33,
+          "p90_net_bps": -75.798,
+          "min_net_bps": -78.27,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->EUR->USD",
+          "legs": [
+            "USDT/USD",
+            "USDT/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 19927230.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -76.06,
+          "mean_net_bps": -77.315,
+          "median_net_bps": -77.663,
+          "p90_net_bps": -76.388,
+          "min_net_bps": -78.155,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->USDT->USD",
+          "legs": [
+            "BTC/USD",
+            "BTC/USDT",
+            "USDT/USD"
+          ],
+          "min_leg_volume_usd": 12256025.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -76.235,
+          "mean_net_bps": -77.786,
+          "median_net_bps": -77.753,
+          "p90_net_bps": -76.933,
+          "min_net_bps": -79.27,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->USDC->USD",
+          "legs": [
+            "ETH/USD",
+            "ETH/USDC",
+            "USDC/USD"
+          ],
+          "min_leg_volume_usd": 13694174.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -76.488,
+          "mean_net_bps": -77.678,
+          "median_net_bps": -77.854,
+          "p90_net_bps": -76.791,
+          "min_net_bps": -78.554,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->USDC->USD",
+          "legs": [
+            "BTC/USD",
+            "BTC/USDC",
+            "USDC/USD"
+          ],
+          "min_leg_volume_usd": 22387104.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -76.568,
+          "mean_net_bps": -77.764,
+          "median_net_bps": -78.1,
+          "p90_net_bps": -76.568,
+          "min_net_bps": -79.039,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDC->EUR->USD",
+          "legs": [
+            "USDC/USD",
+            "USDC/EUR",
+            "EUR/USD"
+          ],
+          "min_leg_volume_usd": 19927230.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -76.996,
+          "mean_net_bps": -78.538,
+          "median_net_bps": -78.659,
+          "p90_net_bps": -78.191,
+          "min_net_bps": -79.373,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->BTC->USDT",
+          "legs": [
+            "USDC/USDT",
+            "BTC/USDC",
+            "BTC/USDT"
+          ],
+          "min_leg_volume_usd": 12256025.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -77.529,
+          "mean_net_bps": -78.255,
+          "median_net_bps": -78.058,
+          "p90_net_bps": -77.659,
+          "min_net_bps": -79.463,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->ETH->USD",
+          "legs": [
+            "USDT/USD",
+            "ETH/USDT",
+            "ETH/USD"
+          ],
+          "min_leg_volume_usd": 4903428.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -78.888,
+          "mean_net_bps": -78.888,
+          "median_net_bps": -78.888,
+          "p90_net_bps": -78.888,
+          "min_net_bps": -78.888,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->USDT->USDC->USD",
+          "legs": [
+            "USDT/USD",
+            "USDC/USDT",
+            "USDC/USD"
+          ],
+          "min_leg_volume_usd": 17808330.0
+        }
+      ]
+    },
+    "deribit": {
+      "fee": {
+        "taker_bps": 5.0,
+        "verified": true,
+        "tier": "spot taker (instrument payload)"
+      },
+      "n_triangles_enumerated": 4,
+      "n_polled": 4,
+      "samples": 29,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 29,
+        "executable_samples": 29,
+        "max_net_bps": -16.67,
+        "mean_net_bps": -18.134,
+        "median_net_bps": -18.259,
+        "p90_net_bps": -17.041,
+        "min_net_bps": -19.926,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USDC->ETH->SOL->USDC",
+        "legs": [
+          "ETH/USDC",
+          "SOL/ETH",
+          "SOL/USDC"
+        ],
+        "min_leg_volume_usd": 5.0
+      },
+      "triangles": [
+        {
+          "samples": 29,
+          "executable_samples": 29,
+          "max_net_bps": -16.67,
+          "mean_net_bps": -18.134,
+          "median_net_bps": -18.259,
+          "p90_net_bps": -17.041,
+          "min_net_bps": -19.926,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->ETH->SOL->USDC",
+          "legs": [
+            "ETH/USDC",
+            "SOL/ETH",
+            "SOL/USDC"
+          ],
+          "min_leg_volume_usd": 5.0
+        },
+        {
+          "samples": 29,
+          "executable_samples": 29,
+          "max_net_bps": -27.24,
+          "mean_net_bps": -28.329,
+          "median_net_bps": -28.325,
+          "p90_net_bps": -27.738,
+          "min_net_bps": -29.751,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->BTC->USDT->USDC",
+          "legs": [
+            "BTC/USDC",
+            "BTC/USDT",
+            "USDT/USDC"
+          ],
+          "min_leg_volume_usd": 48492.0
+        },
+        {
+          "samples": 29,
+          "executable_samples": 29,
+          "max_net_bps": -33.031,
+          "mean_net_bps": -36.935,
+          "median_net_bps": -37.5,
+          "p90_net_bps": -34.142,
+          "min_net_bps": -40.789,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->ETH->USDT->USDC",
+          "legs": [
+            "ETH/USDC",
+            "ETH/USDT",
+            "USDT/USDC"
+          ],
+          "min_leg_volume_usd": 13134.0
+        },
+        {
+          "samples": 29,
+          "executable_samples": 29,
+          "max_net_bps": -40.286,
+          "mean_net_bps": -42.228,
+          "median_net_bps": -41.78,
+          "p90_net_bps": -40.455,
+          "min_net_bps": -45.48,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->BTC->ETH->USDC",
+          "legs": [
+            "BTC/USDC",
+            "ETH/BTC",
+            "ETH/USDC"
+          ],
+          "min_leg_volume_usd": 0.0
+        }
+      ]
+    },
+    "cryptocom": {
+      "fee": {
+        "taker_bps": 7.5,
+        "verified": false,
+        "tier": "Exchange base tier"
+      },
+      "n_triangles_enumerated": 25,
+      "n_polled": 12,
+      "samples": 19,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 19,
+        "executable_samples": 19,
+        "max_net_bps": -21.33,
+        "mean_net_bps": -22.346,
+        "median_net_bps": -22.667,
+        "p90_net_bps": -21.332,
+        "min_net_bps": -23.298,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USD->BTC->ETH->USD",
+        "legs": [
+          "BTC/USD",
+          "ETH/BTC",
+          "ETH/USD"
+        ],
+        "min_leg_volume_usd": 1205840.0
+      },
+      "triangles": [
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -21.33,
+          "mean_net_bps": -22.346,
+          "median_net_bps": -22.667,
+          "p90_net_bps": -21.332,
+          "min_net_bps": -23.298,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->ETH->USD",
+          "legs": [
+            "BTC/USD",
+            "ETH/BTC",
+            "ETH/USD"
+          ],
+          "min_leg_volume_usd": 1205840.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -21.84,
+          "mean_net_bps": -22.442,
+          "median_net_bps": -22.505,
+          "p90_net_bps": -21.872,
+          "min_net_bps": -23.456,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->ETH->USDT",
+          "legs": [
+            "BTC/USDT",
+            "ETH/BTC",
+            "ETH/USDT"
+          ],
+          "min_leg_volume_usd": 1205840.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -23.108,
+          "mean_net_bps": -28.332,
+          "median_net_bps": -28.088,
+          "p90_net_bps": -26.634,
+          "min_net_bps": -33.248,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->SOL->USDT",
+          "legs": [
+            "BTC/USDT",
+            "SOL/BTC",
+            "SOL/USDT"
+          ],
+          "min_leg_volume_usd": 17089.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -24.083,
+          "mean_net_bps": -28.576,
+          "median_net_bps": -27.906,
+          "p90_net_bps": -26.408,
+          "min_net_bps": -33.994,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->SOL->USD",
+          "legs": [
+            "BTC/USD",
+            "SOL/BTC",
+            "SOL/USD"
+          ],
+          "min_leg_volume_usd": 17089.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -25.927,
+          "mean_net_bps": -32.447,
+          "median_net_bps": -31.693,
+          "p90_net_bps": -28.994,
+          "min_net_bps": -37.918,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->SOL->USD",
+          "legs": [
+            "ETH/USD",
+            "SOL/ETH",
+            "SOL/USD"
+          ],
+          "min_leg_volume_usd": 11362.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -26.967,
+          "mean_net_bps": -32.012,
+          "median_net_bps": -32.131,
+          "p90_net_bps": -29.217,
+          "min_net_bps": -35.668,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ETH->SOL->USDT",
+          "legs": [
+            "ETH/USDT",
+            "SOL/ETH",
+            "SOL/USDT"
+          ],
+          "min_leg_volume_usd": 11362.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -32.771,
+          "mean_net_bps": -35.169,
+          "median_net_bps": -35.487,
+          "p90_net_bps": -33.895,
+          "min_net_bps": -36.613,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->XRP->USD",
+          "legs": [
+            "BTC/USD",
+            "XRP/BTC",
+            "XRP/USD"
+          ],
+          "min_leg_volume_usd": 30691.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -33.563,
+          "mean_net_bps": -34.697,
+          "median_net_bps": -34.466,
+          "p90_net_bps": -33.786,
+          "min_net_bps": -36.109,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->XRP->USDT",
+          "legs": [
+            "BTC/USDT",
+            "XRP/BTC",
+            "XRP/USDT"
+          ],
+          "min_leg_volume_usd": 30691.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -34.916,
+          "mean_net_bps": -37.685,
+          "median_net_bps": -37.582,
+          "p90_net_bps": -36.256,
+          "min_net_bps": -40.165,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ETH->CRO->USDT",
+          "legs": [
+            "ETH/USDT",
+            "ETH/CRO",
+            "CRO/USDT"
+          ],
+          "min_leg_volume_usd": 135193.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -37.386,
+          "mean_net_bps": -40.294,
+          "median_net_bps": -40.337,
+          "p90_net_bps": -38.648,
+          "min_net_bps": -42.539,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->ETH->CRO->USD",
+          "legs": [
+            "ETH/USD",
+            "ETH/CRO",
+            "CRO/USD"
+          ],
+          "min_leg_volume_usd": 135193.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -42.953,
+          "mean_net_bps": -44.588,
+          "median_net_bps": -44.139,
+          "p90_net_bps": -42.989,
+          "min_net_bps": -46.826,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->CRO->USDT",
+          "legs": [
+            "BTC/USDT",
+            "CRO/BTC",
+            "CRO/USDT"
+          ],
+          "min_leg_volume_usd": 188874.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -43.867,
+          "mean_net_bps": -47.038,
+          "median_net_bps": -47.457,
+          "p90_net_bps": -44.838,
+          "min_net_bps": -49.537,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USD->BTC->CRO->USD",
+          "legs": [
+            "BTC/USD",
+            "CRO/BTC",
+            "CRO/USD"
+          ],
+          "min_leg_volume_usd": 188874.0
+        }
+      ]
+    },
+    "bybit": {
+      "fee": {
+        "taker_bps": 10.0,
+        "verified": false,
+        "tier": "spot base VIP0"
+      },
+      "n_triangles_enumerated": 29,
+      "n_polled": 12,
+      "samples": 19,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 19,
+        "executable_samples": 19,
+        "max_net_bps": -28.105,
+        "mean_net_bps": -30.102,
+        "median_net_bps": -29.422,
+        "p90_net_bps": -28.916,
+        "min_net_bps": -44.08,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USDT->BTC->RLUSD->USDT",
+        "legs": [
+          "BTC/USDT",
+          "BTC/RLUSD",
+          "RLUSD/USDT"
+        ],
+        "min_leg_volume_usd": 691878.0
+      },
+      "triangles": [
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.105,
+          "mean_net_bps": -30.102,
+          "median_net_bps": -29.422,
+          "p90_net_bps": -28.916,
+          "min_net_bps": -44.08,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->RLUSD->USDT",
+          "legs": [
+            "BTC/USDT",
+            "BTC/RLUSD",
+            "RLUSD/USDT"
+          ],
+          "min_leg_volume_usd": 691878.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.713,
+          "mean_net_bps": -29.885,
+          "median_net_bps": -29.679,
+          "p90_net_bps": -29.33,
+          "min_net_bps": -32.06,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ETH->USDC->USDT",
+          "legs": [
+            "ETH/USDT",
+            "ETH/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 9116172.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.75,
+          "mean_net_bps": -29.854,
+          "median_net_bps": -29.796,
+          "p90_net_bps": -29.41,
+          "min_net_bps": -30.772,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->USDC->USDT",
+          "legs": [
+            "BTC/USDT",
+            "BTC/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 33194019.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -30.625,
+          "mean_net_bps": -32.29,
+          "median_net_bps": -31.964,
+          "p90_net_bps": -31.294,
+          "min_net_bps": -35.31,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->XRP->USDT",
+          "legs": [
+            "USDC/USDT",
+            "XRP/USDC",
+            "XRP/USDT"
+          ],
+          "min_leg_volume_usd": 3347747.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -30.654,
+          "mean_net_bps": -32.29,
+          "median_net_bps": -31.995,
+          "p90_net_bps": -31.325,
+          "min_net_bps": -35.339,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->XRP->RLUSD->USDT",
+          "legs": [
+            "XRP/USDT",
+            "XRP/RLUSD",
+            "RLUSD/USDT"
+          ],
+          "min_leg_volume_usd": 215993.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -31.131,
+          "mean_net_bps": -32.118,
+          "median_net_bps": -31.964,
+          "p90_net_bps": -31.131,
+          "min_net_bps": -33.441,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->SOL->USDT",
+          "legs": [
+            "USDC/USDT",
+            "SOL/USDC",
+            "SOL/USDT"
+          ],
+          "min_leg_volume_usd": 1077698.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -32.395,
+          "mean_net_bps": -36.505,
+          "median_net_bps": -36.465,
+          "p90_net_bps": -32.395,
+          "min_net_bps": -40.969,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->LTC->USDT",
+          "legs": [
+            "USDC/USDT",
+            "LTC/USDC",
+            "LTC/USDT"
+          ],
+          "min_leg_volume_usd": 199312.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -32.726,
+          "mean_net_bps": -34.063,
+          "median_net_bps": -33.644,
+          "p90_net_bps": -32.807,
+          "min_net_bps": -38.63,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->SUI->USDT",
+          "legs": [
+            "USDC/USDT",
+            "SUI/USDC",
+            "SUI/USDT"
+          ],
+          "min_leg_volume_usd": 2561470.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -33.031,
+          "mean_net_bps": -33.754,
+          "median_net_bps": -33.032,
+          "p90_net_bps": -33.031,
+          "min_net_bps": -36.235,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->DOGE->USDT",
+          "legs": [
+            "USDC/USDT",
+            "DOGE/USDC",
+            "DOGE/USDT"
+          ],
+          "min_leg_volume_usd": 664586.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -35.336,
+          "mean_net_bps": -39.43,
+          "median_net_bps": -38.13,
+          "p90_net_bps": -36.603,
+          "min_net_bps": -49.095,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->WLD->USDT",
+          "legs": [
+            "USDC/USDT",
+            "WLD/USDC",
+            "WLD/USDT"
+          ],
+          "min_leg_volume_usd": 977685.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -35.933,
+          "mean_net_bps": -44.044,
+          "median_net_bps": -42.848,
+          "p90_net_bps": -38.645,
+          "min_net_bps": -52.868,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->PUMP->USDT",
+          "legs": [
+            "USDC/USDT",
+            "PUMP/USDC",
+            "PUMP/USDT"
+          ],
+          "min_leg_volume_usd": 213138.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -49.863,
+          "mean_net_bps": -56.971,
+          "median_net_bps": -58.059,
+          "p90_net_bps": -50.942,
+          "min_net_bps": -59.618,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->BTC->USDE->USDC",
+          "legs": [
+            "BTC/USDC",
+            "BTC/USDE",
+            "USDE/USDC"
+          ],
+          "min_leg_volume_usd": 178949.0
+        }
+      ]
+    },
+    "okx": {
+      "fee": {
+        "taker_bps": 10.0,
+        "verified": false,
+        "tier": "spot base Lv1"
+      },
+      "n_triangles_enumerated": 22,
+      "n_polled": 12,
+      "samples": 19,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 19,
+        "executable_samples": 19,
+        "max_net_bps": -27.542,
+        "mean_net_bps": -33.195,
+        "median_net_bps": -34.114,
+        "p90_net_bps": -30.136,
+        "min_net_bps": -36.418,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USDT->AAVE->USDC->USDT",
+        "legs": [
+          "AAVE/USDT",
+          "AAVE/USDC",
+          "USDC/USDT"
+        ],
+        "min_leg_volume_usd": 96393077.0
+      },
+      "triangles": [
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -27.542,
+          "mean_net_bps": -33.195,
+          "median_net_bps": -34.114,
+          "p90_net_bps": -30.136,
+          "min_net_bps": -36.418,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->AAVE->USDC->USDT",
+          "legs": [
+            "AAVE/USDT",
+            "AAVE/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 96393077.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.174,
+          "mean_net_bps": -29.589,
+          "median_net_bps": -29.445,
+          "p90_net_bps": -29.174,
+          "min_net_bps": -31.149,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->USDC->USDT",
+          "legs": [
+            "BTC/USDT",
+            "BTC/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 511556243.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.346,
+          "mean_net_bps": -30.172,
+          "median_net_bps": -30.142,
+          "p90_net_bps": -29.687,
+          "min_net_bps": -31.536,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ETH->USDC->USDT",
+          "legs": [
+            "ETH/USDT",
+            "ETH/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 511556243.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.536,
+          "mean_net_bps": -29.934,
+          "median_net_bps": -30.117,
+          "p90_net_bps": -29.536,
+          "min_net_bps": -30.698,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->XSNDK->USDC->USDT",
+          "legs": [
+            "XSNDK/USDT",
+            "XSNDK/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 511556243.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.811,
+          "mean_net_bps": -31.338,
+          "median_net_bps": -31.182,
+          "p90_net_bps": -30.935,
+          "min_net_bps": -33.8,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BNB->USDC->USDT",
+          "legs": [
+            "BNB/USDT",
+            "BNB/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 338231120.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.837,
+          "mean_net_bps": -31.632,
+          "median_net_bps": -31.859,
+          "p90_net_bps": -30.533,
+          "min_net_bps": -33.669,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->HYPE->USDC->USDT",
+          "legs": [
+            "HYPE/USDT",
+            "HYPE/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 165530541.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -30.042,
+          "mean_net_bps": -31.453,
+          "median_net_bps": -31.286,
+          "p90_net_bps": -30.863,
+          "min_net_bps": -33.007,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->SOL->USDC->USDT",
+          "legs": [
+            "SOL/USDT",
+            "SOL/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 511556243.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -31.682,
+          "mean_net_bps": -35.852,
+          "median_net_bps": -35.198,
+          "p90_net_bps": -31.787,
+          "min_net_bps": -41.993,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->TAO->USDC->USDT",
+          "legs": [
+            "TAO/USDT",
+            "TAO/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 437566010.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -32.562,
+          "mean_net_bps": -34.779,
+          "median_net_bps": -35.525,
+          "p90_net_bps": -33.84,
+          "min_net_bps": -36.961,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->LTC->USDC->USDT",
+          "legs": [
+            "LTC/USDT",
+            "LTC/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 37169369.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -32.677,
+          "mean_net_bps": -34.359,
+          "median_net_bps": -34.522,
+          "p90_net_bps": -32.677,
+          "min_net_bps": -35.752,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->XMSTR->USDC->USDT",
+          "legs": [
+            "XMSTR/USDT",
+            "XMSTR/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 166380426.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -34.039,
+          "mean_net_bps": -35.826,
+          "median_net_bps": -35.797,
+          "p90_net_bps": -34.238,
+          "min_net_bps": -37.856,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ZEC->USDC->USDT",
+          "legs": [
+            "ZEC/USDT",
+            "ZEC/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 511556243.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -36.862,
+          "mean_net_bps": -40.044,
+          "median_net_bps": -40.129,
+          "p90_net_bps": -39.285,
+          "min_net_bps": -42.548,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->XCRCL->USDC->USDT",
+          "legs": [
+            "XCRCL/USDT",
+            "XCRCL/USDC",
+            "USDC/USDT"
+          ],
+          "min_leg_volume_usd": 230009012.0
+        }
+      ]
+    },
+    "binance": {
+      "fee": {
+        "taker_bps": 10.0,
+        "verified": false,
+        "tier": "spot VIP0 (project \u00a710.2)"
+      },
+      "n_triangles_enumerated": 110,
+      "n_polled": 12,
+      "samples": 19,
+      "interval_s": 7.0,
+      "best": {
+        "samples": 19,
+        "executable_samples": 19,
+        "max_net_bps": -28.183,
+        "mean_net_bps": -32.791,
+        "median_net_bps": -32.191,
+        "p90_net_bps": -31.665,
+        "min_net_bps": -38.623,
+        "pct_samples_positive": 0.0,
+        "longest_positive_run_samples": 0,
+        "longest_positive_run_s": 0.0,
+        "triangle": "USDT->USDC->PUMP->USDT",
+        "legs": [
+          "USDC/USDT",
+          "PUMP/USDC",
+          "PUMP/USDT"
+        ],
+        "min_leg_volume_usd": 18869453.0
+      },
+      "triangles": [
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.183,
+          "mean_net_bps": -32.791,
+          "median_net_bps": -32.191,
+          "p90_net_bps": -31.665,
+          "min_net_bps": -38.623,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->PUMP->USDT",
+          "legs": [
+            "USDC/USDT",
+            "PUMP/USDC",
+            "PUMP/USDT"
+          ],
+          "min_leg_volume_usd": 18869453.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.331,
+          "mean_net_bps": -30.217,
+          "median_net_bps": -29.998,
+          "p90_net_bps": -29.165,
+          "min_net_bps": -30.832,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->SOL->USDT",
+          "legs": [
+            "USDC/USDT",
+            "SOL/USDC",
+            "SOL/USDT"
+          ],
+          "min_leg_volume_usd": 21114983.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.493,
+          "mean_net_bps": -29.946,
+          "median_net_bps": -29.856,
+          "p90_net_bps": -28.948,
+          "min_net_bps": -31.42,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->BTC->USD1->USDT",
+          "legs": [
+            "BTC/USDT",
+            "BTC/USD1",
+            "USD1/USDT"
+          ],
+          "min_leg_volume_usd": 106803016.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -28.986,
+          "mean_net_bps": -29.796,
+          "median_net_bps": -29.655,
+          "p90_net_bps": -29.654,
+          "min_net_bps": -30.326,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->XRP->USDT",
+          "legs": [
+            "USDC/USDT",
+            "XRP/USDC",
+            "XRP/USDT"
+          ],
+          "min_leg_volume_usd": 24351060.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.136,
+          "mean_net_bps": -29.95,
+          "median_net_bps": -30.14,
+          "p90_net_bps": -29.166,
+          "min_net_bps": -30.623,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->ETH->USDT",
+          "legs": [
+            "USDC/USDT",
+            "ETH/USDC",
+            "ETH/USDT"
+          ],
+          "min_leg_volume_usd": 142993530.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.517,
+          "mean_net_bps": -30.7,
+          "median_net_bps": -30.91,
+          "p90_net_bps": -29.874,
+          "min_net_bps": -31.662,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->BTC->USDT",
+          "legs": [
+            "USDC/USDT",
+            "BTC/USDC",
+            "BTC/USDT"
+          ],
+          "min_leg_volume_usd": 266990456.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.553,
+          "mean_net_bps": -30.72,
+          "median_net_bps": -30.787,
+          "p90_net_bps": -30.204,
+          "min_net_bps": -31.789,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->BTC->USD1->USDC",
+          "legs": [
+            "BTC/USDC",
+            "BTC/USD1",
+            "USD1/USDC"
+          ],
+          "min_leg_volume_usd": 13522785.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.623,
+          "mean_net_bps": -30.996,
+          "median_net_bps": -30.812,
+          "p90_net_bps": -30.12,
+          "min_net_bps": -32.559,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->ETH->USD1->USDT",
+          "legs": [
+            "ETH/USDT",
+            "ETH/USD1",
+            "USD1/USDT"
+          ],
+          "min_leg_volume_usd": 57000035.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.707,
+          "mean_net_bps": -31.042,
+          "median_net_bps": -31.009,
+          "p90_net_bps": -29.9,
+          "min_net_bps": -32.384,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->ETH->USD1->USDC",
+          "legs": [
+            "ETH/USDC",
+            "ETH/USD1",
+            "USD1/USDC"
+          ],
+          "min_leg_volume_usd": 13522785.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -29.924,
+          "mean_net_bps": -30.702,
+          "median_net_bps": -30.596,
+          "p90_net_bps": -29.927,
+          "min_net_bps": -33.275,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDC->XRP->USD1->USDC",
+          "legs": [
+            "XRP/USDC",
+            "XRP/USD1",
+            "USD1/USDC"
+          ],
+          "min_leg_volume_usd": 13522785.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -30.809,
+          "mean_net_bps": -31.43,
+          "median_net_bps": -31.48,
+          "p90_net_bps": -30.809,
+          "min_net_bps": -32.15,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->XRP->USD1->USDT",
+          "legs": [
+            "XRP/USDT",
+            "XRP/USD1",
+            "USD1/USDT"
+          ],
+          "min_leg_volume_usd": 18156961.0
+        },
+        {
+          "samples": 19,
+          "executable_samples": 19,
+          "max_net_bps": -30.867,
+          "mean_net_bps": -30.867,
+          "median_net_bps": -30.867,
+          "p90_net_bps": -30.867,
+          "min_net_bps": -30.867,
+          "pct_samples_positive": 0.0,
+          "longest_positive_run_samples": 0,
+          "longest_positive_run_s": 0.0,
+          "triangle": "USDT->USDC->USD1->USDT",
+          "legs": [
+            "USDC/USDT",
+            "USD1/USDC",
+            "USD1/USDT"
+          ],
+          "min_leg_volume_usd": 13522785.0
+        }
+      ]
+    }
+  }
+}

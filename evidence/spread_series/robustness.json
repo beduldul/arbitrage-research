@@ -1,0 +1,1915 @@
+{
+ "blocks": [
+  3,
+  5,
+  10
+ ],
+ "seeds": [
+  20261003,
+  1,
+  7,
+  42,
+  99,
+  1234,
+  31337
+ ],
+ "n_boot": 2000,
+ "pairs": [
+  {
+   "base": "T",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 91,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 4.112,
+     "ci_high_bps": 17.3166,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 4.0572,
+     "ci_high_bps": 17.2845,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 4.029,
+     "ci_high_bps": 17.3243,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 4.0557,
+     "ci_high_bps": 17.395,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 4.0257,
+     "ci_high_bps": 17.3934,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 4.0018,
+     "ci_high_bps": 17.8212,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 4.0134,
+     "ci_high_bps": 17.0747,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 3.6506,
+     "ci_high_bps": 17.9868,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 3.8705,
+     "ci_high_bps": 18.2111,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 3.8693,
+     "ci_high_bps": 18.463,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 3.7378,
+     "ci_high_bps": 17.8162,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 3.8442,
+     "ci_high_bps": 17.8087,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 3.7927,
+     "ci_high_bps": 18.4054,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 3.9879,
+     "ci_high_bps": 17.9732,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 3.5732,
+     "ci_high_bps": 18.4523,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 3.47,
+     "ci_high_bps": 18.0541,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 3.5195,
+     "ci_high_bps": 18.4714,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 3.5932,
+     "ci_high_bps": 17.934,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 3.5137,
+     "ci_high_bps": 18.1414,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 3.5406,
+     "ci_high_bps": 18.5275,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 3.5167,
+     "ci_high_bps": 18.3532,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "BAT",
+   "venue_a": "kraken_futures",
+   "venue_b": "okx",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": 1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 4.9708,
+     "ci_high_bps": 45.3407,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 4.2206,
+     "ci_high_bps": 46.7999,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 4.754,
+     "ci_high_bps": 45.3373,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 5.1604,
+     "ci_high_bps": 45.4015,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 5.07,
+     "ci_high_bps": 45.1206,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 4.537,
+     "ci_high_bps": 46.1138,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 4.9646,
+     "ci_high_bps": 44.9528,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 3.3573,
+     "ci_high_bps": 47.2754,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 3.2132,
+     "ci_high_bps": 47.5671,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 3.0175,
+     "ci_high_bps": 46.3789,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 3.0239,
+     "ci_high_bps": 47.6287,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 3.6401,
+     "ci_high_bps": 45.9559,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 2.5966,
+     "ci_high_bps": 47.0868,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 3.1236,
+     "ci_high_bps": 46.3389,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 2.8226,
+     "ci_high_bps": 45.6688,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 3.1019,
+     "ci_high_bps": 45.6727,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 2.475,
+     "ci_high_bps": 44.153,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 2.7048,
+     "ci_high_bps": 46.5761,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 3.4898,
+     "ci_high_bps": 44.9611,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 2.6127,
+     "ci_high_bps": 45.6732,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 2.5709,
+     "ci_high_bps": 45.6821,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "BAT",
+   "venue_a": "bybit",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 5.1142,
+     "ci_high_bps": 45.8348,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 4.087,
+     "ci_high_bps": 47.0289,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 4.896,
+     "ci_high_bps": 45.588,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 5.2174,
+     "ci_high_bps": 45.5926,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 5.1008,
+     "ci_high_bps": 45.3124,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 4.5831,
+     "ci_high_bps": 46.3396,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 4.8396,
+     "ci_high_bps": 45.2394,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 3.2622,
+     "ci_high_bps": 47.5112,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 3.2782,
+     "ci_high_bps": 47.9946,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 3.0916,
+     "ci_high_bps": 46.8479,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 2.9736,
+     "ci_high_bps": 48.0365,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 3.5544,
+     "ci_high_bps": 46.03,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 2.5125,
+     "ci_high_bps": 47.6844,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 3.1905,
+     "ci_high_bps": 46.6743,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 2.9185,
+     "ci_high_bps": 46.1251,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 3.2105,
+     "ci_high_bps": 46.0092,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 2.5132,
+     "ci_high_bps": 44.4999,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 2.6799,
+     "ci_high_bps": 46.9069,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 3.6331,
+     "ci_high_bps": 45.1799,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 2.6143,
+     "ci_high_bps": 46.0065,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 2.6292,
+     "ci_high_bps": 46.0412,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "BAT",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 4.7079,
+     "ci_high_bps": 44.8864,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 3.7941,
+     "ci_high_bps": 46.164,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 4.4675,
+     "ci_high_bps": 44.7562,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 4.8286,
+     "ci_high_bps": 44.9726,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 4.6178,
+     "ci_high_bps": 44.7374,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 4.2117,
+     "ci_high_bps": 45.6405,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 4.5254,
+     "ci_high_bps": 44.4404,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 2.9233,
+     "ci_high_bps": 46.4971,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 2.9755,
+     "ci_high_bps": 47.0068,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 2.6824,
+     "ci_high_bps": 45.7649,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 2.7043,
+     "ci_high_bps": 46.9567,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 3.2402,
+     "ci_high_bps": 45.2565,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 2.2,
+     "ci_high_bps": 46.5963,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 2.8158,
+     "ci_high_bps": 45.691,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 2.4849,
+     "ci_high_bps": 45.1142,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 2.8054,
+     "ci_high_bps": 45.0637,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 2.1046,
+     "ci_high_bps": 43.4754,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 2.3614,
+     "ci_high_bps": 45.8787,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 3.3278,
+     "ci_high_bps": 44.2657,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 2.2102,
+     "ci_high_bps": 45.1226,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 2.2899,
+     "ci_high_bps": 45.1033,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "BAT",
+   "venue_a": "bitget",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 4.7947,
+     "ci_high_bps": 45.017,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 3.7941,
+     "ci_high_bps": 46.2186,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 4.5597,
+     "ci_high_bps": 44.8215,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 4.894,
+     "ci_high_bps": 44.9726,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 4.745,
+     "ci_high_bps": 44.7374,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 4.3173,
+     "ci_high_bps": 45.7457,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 4.5908,
+     "ci_high_bps": 44.4877,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 2.9886,
+     "ci_high_bps": 46.4971,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 2.9858,
+     "ci_high_bps": 47.1848,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 2.6848,
+     "ci_high_bps": 45.8955,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 2.7456,
+     "ci_high_bps": 47.0761,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 3.2573,
+     "ci_high_bps": 45.3084,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 2.2409,
+     "ci_high_bps": 46.6776,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 2.829,
+     "ci_high_bps": 45.8217,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 2.5033,
+     "ci_high_bps": 45.2542,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 2.8284,
+     "ci_high_bps": 45.1607,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 2.1106,
+     "ci_high_bps": 43.606,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 2.3614,
+     "ci_high_bps": 46.0747,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 3.3278,
+     "ci_high_bps": 44.3491,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 2.2755,
+     "ci_high_bps": 45.2206,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 2.3184,
+     "ci_high_bps": 45.2993,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "ONE",
+   "venue_a": "bitget",
+   "venue_b": "okx",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 0,
+   "sign": 1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": -60.785,
+     "ci_high_bps": 133.3121,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": -63.5376,
+     "ci_high_bps": 132.2087,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": -63.3708,
+     "ci_high_bps": 128.5478,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": -59.6954,
+     "ci_high_bps": 131.5032,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": -66.7379,
+     "ci_high_bps": 122.8618,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": -64.5266,
+     "ci_high_bps": 128.2054,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": -61.2029,
+     "ci_high_bps": 123.0499,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": -76.0833,
+     "ci_high_bps": 152.7694,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": -79.4884,
+     "ci_high_bps": 154.6068,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": -83.0597,
+     "ci_high_bps": 154.8693,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": -80.3735,
+     "ci_high_bps": 155.3371,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": -87.4321,
+     "ci_high_bps": 153.386,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": -82.3799,
+     "ci_high_bps": 150.9338,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": -76.6792,
+     "ci_high_bps": 151.3277,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": -92.4704,
+     "ci_high_bps": 172.043,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": -92.9598,
+     "ci_high_bps": 171.3893,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": -89.5733,
+     "ci_high_bps": 172.6182,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": -88.2993,
+     "ci_high_bps": 172.8315,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": -87.9091,
+     "ci_high_bps": 174.054,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": -91.3366,
+     "ci_high_bps": 177.4976,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": -92.3215,
+     "ci_high_bps": 173.3055,
+     "excludes_zero": false
+    }
+   ]
+  },
+  {
+   "base": "QNT",
+   "venue_a": "gate",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 8.0909,
+     "ci_high_bps": 47.815,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 8.0188,
+     "ci_high_bps": 47.8289,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 7.216,
+     "ci_high_bps": 47.7455,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 8.2533,
+     "ci_high_bps": 47.8169,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 7.8895,
+     "ci_high_bps": 48.2181,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 7.5675,
+     "ci_high_bps": 48.8384,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 7.1885,
+     "ci_high_bps": 48.3842,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 9.681,
+     "ci_high_bps": 48.4584,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 9.5427,
+     "ci_high_bps": 48.7643,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 10.5003,
+     "ci_high_bps": 47.2484,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 10.2175,
+     "ci_high_bps": 48.5377,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 8.8872,
+     "ci_high_bps": 48.6362,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 9.8546,
+     "ci_high_bps": 49.5074,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 9.6541,
+     "ci_high_bps": 47.3104,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 11.6107,
+     "ci_high_bps": 47.9883,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 12.6214,
+     "ci_high_bps": 47.8227,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 13.044,
+     "ci_high_bps": 46.9361,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 12.2805,
+     "ci_high_bps": 49.0547,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 12.7574,
+     "ci_high_bps": 47.4801,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 12.7926,
+     "ci_high_bps": 47.9454,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 11.9565,
+     "ci_high_bps": 47.8851,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "QNT",
+   "venue_a": "binance",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 7.904,
+     "ci_high_bps": 47.6098,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 7.8009,
+     "ci_high_bps": 47.7042,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 7.3248,
+     "ci_high_bps": 47.1454,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 8.1344,
+     "ci_high_bps": 47.6412,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 7.6375,
+     "ci_high_bps": 48.2455,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 7.5425,
+     "ci_high_bps": 48.572,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 7.0937,
+     "ci_high_bps": 48.1509,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 9.5618,
+     "ci_high_bps": 48.048,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 9.4051,
+     "ci_high_bps": 48.4227,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 10.4673,
+     "ci_high_bps": 46.6189,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 10.0662,
+     "ci_high_bps": 48.3303,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 8.7693,
+     "ci_high_bps": 48.0594,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 9.7015,
+     "ci_high_bps": 49.1893,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 9.3004,
+     "ci_high_bps": 47.0972,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 11.0825,
+     "ci_high_bps": 47.7311,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 11.858,
+     "ci_high_bps": 47.7604,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 12.284,
+     "ci_high_bps": 46.5503,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 11.6957,
+     "ci_high_bps": 48.7914,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 12.1292,
+     "ci_high_bps": 47.0805,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 12.3273,
+     "ci_high_bps": 47.6943,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 11.4623,
+     "ci_high_bps": 47.679,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "QNT",
+   "venue_a": "bybit",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 7.1585,
+     "ci_high_bps": 47.461,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 7.1008,
+     "ci_high_bps": 47.3801,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 6.3902,
+     "ci_high_bps": 47.1621,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 7.4515,
+     "ci_high_bps": 47.4599,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 7.0359,
+     "ci_high_bps": 48.2466,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 6.6648,
+     "ci_high_bps": 48.0781,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 6.4246,
+     "ci_high_bps": 47.9457,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 8.6575,
+     "ci_high_bps": 48.0472,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 8.574,
+     "ci_high_bps": 48.3822,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 9.6863,
+     "ci_high_bps": 46.5751,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 9.406,
+     "ci_high_bps": 48.2031,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 7.92,
+     "ci_high_bps": 48.3099,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 9.0676,
+     "ci_high_bps": 48.9338,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 8.6481,
+     "ci_high_bps": 47.1594,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 10.5052,
+     "ci_high_bps": 47.837,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 11.1269,
+     "ci_high_bps": 47.8348,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 11.4964,
+     "ci_high_bps": 46.64,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 10.773,
+     "ci_high_bps": 48.9725,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 11.3394,
+     "ci_high_bps": 47.282,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 11.5992,
+     "ci_high_bps": 47.7291,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 10.8004,
+     "ci_high_bps": 47.8851,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "QNT",
+   "venue_a": "bitget",
+   "venue_b": "kraken_futures",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 21,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": 6.9403,
+     "ci_high_bps": 47.8763,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": 6.9227,
+     "ci_high_bps": 47.7541,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": 6.3546,
+     "ci_high_bps": 47.3416,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": 7.3569,
+     "ci_high_bps": 47.5076,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": 6.8355,
+     "ci_high_bps": 48.2409,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": 6.6751,
+     "ci_high_bps": 48.205,
+     "excludes_zero": true
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": 6.3541,
+     "ci_high_bps": 48.2354,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": 8.6571,
+     "ci_high_bps": 48.3468,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": 8.4831,
+     "ci_high_bps": 48.5044,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": 9.4973,
+     "ci_high_bps": 46.7764,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": 9.1297,
+     "ci_high_bps": 48.2895,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": 7.7491,
+     "ci_high_bps": 48.4614,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": 8.9076,
+     "ci_high_bps": 49.1323,
+     "excludes_zero": true
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": 8.4461,
+     "ci_high_bps": 47.3305,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": 10.1718,
+     "ci_high_bps": 47.9663,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": 10.9505,
+     "ci_high_bps": 47.941,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": 11.3436,
+     "ci_high_bps": 46.6299,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": 10.7485,
+     "ci_high_bps": 49.0249,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": 11.2087,
+     "ci_high_bps": 47.4106,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": 11.3921,
+     "ci_high_bps": 47.8236,
+     "excludes_zero": true
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": 10.428,
+     "ci_high_bps": 48.1483,
+     "excludes_zero": true
+    }
+   ]
+  },
+  {
+   "base": "ARK",
+   "venue_a": "bybit",
+   "venue_b": "gate",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 0,
+   "sign": -1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": -4.0132,
+     "ci_high_bps": 68.9252,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": -3.2843,
+     "ci_high_bps": 71.0209,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": -3.9852,
+     "ci_high_bps": 67.3458,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": -4.0763,
+     "ci_high_bps": 73.6761,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": -3.8962,
+     "ci_high_bps": 72.9899,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": -4.3907,
+     "ci_high_bps": 72.0022,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": -3.7655,
+     "ci_high_bps": 70.6526,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": -5.7329,
+     "ci_high_bps": 79.7219,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": -5.0615,
+     "ci_high_bps": 80.5776,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": -5.1512,
+     "ci_high_bps": 77.3495,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": -5.4192,
+     "ci_high_bps": 81.6305,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": -4.5293,
+     "ci_high_bps": 80.2778,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": -5.1514,
+     "ci_high_bps": 79.9481,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": -5.1894,
+     "ci_high_bps": 80.2237,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": -6.1223,
+     "ci_high_bps": 75.6086,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": -6.3849,
+     "ci_high_bps": 72.5302,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": -6.3208,
+     "ci_high_bps": 75.4444,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": -6.5446,
+     "ci_high_bps": 74.5392,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": -6.2523,
+     "ci_high_bps": 75.3112,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": -6.5204,
+     "ci_high_bps": 74.1322,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": -6.2836,
+     "ci_high_bps": 75.3289,
+     "excludes_zero": false
+    }
+   ]
+  },
+  {
+   "base": "LSK",
+   "venue_a": "bitget",
+   "venue_b": "bybit",
+   "n_buckets": 90,
+   "n_combos": 21,
+   "n_excludes_zero": 0,
+   "sign": 1.0,
+   "combos": [
+    {
+     "block": 3,
+     "seed": 20261003,
+     "ci_low_bps": -7.9853,
+     "ci_high_bps": 6.9616,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1,
+     "ci_low_bps": -8.6353,
+     "ci_high_bps": 6.702,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 7,
+     "ci_low_bps": -8.2538,
+     "ci_high_bps": 7.0586,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 42,
+     "ci_low_bps": -7.9696,
+     "ci_high_bps": 6.5562,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 99,
+     "ci_low_bps": -8.2868,
+     "ci_high_bps": 6.9744,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 1234,
+     "ci_low_bps": -7.948,
+     "ci_high_bps": 6.9051,
+     "excludes_zero": false
+    },
+    {
+     "block": 3,
+     "seed": 31337,
+     "ci_low_bps": -7.867,
+     "ci_high_bps": 6.3578,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 20261003,
+     "ci_low_bps": -8.9848,
+     "ci_high_bps": 6.5282,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1,
+     "ci_low_bps": -9.0395,
+     "ci_high_bps": 6.4979,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 7,
+     "ci_low_bps": -8.5023,
+     "ci_high_bps": 6.5082,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 42,
+     "ci_low_bps": -8.6437,
+     "ci_high_bps": 6.3274,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 99,
+     "ci_low_bps": -8.8152,
+     "ci_high_bps": 7.0328,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 1234,
+     "ci_low_bps": -8.4255,
+     "ci_high_bps": 6.7326,
+     "excludes_zero": false
+    },
+    {
+     "block": 5,
+     "seed": 31337,
+     "ci_low_bps": -8.601,
+     "ci_high_bps": 6.3391,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 20261003,
+     "ci_low_bps": -8.7263,
+     "ci_high_bps": 5.9134,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1,
+     "ci_low_bps": -9.251,
+     "ci_high_bps": 5.8456,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 7,
+     "ci_low_bps": -8.3749,
+     "ci_high_bps": 5.8387,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 42,
+     "ci_low_bps": -8.7542,
+     "ci_high_bps": 5.4734,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 99,
+     "ci_low_bps": -8.4648,
+     "ci_high_bps": 6.1227,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 1234,
+     "ci_low_bps": -8.8078,
+     "ci_high_bps": 5.7112,
+     "excludes_zero": false
+    },
+    {
+     "block": 10,
+     "seed": 31337,
+     "ci_low_bps": -9.2747,
+     "ci_high_bps": 5.9393,
+     "excludes_zero": false
+    }
+   ]
+  }
+ ]
+}
